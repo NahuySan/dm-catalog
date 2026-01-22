@@ -7,7 +7,8 @@
     "update-catalog": "python scripts/update_catalog.py",
     "predev": "npm run update-catalog",
     "dev": "vite",
-    "build": "npm run update-catalog && tsc && vite build"
+    "build": "tsc && vite build",
+    "build:full": "npm run update-catalog && tsc && vite build"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
