@@ -1,0 +1,17 @@
+# Dependencias
+node_modules/
+.env
+
+# Python (Tu entorno virtual)
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Carpetas de imágenes (Si no querés que las crudas pesen en GitHub)
+crudas/
+finales/
+
+# Compilación
+dist/
+build/

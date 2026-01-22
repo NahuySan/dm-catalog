@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Buscamos los componentes desde la carpeta 'src' */
+@source "../**/*.{js,ts,jsx,tsx}";
+
+@import "tw-animate-css";
