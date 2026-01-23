@@ -14,7 +14,7 @@ archivos = [
     {'name': '3_Higiene - 3(0)_Higiene.csv', 'cat': 'Higiene'},
     {'name': '4_Limpieza - 4(0)_Limpieza.csv', 'cat': 'Limpieza'},
     {'name': '5_Medicamentos - 5(0)_Medicamentos.csv', 'cat': 'Medicamentos'},
-    {'name': '6_Otros - 6(0)_Otros .csv', 'cat': 'Otros'}
+    {'name': '6_Otros - 6(0)_Otros.csv', 'cat': 'Otros'}
 ]
 
 def limpiar_precio(valor):
