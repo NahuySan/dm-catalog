@@ -80,8 +80,10 @@ export const CatalogPDF = ({ products, selectedCategory }: CatalogPDFProps) => {
         {group.map((product) => (
           <View key={product.id} style={{ width: '29.5%', height: '180pt', borderRadius: 12, flexDirection: 'column', overflow: 'hidden', backgroundColor: 'white', position: 'relative', borderWidth: 3, borderColor: theme.green, marginRight: 20, marginBottom: 20 }}>
             <View style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: -1 }}>
-              <Image src={product.image || "https://via.placeholder.com/150"} style={{ objectFit: 'contain', width: '100%', height: '100%', padding: 5 }} />
-            </View>
+<Image 
+  src={product.image ? `/${product.image}` : "/assets/logo.png"} 
+  style={{ objectFit: 'contain', width: '100%', height: '100%', padding: 5 }} 
+/>           </View>
             <View style={{ paddingVertical: 4, paddingHorizontal: 10, borderRadius: 50, marginTop: 6, marginHorizontal: 6, alignSelf: 'center', width: '90%' }}>
               <Text style={{ fontSize: 9, fontWeight: 900, color: theme.dark, textTransform: 'uppercase', textAlign: 'center' }}>
                 {product.name}
@@ -122,8 +124,10 @@ export const CatalogPDF = ({ products, selectedCategory }: CatalogPDFProps) => {
               
               {/* Imagen de fondo del producto */}
               <View style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: -1 }}>
-                <Image src={product.image || "https://via.placeholder.com/150"} style={{ objectFit: 'contain', width: '100%', height: '100%', padding: 5 }} />
-              </View>
+<Image 
+  src={product.image ? `/${product.image}` : "/assets/logo.png"} 
+  style={{ objectFit: 'contain', width: '100%', height: '100%', padding: 5 }} 
+/>         </View>
 
               {/* Badge de Oferta (Solo si aplica) */}
               {/* {hasOffer && (

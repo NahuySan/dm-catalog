@@ -8,7 +8,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Aderezos",
-    "image": "/img/Alimentos/aderezos/chimiVanoliGrande.png",
+    "image": "img/Alimentos/aderezos/chimiVanoliGrande.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -19,7 +19,7 @@ export const products: Product[] = [
     "priceCantidad": 8940.0,
     "priceOferta": null,
     "description": "Aderezos",
-    "image": "/img/Alimentos/aderezos/edulcSidietStevia.png",
+    "image": "img/Alimentos/aderezos/edulcSidietStevia.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -30,7 +30,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Aderezos",
-    "image": "/img/Alimentos/aderezos/edulcSidiet.png",
+    "image": "img/Alimentos/aderezos/edulcSidiet.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -41,7 +41,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Aderezos",
-    "image": "/img/Alimentos/aderezos/ketchupPic.png",
+    "image": "img/Alimentos/aderezos/ketchupPic.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -52,7 +52,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Aderezos",
-    "image": "/img/Alimentos/aderezos/ketchupDanica250.png",
+    "image": "img/Alimentos/aderezos/ketchupDanica250.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -63,7 +63,7 @@ export const products: Product[] = [
     "priceCantidad": 10536.0,
     "priceOferta": null,
     "description": "Aderezos",
-    "image": "/img/Alimentos/aderezos/ketchupDanica.png",
+    "image": "img/Alimentos/aderezos/ketchupDanica.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -74,7 +74,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Aderezos",
-    "image": "/img/Alimentos/aderezos/mayoCadaDia.png",
+    "image": "img/Alimentos/aderezos/mayoCadaDia.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -85,7 +85,7 @@ export const products: Product[] = [
     "priceCantidad": 17880.0,
     "priceOferta": null,
     "description": "Aderezos",
-    "image": "/img/Alimentos/aderezos/mayoNatura.png",
+    "image": "img/Alimentos/aderezos/mayoNatura.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -96,7 +96,7 @@ export const products: Product[] = [
     "priceCantidad": 13000.0,
     "priceOferta": null,
     "description": "Aderezos",
-    "image": "/img/Alimentos/aderezos/mayoNaturaChica.png",
+    "image": "img/Alimentos/aderezos/mayoNaturaChica.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -107,7 +107,7 @@ export const products: Product[] = [
     "priceCantidad": 9576.0,
     "priceOferta": null,
     "description": "Aderezos",
-    "image": "/img/Alimentos/aderezos/mostazaDanica.png",
+    "image": "img/Alimentos/aderezos/mostazaDanica.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -118,7 +118,7 @@ export const products: Product[] = [
     "priceCantidad": 10680.0,
     "priceOferta": null,
     "description": "Aderezos",
-    "image": "/img/Alimentos/aderezos/mostaNatura250.png",
+    "image": "img/Alimentos/aderezos/mostaNatura250.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -129,7 +129,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Aderezos",
-    "image": "/img/Alimentos/aderezos/vinagreCasalta.png",
+    "image": "img/Alimentos/aderezos/vinagreCasalta.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -140,7 +140,7 @@ export const products: Product[] = [
     "priceCantidad": 17880.0,
     "priceOferta": null,
     "description": "Dulces",
-    "image": "/img/Alimentos/dulces/batataDulcor.png",
+    "image": "img/Alimentos/dulces/batataDulcor.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -151,7 +151,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Dulces",
-    "image": "/img/Alimentos/dulces/batataSerra.png",
+    "image": "img/Alimentos/dulces/batataSerra.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -162,7 +162,7 @@ export const products: Product[] = [
     "priceCantidad": 22776.0,
     "priceOferta": null,
     "description": "Dulces",
-    "image": "/img/Alimentos/dulces/ddlGranjaChico.png",
+    "image": "img/Alimentos/dulces/ddlGranjaChico.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -173,7 +173,7 @@ export const products: Product[] = [
     "priceCantidad": 19080.0,
     "priceOferta": null,
     "description": "Dulces",
-    "image": "/img/Alimentos/dulces/ddlGranjaGrande.png",
+    "image": "img/Alimentos/dulces/ddlGranjaGrande.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -184,7 +184,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Dulces",
-    "image": "/img/Alimentos/dulces/dulceMani.png",
+    "image": "img/Alimentos/dulces/dulceMani.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -195,7 +195,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Dulces",
-    "image": "/img/Alimentos/dulces/lecheCondTri.png",
+    "image": "img/Alimentos/dulces/lecheCondTri.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -206,7 +206,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Dulces",
-    "image": "/img/Alimentos/dulces/membrilloPupa4kg.png",
+    "image": "img/Alimentos/dulces/membrilloPupa4kg.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -217,7 +217,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Dulces",
-    "image": "/img/Alimentos/dulces/membrilloEmeth500g.png",
+    "image": "img/Alimentos/dulces/membrilloEmeth500g.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -228,7 +228,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Dulces",
-    "image": "/img/Alimentos/dulces/mermAisol.png",
+    "image": "img/Alimentos/dulces/mermAisol.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -239,7 +239,7 @@ export const products: Product[] = [
     "priceCantidad": 20160.0,
     "priceOferta": null,
     "description": "Dulces",
-    "image": "/img/Alimentos/dulces/mielMisioneraChica.png",
+    "image": "img/Alimentos/dulces/mielMisioneraChica.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -250,7 +250,7 @@ export const products: Product[] = [
     "priceCantidad": 18480.0,
     "priceOferta": null,
     "description": "Dulces",
-    "image": "/img/Alimentos/dulces/mielMisioneraGrande.png",
+    "image": "img/Alimentos/dulces/mielMisioneraGrande.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -261,7 +261,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Enlatados",
-    "image": "/img/Alimentos/Enlatados/merluPennisi.png",
+    "image": "img/Alimentos/Enlatados/merluPennisi.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -272,7 +272,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Enlatados",
-    "image": "/img/Alimentos/Enlatados/jurel.png",
+    "image": "img/Alimentos/Enlatados/jurel.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -283,7 +283,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Enlatados",
-    "image": "/img/Alimentos/Enlatados/ChocloCremRemo.png",
+    "image": "img/Alimentos/Enlatados/ChocloCremRemo.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -294,7 +294,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Enlatados",
-    "image": "/img/Alimentos/Enlatados/duraznos2.png",
+    "image": "img/Alimentos/Enlatados/duraznos2.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -305,7 +305,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Enlatados",
-    "image": "/img/Alimentos/Enlatados/picadilloNegra.png",
+    "image": "img/Alimentos/Enlatados/picadilloNegra.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -316,7 +316,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Enlatados",
-    "image": "/img/Alimentos/Enlatados/tomateSp.png",
+    "image": "img/Alimentos/Enlatados/tomateSp.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -327,7 +327,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "nan",
-    "image": "/img/Alimentos/embutidos/salchiNutry.png",
+    "image": "img/Alimentos/embutidos/salchiNutry.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -338,7 +338,7 @@ export const products: Product[] = [
     "priceCantidad": 20700.0,
     "priceOferta": 600.0,
     "description": "Galletitas",
-    "image": "/img/Alimentos/galletitas/hipopo.png",
+    "image": "img/Alimentos/galletitas/hipopo.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -349,7 +349,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Galletitas",
-    "image": "/img/Alimentos/galletitas/bizcoExqui.png",
+    "image": "img/Alimentos/galletitas/bizcoExqui.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -360,7 +360,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": 139.0,
     "description": "Galletitas",
-    "image": "/img/Alimentos/galletitas/coquitoAma.png",
+    "image": "img/Alimentos/galletitas/coquitoAma.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -371,7 +371,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Galletitas",
-    "image": "/img/Alimentos/galletitas/madalenasDulceAven.png",
+    "image": "img/Alimentos/galletitas/madalenasDulceAven.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -382,7 +382,7 @@ export const products: Product[] = [
     "priceCantidad": 22580.0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Alimentos/otros/madalenasYvette.png",
+    "image": "img/Alimentos/otros/madalenasYvette.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -393,7 +393,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Galletitas",
-    "image": "/img/Alimentos/galletitas/tostadas.png",
+    "image": "img/Alimentos/galletitas/tostadas.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -404,7 +404,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Galletitas",
-    "image": "/img/Alimentos/galletitas/pamelaRe.png",
+    "image": "img/Alimentos/galletitas/pamelaRe.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -415,7 +415,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Galletitas",
-    "image": "/img/Alimentos/galletitas/pamelaRe3.png",
+    "image": "img/Alimentos/galletitas/pamelaRe3.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -426,7 +426,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Galletitas",
-    "image": "/img/Alimentos/galletitas/chocoPamela.png",
+    "image": "img/Alimentos/galletitas/chocoPamela.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -437,7 +437,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Galletitas",
-    "image": "/img/Alimentos/galletitas/daleBlack.png",
+    "image": "img/Alimentos/galletitas/daleBlack.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -448,7 +448,7 @@ export const products: Product[] = [
     "priceCantidad": 14040.0,
     "priceOferta": null,
     "description": "Galletitas",
-    "image": "/img/Alimentos/galletitas/daleRell.png",
+    "image": "img/Alimentos/galletitas/daleRell.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -459,7 +459,7 @@ export const products: Product[] = [
     "priceCantidad": 13900.0,
     "priceOferta": null,
     "description": "Galletitas",
-    "image": "/img/Alimentos/galletitas/gallDale3.png",
+    "image": "img/Alimentos/galletitas/gallDale3.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -470,7 +470,7 @@ export const products: Product[] = [
     "priceCantidad": 14670.0,
     "priceOferta": null,
     "description": "Galletitas",
-    "image": "/img/Alimentos/galletitas/daleMaria1.png",
+    "image": "img/Alimentos/galletitas/daleMaria1.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -481,7 +481,7 @@ export const products: Product[] = [
     "priceCantidad": 9780.0,
     "priceOferta": null,
     "description": "Galletitas",
-    "image": "/img/Alimentos/galletitas/gallPindy.png",
+    "image": "img/Alimentos/galletitas/gallPindy.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -492,7 +492,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Galletitas",
-    "image": "/img/Alimentos/galletitas/rexKes.png",
+    "image": "img/Alimentos/galletitas/rexKes.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -503,7 +503,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Galletitas",
-    "image": "/img/Alimentos/galletitas/saladixCaja.png",
+    "image": "img/Alimentos/galletitas/saladixCaja.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -514,7 +514,7 @@ export const products: Product[] = [
     "priceCantidad": 16728.0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Alimentos/otros/budinBon.png",
+    "image": "img/Alimentos/otros/budinBon.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -525,7 +525,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": 790.0,
     "description": "Otros",
-    "image": "/img/Alimentos/otros/budines.png",
+    "image": "img/Alimentos/otros/budines.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -536,7 +536,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Alimentos/otros/aceiteGerasoles.png",
+    "image": "img/Alimentos/otros/aceiteGerasoles.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -547,7 +547,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Alimentos/otros/grasaNonoVaca.png",
+    "image": "img/Alimentos/otros/grasaNonoVaca.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -558,7 +558,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Alimentos/Enlatados/jardineraElio.png",
+    "image": "img/Alimentos/Enlatados/jardineraElio.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -569,7 +569,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Alimentos/Enlatados/jardiRemo.png",
+    "image": "img/Alimentos/Enlatados/jardiRemo.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -580,7 +580,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Alimentos/otros/maniSaladoCuatro.png",
+    "image": "img/Alimentos/otros/maniSaladoCuatro.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -591,7 +591,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Alimentos/otros/vainiEmeth.png",
+    "image": "img/Alimentos/otros/vainiEmeth.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -602,7 +602,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Alimentos/otros/banoRep.png",
+    "image": "img/Alimentos/otros/banoRep.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -613,7 +613,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Alimentos/otros/vainillaLiq.png",
+    "image": "img/Alimentos/otros/vainillaLiq.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -624,7 +624,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Pickles",
-    "image": "/img/Alimentos/pickles/aceitunaNicanorGrande.png",
+    "image": "img/Alimentos/pickles/aceitunaNicanorGrande.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -635,7 +635,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Pickles",
-    "image": "/img/Alimentos/pickles/pepinoDaserra.png",
+    "image": "img/Alimentos/pickles/pepinoDaserra.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -646,7 +646,7 @@ export const products: Product[] = [
     "priceCantidad": 5742.0,
     "priceOferta": null,
     "description": "Salsas",
-    "image": "/img/Alimentos/salsas/pulpaTomateBaggio.png",
+    "image": "img/Alimentos/salsas/pulpaTomateBaggio.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -657,7 +657,7 @@ export const products: Product[] = [
     "priceCantidad": 11582.0,
     "priceOferta": null,
     "description": "Salsas",
-    "image": "/img/Alimentos/salsas/tomateGallardo.png",
+    "image": "img/Alimentos/salsas/tomateGallardo.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -668,7 +668,7 @@ export const products: Product[] = [
     "priceCantidad": 13490.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/zimpi.png",
+    "image": "img/Alimentos/secos/zimpi.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -679,7 +679,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/alimentoGato.png",
+    "image": "img/Alimentos/secos/alimentoGato.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -690,7 +690,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "nan",
-    "image": "nan",
+    "image": "nan.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -701,7 +701,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/feculaRanchi.png",
+    "image": "img/Alimentos/secos/feculaRanchi.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -712,7 +712,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/arrozAmigo.png",
+    "image": "img/Alimentos/secos/arrozAmigo.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -723,7 +723,7 @@ export const products: Product[] = [
     "priceCantidad": 9750.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/arrozRiso.png",
+    "image": "img/Alimentos/secos/arrozRiso.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -734,7 +734,7 @@ export const products: Product[] = [
     "priceCantidad": 15900.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/arrozAman.png",
+    "image": "img/Alimentos/secos/arrozAman.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -745,7 +745,7 @@ export const products: Product[] = [
     "priceCantidad": 10490.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/arrozSanJavier.png",
+    "image": "img/Alimentos/secos/arrozSanJavier.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -756,7 +756,7 @@ export const products: Product[] = [
     "priceCantidad": 5590.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/arrozSanJavier.png",
+    "image": "img/Alimentos/secos/arrozSanJavier.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -767,7 +767,7 @@ export const products: Product[] = [
     "priceCantidad": 13490.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/arrozSanJavierDoble.png",
+    "image": "img/Alimentos/secos/arrozSanJavierDoble.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -778,7 +778,7 @@ export const products: Product[] = [
     "priceCantidad": 6900.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/arroz2.png",
+    "image": "img/Alimentos/secos/arroz2.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -789,7 +789,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/polvoCotapa.png",
+    "image": "img/Alimentos/secos/polvoCotapa.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -800,7 +800,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/pureNestle.png",
+    "image": "img/Alimentos/secos/pureNestle.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -811,7 +811,7 @@ export const products: Product[] = [
     "priceCantidad": 9690.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/azucarCampe.png",
+    "image": "img/Alimentos/secos/azucarCampe.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -822,7 +822,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/bizcoBarbCho.png",
+    "image": "img/Alimentos/secos/bizcoBarbCho.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -833,7 +833,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/bizcoBarbara.png",
+    "image": "img/Alimentos/secos/bizcoBarbara.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -844,7 +844,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/maggi24.png",
+    "image": "img/Alimentos/secos/maggi24.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -855,7 +855,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/caldoMaggi6.png",
+    "image": "img/Alimentos/secos/caldoMaggi6.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -866,7 +866,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/cafePocillo.png",
+    "image": "img/Alimentos/secos/cafePocillo.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -877,7 +877,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/excluAzu.png",
+    "image": "img/Alimentos/secos/excluAzu.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -888,7 +888,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/exclu.png",
+    "image": "img/Alimentos/secos/exclu.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -899,7 +899,7 @@ export const products: Product[] = [
     "priceCantidad": 11694.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/teBoldo.png",
+    "image": "img/Alimentos/secos/teBoldo.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -910,7 +910,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/teManzMorenita.png",
+    "image": "img/Alimentos/secos/teManzMorenita.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -921,7 +921,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/mateHoja.png",
+    "image": "img/Alimentos/secos/mateHoja.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -932,7 +932,7 @@ export const products: Product[] = [
     "priceCantidad": 10680.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/cocidoNory.png",
+    "image": "img/Alimentos/secos/cocidoNory.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -943,7 +943,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/granas.png",
+    "image": "img/Alimentos/secos/granas.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -954,7 +954,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/chantillySabores.png",
+    "image": "img/Alimentos/secos/chantillySabores.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -965,7 +965,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/postre.png",
+    "image": "img/Alimentos/secos/postre.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -976,7 +976,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/otros/flanDauby.png",
+    "image": "img/Alimentos/otros/flanDauby.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -987,7 +987,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/helado.png",
+    "image": "img/Alimentos/secos/helado.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -998,7 +998,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/cremaPastelera.png",
+    "image": "img/Alimentos/secos/cremaPastelera.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1009,7 +1009,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/salsaBlanca2.png",
+    "image": "img/Alimentos/secos/salsaBlanca2.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1020,7 +1020,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/canela2.png",
+    "image": "img/Alimentos/secos/canela2.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1031,7 +1031,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/proven2.png",
+    "image": "img/Alimentos/secos/proven2.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1042,7 +1042,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/laurel2.png",
+    "image": "img/Alimentos/secos/laurel2.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1053,7 +1053,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/chimi2.png",
+    "image": "img/Alimentos/secos/chimi2.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1064,7 +1064,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/aji2.png",
+    "image": "img/Alimentos/secos/aji2.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1075,7 +1075,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/romero2.png",
+    "image": "img/Alimentos/secos/romero2.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1086,7 +1086,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/adobo2.png",
+    "image": "img/Alimentos/secos/adobo2.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1097,7 +1097,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/chantilly2.png",
+    "image": "img/Alimentos/secos/chantilly2.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1108,7 +1108,7 @@ export const products: Product[] = [
     "priceCantidad": 12900.0,
     "priceOferta": 1290.0,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/fideoBarletta.png",
+    "image": "img/Alimentos/secos/fideoBarletta.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1119,7 +1119,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": 550.0,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/fideoBraAma.png",
+    "image": "img/Alimentos/secos/fideoBraAma.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1130,7 +1130,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/fideos.png",
+    "image": "img/Alimentos/secos/fideos.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1141,7 +1141,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/fideoEco.png",
+    "image": "img/Alimentos/secos/fideoEco.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1152,7 +1152,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": 7718.0,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/fideoNico5Spa.png",
+    "image": "img/Alimentos/secos/fideoNico5Spa.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1163,7 +1163,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": 6226.0,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/fideoTioNicoGuisero.png",
+    "image": "img/Alimentos/secos/fideoTioNicoGuisero.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1174,7 +1174,7 @@ export const products: Product[] = [
     "priceCantidad": 8748.0,
     "priceOferta": 662.0,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/fideoTioNico500.png",
+    "image": "img/Alimentos/secos/fideoTioNico500.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1185,7 +1185,7 @@ export const products: Product[] = [
     "priceCantidad": 12588.0,
     "priceOferta": 953.0,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/fideoEspinaca.png",
+    "image": "img/Alimentos/secos/fideoEspinaca.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1196,7 +1196,7 @@ export const products: Product[] = [
     "priceCantidad": 8748.0,
     "priceOferta": 662.0,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/fideoNicoSpag500.png",
+    "image": "img/Alimentos/secos/fideoNicoSpag500.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1207,7 +1207,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": 1190.0,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/nidoEspinaca.png",
+    "image": "img/Alimentos/secos/nidoEspinaca.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1218,7 +1218,7 @@ export const products: Product[] = [
     "priceCantidad": 11880.0,
     "priceOferta": 900.0,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/fideoNidoNico.png",
+    "image": "img/Alimentos/secos/fideoNidoNico.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1229,7 +1229,7 @@ export const products: Product[] = [
     "priceCantidad": 6304.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/otros/gelatNoel.png",
+    "image": "img/Alimentos/otros/gelatNoel.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1240,7 +1240,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/gelatinaBom.png",
+    "image": "img/Alimentos/secos/gelatinaBom.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1251,7 +1251,7 @@ export const products: Product[] = [
     "priceCantidad": 11900.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/harinaRemoL.png",
+    "image": "img/Alimentos/secos/harinaRemoL.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1262,7 +1262,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/harinaBlancaflorLeud.png",
+    "image": "img/Alimentos/secos/harinaBlancaflorLeud.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1273,7 +1273,7 @@ export const products: Product[] = [
     "priceCantidad": 7090.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/harinaSp.png",
+    "image": "img/Alimentos/secos/harinaSp.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1284,7 +1284,7 @@ export const products: Product[] = [
     "priceCantidad": 8690.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/harinaNotable.png",
+    "image": "img/Alimentos/secos/harinaNotable.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1295,7 +1295,7 @@ export const products: Product[] = [
     "priceCantidad": 24980.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/lentejas.png",
+    "image": "img/Alimentos/secos/lentejas.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1306,7 +1306,7 @@ export const products: Product[] = [
     "priceCantidad": 15800.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/maizPisin.png",
+    "image": "img/Alimentos/secos/maizPisin.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1317,7 +1317,7 @@ export const products: Product[] = [
     "priceCantidad": 14380.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/maizenaCatini.png",
+    "image": "img/Alimentos/secos/maizenaCatini.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1328,7 +1328,7 @@ export const products: Product[] = [
     "priceCantidad": 11490.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/locroCatini.png",
+    "image": "img/Alimentos/secos/locroCatini.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1339,7 +1339,7 @@ export const products: Product[] = [
     "priceCantidad": 9900.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/porotoMulato.png",
+    "image": "img/Alimentos/secos/porotoMulato.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1350,7 +1350,7 @@ export const products: Product[] = [
     "priceCantidad": 10900.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/salEntreColosal.png",
+    "image": "img/Alimentos/secos/salEntreColosal.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1361,7 +1361,7 @@ export const products: Product[] = [
     "priceCantidad": 11900.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/salFinaColosal.png",
+    "image": "img/Alimentos/secos/salFinaColosal.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1372,7 +1372,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/salIsabelaCond.png",
+    "image": "img/Alimentos/secos/salIsabelaCond.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1383,7 +1383,7 @@ export const products: Product[] = [
     "priceCantidad": 6490.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/salIsabela.png",
+    "image": "img/Alimentos/secos/salIsabela.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1394,7 +1394,7 @@ export const products: Product[] = [
     "priceCantidad": 12990.0,
     "priceOferta": 1299.0,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/yerbaBosco.png",
+    "image": "img/Alimentos/secos/yerbaBosco.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1405,7 +1405,7 @@ export const products: Product[] = [
     "priceCantidad": 25900.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/yerbaBosco.png",
+    "image": "img/Alimentos/secos/yerbaBosco.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1416,7 +1416,7 @@ export const products: Product[] = [
     "priceCantidad": 11490.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/yerbaMr.png",
+    "image": "img/Alimentos/secos/yerbaMr.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1427,7 +1427,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/yerbaMr.png",
+    "image": "img/Alimentos/secos/yerbaMr.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1438,7 +1438,7 @@ export const products: Product[] = [
     "priceCantidad": 16716.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/yerbaMr.png",
+    "image": "img/Alimentos/secos/yerbaMr.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1449,7 +1449,7 @@ export const products: Product[] = [
     "priceCantidad": 13490.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/yerbaPrimi.png",
+    "image": "img/Alimentos/secos/yerbaPrimi.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1460,7 +1460,7 @@ export const products: Product[] = [
     "priceCantidad": 20720.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/yerbaPrimi.png",
+    "image": "img/Alimentos/secos/yerbaPrimi.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1471,7 +1471,7 @@ export const products: Product[] = [
     "priceCantidad": 15900.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/yerbaRomance.png",
+    "image": "img/Alimentos/secos/yerbaRomance.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1482,7 +1482,7 @@ export const products: Product[] = [
     "priceCantidad": 29800.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/yerbaRomance.png",
+    "image": "img/Alimentos/secos/yerbaRomance.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1493,7 +1493,7 @@ export const products: Product[] = [
     "priceCantidad": 17490.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/yerbaRomanceSuave.png",
+    "image": "img/Alimentos/secos/yerbaRomanceSuave.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1504,7 +1504,7 @@ export const products: Product[] = [
     "priceCantidad": 32980.0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/yerbaRomanceSuave.png",
+    "image": "img/Alimentos/secos/yerbaRomanceSuave.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1515,7 +1515,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/alfajorSuschen3.png",
+    "image": "img/Alimentos/Golosinas/alfajorSuschen3.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1526,7 +1526,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/oblibonClas.png",
+    "image": "img/Alimentos/Golosinas/oblibonClas.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1537,7 +1537,7 @@ export const products: Product[] = [
     "priceCantidad": 3590.0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/marengoAcido.png",
+    "image": "img/Alimentos/Golosinas/marengoAcido.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1548,7 +1548,7 @@ export const products: Product[] = [
     "priceCantidad": 3590.0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/surtidoMarengo.png",
+    "image": "img/Alimentos/Golosinas/surtidoMarengo.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1559,7 +1559,7 @@ export const products: Product[] = [
     "priceCantidad": 3590.0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/caramFrutaMarengo.png",
+    "image": "img/Alimentos/Golosinas/caramFrutaMarengo.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1570,7 +1570,7 @@ export const products: Product[] = [
     "priceCantidad": 7990.0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/carameloMisky.png",
+    "image": "img/Alimentos/Golosinas/carameloMisky.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1581,7 +1581,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/caramTaponazo.png",
+    "image": "img/Alimentos/Golosinas/caramTaponazo.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1592,7 +1592,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/picoDulceMasti.png",
+    "image": "img/Alimentos/Golosinas/picoDulceMasti.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1603,7 +1603,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/chicleFierita.png",
+    "image": "img/Alimentos/Golosinas/chicleFierita.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1614,7 +1614,7 @@ export const products: Product[] = [
     "priceCantidad": 9090.0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/chocolateHamlet.png",
+    "image": "img/Alimentos/Golosinas/chocolateHamlet.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1625,7 +1625,7 @@ export const products: Product[] = [
     "priceCantidad": 2790.0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/chupaleta.png",
+    "image": "img/Alimentos/Golosinas/chupaleta.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1636,7 +1636,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/chupetinChicle.png",
+    "image": "img/Alimentos/Golosinas/chupetinChicle.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1647,7 +1647,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/paletaPeppa.png",
+    "image": "img/Alimentos/Golosinas/paletaPeppa.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1658,7 +1658,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/healdoMil.png",
+    "image": "img/Alimentos/Golosinas/healdoMil.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1669,7 +1669,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/paletaMultiChica.png",
+    "image": "img/Alimentos/Golosinas/paletaMultiChica.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1680,7 +1680,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/paletaMultiGrande.png",
+    "image": "img/Alimentos/Golosinas/paletaMultiGrande.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1691,7 +1691,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/superPico.png",
+    "image": "img/Alimentos/Golosinas/superPico.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1702,7 +1702,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/chupeCristal.png",
+    "image": "img/Alimentos/Golosinas/chupeCristal.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1713,7 +1713,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/melonOjo.png",
+    "image": "img/Alimentos/Golosinas/melonOjo.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1724,7 +1724,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/paleta1.png",
+    "image": "img/Alimentos/Golosinas/paleta1.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1735,7 +1735,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/melonCarioca.png",
+    "image": "img/Alimentos/Golosinas/melonCarioca.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1746,7 +1746,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/superPiru.png",
+    "image": "img/Alimentos/Golosinas/superPiru.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1757,7 +1757,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/chupetinCosmos.png",
+    "image": "img/Alimentos/Golosinas/chupetinCosmos.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1768,7 +1768,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/garrapiMiel.png",
+    "image": "img/Alimentos/Golosinas/garrapiMiel.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1779,7 +1779,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/turronNamur.png",
+    "image": "img/Alimentos/Golosinas/turronNamur.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1790,7 +1790,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/pe.png",
+    "image": "img/Alimentos/Golosinas/pe.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1801,7 +1801,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/gomitasFierita.png",
+    "image": "img/Alimentos/Golosinas/gomitasFierita.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1812,7 +1812,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/jugoMandu.png",
+    "image": "img/Alimentos/Golosinas/jugoMandu.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1823,7 +1823,7 @@ export const products: Product[] = [
     "priceCantidad": 20900.0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/heladitos.png",
+    "image": "img/Alimentos/Golosinas/heladitos.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1834,7 +1834,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/mentitasLacasa.png",
+    "image": "img/Alimentos/Golosinas/mentitasLacasa.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1845,7 +1845,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/merengues.png",
+    "image": "img/Alimentos/Golosinas/merengues.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1856,7 +1856,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/chizitosRusitos1kg.png",
+    "image": "img/Alimentos/Golosinas/chizitosRusitos1kg.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1867,7 +1867,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/chiziAle.png",
+    "image": "img/Alimentos/Golosinas/chiziAle.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1878,7 +1878,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/conitoQueso.png",
+    "image": "img/Alimentos/Golosinas/conitoQueso.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1889,7 +1889,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/palitosSaladosRusitos.png",
+    "image": "img/Alimentos/Golosinas/palitosSaladosRusitos.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1900,7 +1900,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/papasRusitos.png",
+    "image": "img/Alimentos/Golosinas/papasRusitos.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1911,7 +1911,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/tutucaRusitos1.png",
+    "image": "img/Alimentos/Golosinas/tutucaRusitos1.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1922,7 +1922,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/saguSabor.png",
+    "image": "img/Alimentos/Golosinas/saguSabor.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1933,7 +1933,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/bombonSurtido.png",
+    "image": "img/Alimentos/Golosinas/bombonSurtido.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1944,7 +1944,7 @@ export const products: Product[] = [
     "priceCantidad": 8690.0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/ticTac.png",
+    "image": "img/Alimentos/Golosinas/ticTac.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1955,7 +1955,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Frescos",
-    "image": "/img/Alimentos/embutidos/mortadela254.png",
+    "image": "img/Alimentos/embutidos/mortadela254.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1966,7 +1966,7 @@ export const products: Product[] = [
     "priceCantidad": 11700.0,
     "priceOferta": null,
     "description": "Frescos",
-    "image": "/img/Alimentos/embutidos/mortadelaMinu.png",
+    "image": "img/Alimentos/embutidos/mortadelaMinu.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1977,7 +1977,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Frescos",
-    "image": "/img/Alimentos/quesos/quesoLecherita.png",
+    "image": "img/Alimentos/quesos/quesoLecherita.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1988,7 +1988,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Frescos",
-    "image": "/img/Alimentos/quesos/quesoBarraLecherita.png",
+    "image": "img/Alimentos/quesos/quesoBarraLecherita.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1999,7 +1999,7 @@ export const products: Product[] = [
     "priceCantidad": 16980.0,
     "priceOferta": null,
     "description": "Frescos",
-    "image": "/img/Alimentos/quesos/ralladoSanFrancisco.png",
+    "image": "img/Alimentos/quesos/ralladoSanFrancisco.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -2010,7 +2010,7 @@ export const products: Product[] = [
     "priceCantidad": 20700.0,
     "priceOferta": null,
     "description": "Frescos",
-    "image": "/img/Alimentos/quesos/salame254.png",
+    "image": "img/Alimentos/quesos/salame254.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -2021,7 +2021,7 @@ export const products: Product[] = [
     "priceCantidad": 16470.0,
     "priceOferta": null,
     "description": "Frescos",
-    "image": "/img/Alimentos/embutidos/salchichonDj.png",
+    "image": "img/Alimentos/embutidos/salchichonDj.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -2032,7 +2032,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/aguaMis6.png",
+    "image": "img/Bebidas/aguaMis6.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2043,7 +2043,7 @@ export const products: Product[] = [
     "priceCantidad": 6290.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/aguaMis500.png",
+    "image": "img/Bebidas/aguaMis500.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2054,7 +2054,7 @@ export const products: Product[] = [
     "priceCantidad": 16490.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/aguaGourmet.png",
+    "image": "img/Bebidas/aguaGourmet.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2065,7 +2065,7 @@ export const products: Product[] = [
     "priceCantidad": 9990.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/petacaCachape.png",
+    "image": "img/Bebidas/petacaCachape.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2076,7 +2076,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/fortin.png",
+    "image": "img/Bebidas/fortin.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2087,7 +2087,7 @@ export const products: Product[] = [
     "priceCantidad": 14940.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/canaRosinha.png",
+    "image": "img/Bebidas/canaRosinha.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2098,7 +2098,7 @@ export const products: Product[] = [
     "priceCantidad": 13900.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/cana500Color.png",
+    "image": "img/Bebidas/cana500Color.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2109,7 +2109,7 @@ export const products: Product[] = [
     "priceCantidad": 14090.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/cana1l.png",
+    "image": "img/Bebidas/cana1l.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2120,7 +2120,7 @@ export const products: Product[] = [
     "priceCantidad": 14990.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/isenbeck.png",
+    "image": "img/Bebidas/isenbeck.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2131,7 +2131,7 @@ export const products: Product[] = [
     "priceCantidad": 19900.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/malta.png",
+    "image": "img/Bebidas/malta.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2142,7 +2142,7 @@ export const products: Product[] = [
     "priceCantidad": 11682.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/choco7.png",
+    "image": "img/Bebidas/choco7.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2153,7 +2153,7 @@ export const products: Product[] = [
     "priceCantidad": 22140.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/coctelSamba.png",
+    "image": "img/Bebidas/coctelSamba.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2164,7 +2164,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/branca450.png",
+    "image": "img/Bebidas/branca450.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2175,7 +2175,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/brancaMenta.png",
+    "image": "img/Bebidas/brancaMenta.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2186,7 +2186,7 @@ export const products: Product[] = [
     "priceCantidad": 41880.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/capri.png",
+    "image": "img/Bebidas/capri.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2197,7 +2197,7 @@ export const products: Product[] = [
     "priceCantidad": 14900.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/frizzeBlue.png",
+    "image": "img/Bebidas/frizzeBlue.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2208,7 +2208,7 @@ export const products: Product[] = [
     "priceCantidad": 8340.0,
     "priceOferta": 7090.0,
     "description": "Bebidas",
-    "image": "/img/Bebidas/cimes.png",
+    "image": "img/Bebidas/cimes.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2219,7 +2219,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/cocaLata.png",
+    "image": "img/Bebidas/cocaLata.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2230,7 +2230,7 @@ export const products: Product[] = [
     "priceCantidad": 12952.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/baggioLitro.png",
+    "image": "img/Bebidas/baggioLitro.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2241,7 +2241,7 @@ export const products: Product[] = [
     "priceCantidad": 4990.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/aguaBrio.png",
+    "image": "img/Bebidas/aguaBrio.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2252,7 +2252,7 @@ export const products: Product[] = [
     "priceCantidad": 6462.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/jugoTutti200.png",
+    "image": "img/Bebidas/jugoTutti200.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2263,7 +2263,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/gatorade.png",
+    "image": "img/Bebidas/gatorade.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2274,7 +2274,7 @@ export const products: Product[] = [
     "priceCantidad": 8340.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/tuttiSports.png",
+    "image": "img/Bebidas/tuttiSports.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2285,7 +2285,7 @@ export const products: Product[] = [
     "priceCantidad": 8340.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/suerox.png",
+    "image": "img/Bebidas/suerox.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2296,7 +2296,7 @@ export const products: Product[] = [
     "priceCantidad": 4590.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Alimentos/secos/jugoBc.png",
+    "image": "img/Alimentos/secos/jugoBc.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2307,7 +2307,7 @@ export const products: Product[] = [
     "priceCantidad": 4590.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Alimentos/secos/jugoArcor.png",
+    "image": "img/Alimentos/secos/jugoArcor.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2318,7 +2318,7 @@ export const products: Product[] = [
     "priceCantidad": 3890.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Alimentos/secos/jugoInca.png",
+    "image": "img/Alimentos/secos/jugoInca.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2329,7 +2329,7 @@ export const products: Product[] = [
     "priceCantidad": 17900.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/ilolay.png",
+    "image": "img/Bebidas/ilolay.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2340,7 +2340,7 @@ export const products: Product[] = [
     "priceCantidad": 15900.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/lecheCotapa.png",
+    "image": "img/Bebidas/lecheCotapa.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2351,7 +2351,7 @@ export const products: Product[] = [
     "priceCantidad": 23940.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/tropic.png",
+    "image": "img/Bebidas/tropic.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2362,7 +2362,7 @@ export const products: Product[] = [
     "priceCantidad": 22140.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/licorBorso.png",
+    "image": "img/Bebidas/licorBorso.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2373,7 +2373,7 @@ export const products: Product[] = [
     "priceCantidad": 41976.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/petacaW.png",
+    "image": "img/Bebidas/petacaW.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2384,7 +2384,7 @@ export const products: Product[] = [
     "priceCantidad": 18980.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/petacaBorso.png",
+    "image": "img/Bebidas/petacaBorso.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2395,7 +2395,7 @@ export const products: Product[] = [
     "priceCantidad": 9990.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/rockstar.png",
+    "image": "img/Bebidas/rockstar.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2406,7 +2406,7 @@ export const products: Product[] = [
     "priceCantidad": 35760.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/speed.png",
+    "image": "img/Bebidas/speed.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2417,7 +2417,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/speedGrande.png",
+    "image": "img/Bebidas/speedGrande.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2428,7 +2428,7 @@ export const products: Product[] = [
     "priceCantidad": 12760.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/vinoMonos.png",
+    "image": "img/Bebidas/vinoMonos.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2439,7 +2439,7 @@ export const products: Product[] = [
     "priceCantidad": 13590.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/vinoAlvearChico.png",
+    "image": "img/Bebidas/vinoAlvearChico.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2450,7 +2450,7 @@ export const products: Product[] = [
     "priceCantidad": 15990.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/balbo.png",
+    "image": "img/Bebidas/balbo.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2461,7 +2461,7 @@ export const products: Product[] = [
     "priceCantidad": 14900.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/vinoCabarceno.png",
+    "image": "img/Bebidas/vinoCabarceno.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2472,7 +2472,7 @@ export const products: Product[] = [
     "priceCantidad": 26700.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/vinoColonDulce.png",
+    "image": "img/Bebidas/vinoColonDulce.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2483,7 +2483,7 @@ export const products: Product[] = [
     "priceCantidad": 11900.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/vinoEncepado.png",
+    "image": "img/Bebidas/vinoEncepado.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2494,7 +2494,7 @@ export const products: Product[] = [
     "priceCantidad": 18490.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/loboNegro.png",
+    "image": "img/Bebidas/loboNegro.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2505,7 +2505,7 @@ export const products: Product[] = [
     "priceCantidad": 18290.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/vinoMuneco.png",
+    "image": "img/Bebidas/vinoMuneco.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2516,7 +2516,7 @@ export const products: Product[] = [
     "priceCantidad": 21590.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/vinoNampe.png",
+    "image": "img/Bebidas/vinoNampe.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2527,7 +2527,7 @@ export const products: Product[] = [
     "priceCantidad": 17900.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/vinoObejablack.png",
+    "image": "img/Bebidas/vinoObejablack.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2538,7 +2538,7 @@ export const products: Product[] = [
     "priceCantidad": 17900.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/vinoProfugo.png",
+    "image": "img/Bebidas/vinoProfugo.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2549,7 +2549,7 @@ export const products: Product[] = [
     "priceCantidad": 15900.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/picoOro.png",
+    "image": "img/Bebidas/picoOro.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2560,7 +2560,7 @@ export const products: Product[] = [
     "priceCantidad": 14900.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/vinoQuebrada.png",
+    "image": "img/Bebidas/vinoQuebrada.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2571,7 +2571,7 @@ export const products: Product[] = [
     "priceCantidad": 19800.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/uvitaTintoCom.png",
+    "image": "img/Bebidas/uvitaTintoCom.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2582,7 +2582,7 @@ export const products: Product[] = [
     "priceCantidad": 17900.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/uvitaRosa.png",
+    "image": "img/Bebidas/uvitaRosa.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2593,7 +2593,7 @@ export const products: Product[] = [
     "priceCantidad": 17490.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/uvitaBlanco.png",
+    "image": "img/Bebidas/uvitaBlanco.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2604,7 +2604,7 @@ export const products: Product[] = [
     "priceCantidad": 14900.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/uvitaBotella.png",
+    "image": "img/Bebidas/uvitaBotella.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2615,7 +2615,7 @@ export const products: Product[] = [
     "priceCantidad": 19140.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/vodkaAlas.png",
+    "image": "img/Bebidas/vodkaAlas.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2626,7 +2626,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "/img/Bebidas/whiskyW.png",
+    "image": "img/Bebidas/whiskyW.jpg",
     "category": "Bebidas",
     "stock": 10
   },
@@ -2637,7 +2637,7 @@ export const products: Product[] = [
     "priceCantidad": 13800.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/alcoholTudoc.png",
+    "image": "img/Higiene/alcoholTudoc.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2648,7 +2648,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/alcoholIris.png",
+    "image": "img/Higiene/alcoholIris.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2659,7 +2659,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Medicamentos/aguaOx.png",
+    "image": "img/Medicamentos/aguaOx.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2670,7 +2670,7 @@ export const products: Product[] = [
     "priceCantidad": 14988.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/bic3.png",
+    "image": "img/Higiene/bic3.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2681,7 +2681,7 @@ export const products: Product[] = [
     "priceCantidad": 11256.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/bicSensitive.png",
+    "image": "img/Higiene/bicSensitive.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2692,7 +2692,7 @@ export const products: Product[] = [
     "priceCantidad": 16790.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/geemillet.png",
+    "image": "img/Higiene/geemillet.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2703,7 +2703,7 @@ export const products: Product[] = [
     "priceCantidad": 16776.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/prestoAstra.png",
+    "image": "img/Higiene/prestoAstra.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2714,7 +2714,7 @@ export const products: Product[] = [
     "priceCantidad": 9576.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/xmart.png",
+    "image": "img/Higiene/xmart.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2725,7 +2725,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/coloracion.png",
+    "image": "img/Higiene/coloracion.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2736,7 +2736,7 @@ export const products: Product[] = [
     "priceCantidad": 29880.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/cremaHinds.png",
+    "image": "img/Higiene/cremaHinds.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2747,7 +2747,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/curitas.png",
+    "image": "img/Higiene/curitas.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2758,7 +2758,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/enjuagueBucal500.png",
+    "image": "img/Higiene/enjuagueBucal500.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2769,7 +2769,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/enjuagueBucal500.png",
+    "image": "img/Higiene/enjuagueBucal500.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2780,7 +2780,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/esmalte.png",
+    "image": "img/Higiene/esmalte.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2791,7 +2791,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/gelAlgabo.png",
+    "image": "img/Higiene/gelAlgabo.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2802,7 +2802,7 @@ export const products: Product[] = [
     "priceCantidad": 2590.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/gomitasPelo.png",
+    "image": "img/Higiene/gomitasPelo.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2813,7 +2813,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/jabonSigno.png",
+    "image": "img/Higiene/jabonSigno.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2824,7 +2824,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/jabonKenia.png",
+    "image": "img/Higiene/jabonKenia.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2835,7 +2835,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/jabonIo80.png",
+    "image": "img/Higiene/jabonIo80.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2846,7 +2846,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/jabonAlgabo.png",
+    "image": "img/Higiene/jabonAlgabo.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2857,7 +2857,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/kolynos.png",
+    "image": "img/Higiene/kolynos.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2868,7 +2868,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/oralB.png",
+    "image": "img/Higiene/oralB.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2879,7 +2879,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/closeup.png",
+    "image": "img/Higiene/closeup.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2890,7 +2890,7 @@ export const products: Product[] = [
     "priceCantidad": 7140.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/mantecaCacao.png",
+    "image": "img/Higiene/mantecaCacao.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2901,7 +2901,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/oleoCalcareo.png",
+    "image": "img/Higiene/oleoCalcareo.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2912,7 +2912,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/babysec.png",
+    "image": "img/Higiene/babysec.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2923,7 +2923,7 @@ export const products: Product[] = [
     "priceCantidad": 9490.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/papelx12.png",
+    "image": "img/Higiene/papelx12.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2934,7 +2934,7 @@ export const products: Product[] = [
     "priceCantidad": 10900.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/papelx24.png",
+    "image": "img/Higiene/papelx24.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2945,7 +2945,7 @@ export const products: Product[] = [
     "priceCantidad": 15336.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/papelDanci.png",
+    "image": "img/Higiene/papelDanci.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2956,7 +2956,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/gamuza4.png",
+    "image": "img/Higiene/gamuza4.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2967,7 +2967,7 @@ export const products: Product[] = [
     "priceCantidad": 21480.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/papelGamu.png",
+    "image": "img/Higiene/papelGamu.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2978,7 +2978,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/desodImpulse.png",
+    "image": "img/Higiene/desodImpulse.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2989,7 +2989,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/hisoposDismar.png",
+    "image": "img/Higiene/hisoposDismar.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3000,7 +3000,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/polyanaMen.png",
+    "image": "img/Higiene/polyanaMen.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3011,7 +3011,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/polyanaMujer.png",
+    "image": "img/Higiene/polyanaMujer.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3022,7 +3022,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/rexonaOdor.png",
+    "image": "img/Higiene/rexonaOdor.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3033,7 +3033,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/preserM.png",
+    "image": "img/Higiene/preserM.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3044,7 +3044,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/quitaesmalte.png",
+    "image": "img/Higiene/quitaesmalte.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3055,7 +3055,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/quitaesmalte.png",
+    "image": "img/Higiene/quitaesmalte.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3066,7 +3066,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/repelenteVn.png",
+    "image": "img/Higiene/repelenteVn.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3077,7 +3077,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/repelenteAbove.png",
+    "image": "img/Higiene/repelenteAbove.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3088,7 +3088,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/repelentePuff.png",
+    "image": "img/Higiene/repelentePuff.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3099,7 +3099,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/shamAcondVo5.png",
+    "image": "img/Higiene/shamAcondVo5.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3110,7 +3110,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/talcoAlgabo.png",
+    "image": "img/Higiene/talcoAlgabo.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3121,7 +3121,7 @@ export const products: Product[] = [
     "priceCantidad": 16680.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/talcoAlgaboMujer.png",
+    "image": "img/Higiene/talcoAlgaboMujer.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3132,7 +3132,7 @@ export const products: Product[] = [
     "priceCantidad": 16680.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/talcoAlgaboFoot.png",
+    "image": "img/Higiene/talcoAlgaboFoot.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3143,7 +3143,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/panueloCata.png",
+    "image": "img/Higiene/panueloCata.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3154,7 +3154,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/panueloFelpita.png",
+    "image": "img/Higiene/panueloFelpita.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3165,7 +3165,7 @@ export const products: Product[] = [
     "priceCantidad": 77400.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/protectorCarefree20.png",
+    "image": "img/Higiene/protectorCarefree20.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3176,7 +3176,7 @@ export const products: Product[] = [
     "priceCantidad": 80700.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/protectorCarefree60.png",
+    "image": "img/Higiene/protectorCarefree60.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3187,7 +3187,7 @@ export const products: Product[] = [
     "priceCantidad": 12640.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/toallAlways.png",
+    "image": "img/Higiene/toallAlways.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3198,7 +3198,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/toaShe.png",
+    "image": "img/Higiene/toaShe.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3209,7 +3209,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/toallCalipso16.png",
+    "image": "img/Higiene/toallCalipso16.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3220,7 +3220,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/donce16.png",
+    "image": "img/Higiene/donce16.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3231,7 +3231,7 @@ export const products: Product[] = [
     "priceCantidad": 25470.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/toallNosotras.png",
+    "image": "img/Higiene/toallNosotras.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3242,7 +3242,7 @@ export const products: Product[] = [
     "priceCantidad": 39576.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/toallSiempreL.png",
+    "image": "img/Higiene/toallSiempreL.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3253,7 +3253,7 @@ export const products: Product[] = [
     "priceCantidad": 40752.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/toallSiempreAdap.png",
+    "image": "img/Higiene/toallSiempreAdap.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3264,7 +3264,7 @@ export const products: Product[] = [
     "priceCantidad": 35880.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/toallSiempreL32.png",
+    "image": "img/Higiene/toallSiempreL32.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3275,7 +3275,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/toallHumedas.png",
+    "image": "img/Higiene/toallHumedas.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3286,7 +3286,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/tratamientoHadibell3.png",
+    "image": "img/Higiene/tratamientoHadibell3.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3297,7 +3297,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/tratamientoCapilar.png",
+    "image": "img/Higiene/tratamientoCapilar.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3308,7 +3308,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/trataMary.png",
+    "image": "img/Higiene/trataMary.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3319,7 +3319,7 @@ export const products: Product[] = [
     "priceCantidad": 8148.0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/cepilloInfantil.png",
+    "image": "img/Higiene/cepilloInfantil.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -3330,7 +3330,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/adhesivoPato.png",
+    "image": "img/Limpieza/adhesivoPato.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3341,7 +3341,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/antipolillas.png",
+    "image": "img/Limpieza/antipolillas.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3352,7 +3352,7 @@ export const products: Product[] = [
     "priceCantidad": 10935.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/lavandinaFraVal.png",
+    "image": "img/Limpieza/lavandinaFraVal.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3363,7 +3363,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/ayudin.png",
+    "image": "img/Limpieza/ayudin.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3374,7 +3374,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/ayudin2.png",
+    "image": "img/Limpieza/ayudin2.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3385,7 +3385,7 @@ export const products: Product[] = [
     "priceCantidad": 28350.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/ayudinBlanco.png",
+    "image": "img/Limpieza/ayudinBlanco.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3396,7 +3396,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/bolsaResiduoM.png",
+    "image": "img/Limpieza/bolsaResiduoM.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3407,7 +3407,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/bolsaResiduoG.png",
+    "image": "img/Limpieza/bolsaResiduoG.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3418,7 +3418,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/cepilloCondor.png",
+    "image": "img/Limpieza/cepilloCondor.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3429,7 +3429,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/blemNegro.png",
+    "image": "img/Limpieza/blemNegro.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3440,7 +3440,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/ceramicol.png",
+    "image": "img/Limpieza/ceramicol.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3451,7 +3451,7 @@ export const products: Product[] = [
     "priceCantidad": 17340.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/poett.png",
+    "image": "img/Limpieza/poett.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3462,7 +3462,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/deterAlaCon.png",
+    "image": "img/Limpieza/deterAlaCon.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3473,7 +3473,7 @@ export const products: Product[] = [
     "priceCantidad": 23850.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/deterAla.png",
+    "image": "img/Limpieza/deterAla.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3484,7 +3484,7 @@ export const products: Product[] = [
     "priceCantidad": 20400.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/deterVal4.png",
+    "image": "img/Limpieza/deterVal4.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3495,7 +3495,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/escobiChico.png",
+    "image": "img/Limpieza/escobiChico.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3506,7 +3506,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/escurridor.png",
+    "image": "img/Limpieza/escurridor.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3517,7 +3517,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/espiralMatiris12.png",
+    "image": "img/Limpieza/espiralMatiris12.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3528,7 +3528,7 @@ export const products: Product[] = [
     "priceCantidad": 30950.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/espiralMatiris4.png",
+    "image": "img/Limpieza/espiralMatiris4.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3539,7 +3539,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/espiralRaid.png",
+    "image": "img/Limpieza/espiralRaid.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3550,7 +3550,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/esponjaRuletec.png",
+    "image": "img/Limpieza/esponjaRuletec.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3561,7 +3561,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/esponjaHelp.png",
+    "image": "img/Limpieza/esponjaHelp.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3572,7 +3572,7 @@ export const products: Product[] = [
     "priceCantidad": 5988.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/esponjaBatuque.png",
+    "image": "img/Limpieza/esponjaBatuque.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3583,7 +3583,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/fluidoMan.png",
+    "image": "img/Limpieza/fluidoMan.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3594,7 +3594,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/fluidoTriunfo.png",
+    "image": "img/Limpieza/fluidoTriunfo.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3605,7 +3605,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/franela.png",
+    "image": "img/Limpieza/franela.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3616,7 +3616,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/rejilla.png",
+    "image": "img/Limpieza/rejilla.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3627,7 +3627,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/sopapa.png",
+    "image": "img/Limpieza/sopapa.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3638,7 +3638,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/seltonCuca.png",
+    "image": "img/Limpieza/seltonCuca.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3649,7 +3649,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/fuyiTable.png",
+    "image": "img/Limpieza/fuyiTable.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3660,7 +3660,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/raidVape.png",
+    "image": "img/Limpieza/raidVape.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3671,7 +3671,7 @@ export const products: Product[] = [
     "priceCantidad": 8856.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/jabonBlanco.png",
+    "image": "img/Limpieza/jabonBlanco.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3682,7 +3682,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/alaBicarb.png",
+    "image": "img/Limpieza/alaBicarb.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3693,7 +3693,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/alaBicarb.png",
+    "image": "img/Limpieza/alaBicarb.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3704,7 +3704,7 @@ export const products: Product[] = [
     "priceCantidad": 39576.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/jabonGranby3.png",
+    "image": "img/Limpieza/jabonGranby3.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3715,7 +3715,7 @@ export const products: Product[] = [
     "priceCantidad": 40180.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/jabonGranby3.png",
+    "image": "img/Limpieza/jabonGranby3.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3726,7 +3726,7 @@ export const products: Product[] = [
     "priceCantidad": 25144.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/petiBlanco.png",
+    "image": "img/Limpieza/petiBlanco.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3737,7 +3737,7 @@ export const products: Product[] = [
     "priceCantidad": 89500.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/jabonSeiseme.png",
+    "image": "img/Limpieza/jabonSeiseme.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3748,7 +3748,7 @@ export const products: Product[] = [
     "priceCantidad": 18490.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/jabonAstro.png",
+    "image": "img/Limpieza/jabonAstro.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3759,7 +3759,7 @@ export const products: Product[] = [
     "priceCantidad": 17712.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/petiVerde.png",
+    "image": "img/Limpieza/petiVerde.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3770,7 +3770,7 @@ export const products: Product[] = [
     "priceCantidad": 17850.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/desinfSedile.png",
+    "image": "img/Limpieza/desinfSedile.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3781,7 +3781,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/palita.png",
+    "image": "img/Limpieza/palita.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3792,7 +3792,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/pastiSani.png",
+    "image": "img/Limpieza/pastiSani.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3803,7 +3803,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/pastillaPato.png",
+    "image": "img/Limpieza/pastillaPato.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3814,7 +3814,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/puloil.png",
+    "image": "img/Limpieza/puloil.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3825,7 +3825,7 @@ export const products: Product[] = [
     "priceCantidad": 51480.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/raidMosqui.png",
+    "image": "img/Limpieza/raidMosqui.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3836,7 +3836,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/raticida.png",
+    "image": "img/Limpieza/raticida.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3847,7 +3847,7 @@ export const products: Product[] = [
     "priceCantidad": 16188.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/rolloSol.png",
+    "image": "img/Limpieza/rolloSol.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3858,7 +3858,7 @@ export const products: Product[] = [
     "priceCantidad": 21540.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/suaviGota.png",
+    "image": "img/Limpieza/suaviGota.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3869,7 +3869,7 @@ export const products: Product[] = [
     "priceCantidad": 23600.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/suaviVivere.png",
+    "image": "img/Limpieza/suaviVivere.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3880,7 +3880,7 @@ export const products: Product[] = [
     "priceCantidad": 20280.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/suaviBorita.png",
+    "image": "img/Limpieza/suaviBorita.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3891,7 +3891,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/suaviClow.png",
+    "image": "img/Limpieza/suaviClow.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3902,7 +3902,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/trapo.png",
+    "image": "img/Limpieza/trapo.jpg",
     "category": "Limpieza",
     "stock": 10
   },
@@ -3913,7 +3913,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/actron400.png",
+    "image": "img/Medicamentos/actron400.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -3924,7 +3924,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/actron600.png",
+    "image": "img/Medicamentos/actron600.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -3935,7 +3935,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/sildenafil.png",
+    "image": "img/Medicamentos/sildenafil.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -3946,7 +3946,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/alMaximoMasti.png",
+    "image": "img/Medicamentos/alMaximoMasti.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -3957,7 +3957,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/amoxicilina.png",
+    "image": "img/Medicamentos/amoxicilina.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -3968,7 +3968,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/aspirinaPrevent.png",
+    "image": "img/Medicamentos/aspirinaPrevent.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -3979,7 +3979,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/aspirinetas.png",
+    "image": "img/Medicamentos/aspirinetas.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -3990,7 +3990,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/azitromicina.png",
+    "image": "img/Medicamentos/azitromicina.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4001,7 +4001,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/aspirinaTableta.png",
+    "image": "img/Medicamentos/aspirinaTableta.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4012,7 +4012,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/diclofenac.png",
+    "image": "img/Medicamentos/diclofenac.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4023,7 +4023,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/dicloFabo.png",
+    "image": "img/Medicamentos/dicloFabo.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4034,7 +4034,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/dipironaZcal.png",
+    "image": "img/Medicamentos/dipironaZcal.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4045,7 +4045,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/enalapril.png",
+    "image": "img/Medicamentos/enalapril.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4056,7 +4056,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/hierbaMed.png",
+    "image": "img/Medicamentos/hierbaMed.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4067,7 +4067,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/ibuJarabe.png",
+    "image": "img/Medicamentos/ibuJarabe.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4078,7 +4078,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/ibuevanol.png",
+    "image": "img/Medicamentos/ibuevanol.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4089,7 +4089,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/ibuevanolForte.png",
+    "image": "img/Medicamentos/ibuevanolForte.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4100,7 +4100,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/ibu400.png",
+    "image": "img/Medicamentos/ibu400.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4111,7 +4111,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/ibuVent.png",
+    "image": "img/Medicamentos/ibuVent.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4122,7 +4122,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/keterolac.png",
+    "image": "img/Medicamentos/keterolac.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4133,7 +4133,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/mejoralNi.png",
+    "image": "img/Medicamentos/mejoralNi.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4144,7 +4144,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/mentolina.png",
+    "image": "img/Medicamentos/mentolina.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4155,7 +4155,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/mieligtus.png",
+    "image": "img/Medicamentos/mieligtus.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4166,7 +4166,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/migral.png",
+    "image": "img/Medicamentos/migral.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4177,7 +4177,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/norgestrel.png",
+    "image": "img/Medicamentos/norgestrel.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4188,7 +4188,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/norgestrelPlus.png",
+    "image": "img/Medicamentos/norgestrelPlus.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4199,7 +4199,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/novalgina.png",
+    "image": "img/Medicamentos/novalgina.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4210,7 +4210,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/omeprazol.png",
+    "image": "img/Medicamentos/omeprazol.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4221,7 +4221,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/pastiCarbon.png",
+    "image": "img/Medicamentos/pastiCarbon.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4232,7 +4232,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/paracet.png",
+    "image": "img/Medicamentos/paracet.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4243,7 +4243,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/paracet1g.png",
+    "image": "img/Medicamentos/paracet1g.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4254,7 +4254,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/pomadaMed.png",
+    "image": "img/Medicamentos/pomadaMed.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4265,7 +4265,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/cremaCura.png",
+    "image": "img/Medicamentos/cremaCura.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4276,7 +4276,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/qura.png",
+    "image": "img/Medicamentos/qura.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4287,7 +4287,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/teVent.png",
+    "image": "img/Medicamentos/teVent.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4298,7 +4298,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/test.png",
+    "image": "img/Medicamentos/test.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4309,7 +4309,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/uvasal.png",
+    "image": "img/Medicamentos/uvasal.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4320,7 +4320,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/gripaben.png",
+    "image": "img/Medicamentos/gripaben.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -4331,7 +4331,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/adap.png",
+    "image": "img/Otros/adap.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4342,7 +4342,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/alpargatas.png",
+    "image": "img/Otros/alpargatas.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4353,7 +4353,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/anilina.png",
+    "image": "img/Otros/anilina.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4364,7 +4364,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/anilinaTupy.png",
+    "image": "img/Otros/anilinaTupy.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4375,7 +4375,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/azufre.png",
+    "image": "img/Otros/azufre.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4386,7 +4386,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/bengala.png",
+    "image": "img/Otros/bengala.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4397,7 +4397,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/biromeFilgo.png",
+    "image": "img/Otros/biromeFilgo.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4408,7 +4408,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/bolsaCamis.png",
+    "image": "img/Otros/bolsaCamis.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4419,7 +4419,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/bolsaCamis.png",
+    "image": "img/Otros/bolsaCamis.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4430,7 +4430,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/bolsaTransp.png",
+    "image": "img/Otros/bolsaTransp.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4441,7 +4441,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/bolsaTransp.png",
+    "image": "img/Otros/bolsaTransp.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4452,7 +4452,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/bolsaTransp.png",
+    "image": "img/Otros/bolsaTransp.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4463,7 +4463,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/bombiAlp.png",
+    "image": "img/Otros/bombiAlp.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4474,7 +4474,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/broches.png",
+    "image": "img/Otros/broches.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4485,7 +4485,7 @@ export const products: Product[] = [
     "priceCantidad": 5400.0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/chupete.png",
+    "image": "img/Otros/chupete.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4496,7 +4496,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/teflon.png",
+    "image": "img/Otros/teflon.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4507,7 +4507,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/cintaAis.png",
+    "image": "img/Otros/cintaAis.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4518,7 +4518,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/cinta.png",
+    "image": "img/Otros/cinta.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4529,7 +4529,7 @@ export const products: Product[] = [
     "priceCantidad": 15900.0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/cubierto.png",
+    "image": "img/Otros/cubierto.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4540,7 +4540,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/bicMaxi.png",
+    "image": "img/Otros/bicMaxi.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4551,7 +4551,7 @@ export const products: Product[] = [
     "priceCantidad": 11148.0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/bicMini.png",
+    "image": "img/Otros/bicMini.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4562,7 +4562,7 @@ export const products: Product[] = [
     "priceCantidad": 7250.0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/encendVol.png",
+    "image": "img/Otros/encendVol.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4573,7 +4573,7 @@ export const products: Product[] = [
     "priceCantidad": 13176.0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/escarbad24.png",
+    "image": "img/Otros/escarbad24.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4584,7 +4584,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/foco10y14.png",
+    "image": "img/Otros/foco10y14.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4595,7 +4595,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/foco14.png",
+    "image": "img/Otros/foco14.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4606,7 +4606,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/foco9.png",
+    "image": "img/Otros/foco9.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4617,7 +4617,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/foco7.png",
+    "image": "img/Otros/foco7.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4628,7 +4628,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/foco18.png",
+    "image": "img/Otros/foco18.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4639,7 +4639,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/tuboLatex.png",
+    "image": "img/Otros/tuboLatex.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4650,7 +4650,7 @@ export const products: Product[] = [
     "priceCantidad": 10390.0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/gotita.png",
+    "image": "img/Otros/gotita.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4661,7 +4661,7 @@ export const products: Product[] = [
     "priceCantidad": 3900.0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/hilo.png",
+    "image": "img/Otros/hilo.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4672,7 +4672,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/guanteBlanco.png",
+    "image": "img/Otros/guanteBlanco.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4683,7 +4683,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/loteria.png",
+    "image": "img/Otros/loteria.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4694,7 +4694,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/mate.png",
+    "image": "img/Otros/mate.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4705,7 +4705,7 @@ export const products: Product[] = [
     "priceCantidad": 14900.0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/media.png",
+    "image": "img/Otros/media.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4716,7 +4716,7 @@ export const products: Product[] = [
     "priceCantidad": 11880.0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/naipes.png",
+    "image": "img/Otros/naipes.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4727,7 +4727,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/papelAluminio.png",
+    "image": "img/Otros/papelAluminio.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4738,7 +4738,7 @@ export const products: Product[] = [
     "priceCantidad": 24900.0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/papelOcb.png",
+    "image": "img/Otros/papelOcb.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4749,7 +4749,7 @@ export const products: Product[] = [
     "priceCantidad": 9990.0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/papelPoker.png",
+    "image": "img/Otros/papelPoker.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4760,7 +4760,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/adhesivoCande.png",
+    "image": "img/Otros/adhesivoCande.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4771,7 +4771,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/candeGel.png",
+    "image": "img/Otros/candeGel.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4782,7 +4782,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/pegamentoSolDeNoche.png",
+    "image": "img/Otros/pegamentoSolDeNoche.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4793,7 +4793,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/perchas.png",
+    "image": "img/Otros/perchas.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4804,7 +4804,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/pilasAA.png",
+    "image": "img/Otros/pilasAA.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4815,7 +4815,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/pilasAAA.png",
+    "image": "img/Otros/pilasAAA.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4826,7 +4826,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/pilasD.png",
+    "image": "img/Otros/pilasD.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4837,7 +4837,7 @@ export const products: Product[] = [
     "priceCantidad": 4900.0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/pincita.png",
+    "image": "img/Otros/pincita.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4848,7 +4848,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/platoHondo.png",
+    "image": "img/Otros/platoHondo.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4859,7 +4859,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/pomadaLiq.png",
+    "image": "img/Otros/pomadaLiq.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4870,7 +4870,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/poxiran.png",
+    "image": "img/Otros/poxiran.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4881,7 +4881,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/termo.png",
+    "image": "img/Otros/termo.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4892,7 +4892,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/vaso.png",
+    "image": "img/Otros/vaso.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4903,7 +4903,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/termolar.png",
+    "image": "img/Otros/termolar.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4914,7 +4914,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/termo2.png",
+    "image": "img/Otros/termo2.jpg",
     "category": "Otros",
     "stock": 10
   },
@@ -4925,7 +4925,7 @@ export const products: Product[] = [
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Otros/botella.png",
+    "image": "img/Otros/botella.jpg",
     "category": "Otros",
     "stock": 10
   }

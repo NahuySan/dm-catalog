@@ -20,7 +20,7 @@ archivos = [
 def limpiar_precio(valor):
     if pd.isna(valor) or str(valor).strip() in ['', '0', '0.0', '0,0']: 
         return 0
-    # Limpieza de formato argentino: quita $, quita punto de mil, cambia coma por punto
+    # Limpieza de formato argentino
     limpio = str(valor).replace('$', '').replace('.', '').replace(',', '.').strip()
     try:
         return float(limpio)
@@ -30,7 +30,7 @@ def limpiar_precio(valor):
 todos_los_productos = []
 current_id = 1
 
-print("--- Iniciando actualización COMPLETA de catálogo ---")
+print("--- Actualizando products.ts (Optimizado para JPEG 600px) ---")
 
 for item in archivos:
     file_path = os.path.join(INPUT_FOLDER, item['name'])
@@ -40,36 +40,36 @@ for item in archivos:
         continue
 
     try:
-        # Leemos el CSV completo
         df = pd.read_csv(file_path)
-        productos_archivo = 0
-
-            # Tomamos solo los primeros 10 para la versión de prueba
-            # df_limitado = df.head(10)
-        
-        # Iteramos sobre todos los registros del CSV sin límites
         for _, row in df.iterrows():
-            p_oferta = limpiar_precio(row.get('precioOferta'))
+            img_orig = str(row.get('@imagen', '')).strip()
             
+            # --- LÓGICA DE RUTA PARA JPEG ---
+            if img_orig:
+                # Quitamos la barra inicial si la tiene y cambiamos a .jpg
+                img_path = os.path.splitext(img_orig)[0].lstrip('/') + ".jpg"
+            else:
+                img_path = ""
+
             producto = {
                 "id": current_id,
                 "name": str(row.get('titulo', 'Sin nombre')).strip(),
                 "priceUnidad": limpiar_precio(row.get('precioUnitario')),
                 "priceCantidad": limpiar_precio(row.get('precioCantidad')),
-                "priceOferta": p_oferta if p_oferta > 0 else None,
+                "priceOferta": limpiar_precio(row.get('precioOferta')) or None,
                 "description": str(row.get('subCategoria', item['cat'])).strip(),
-                "image": str(row.get('@imagen', '')).strip(),
+                "image": img_path, # Guardamos como 'img/Categoria/nombre.jpg'
                 "category": item['cat'],
                 "stock": 0 if str(row.get('stock')).lower() == "sin stock" else 10
             }
+            
             todos_los_productos.append(producto)
             current_id += 1
-            productos_archivo += 1
             
-        print(f"✅ {item['name']}: {productos_archivo} productos procesados.")
+        print(f"✅ {item['name']} procesado.")
 
     except Exception as e:
-        print(f"❌ Error procesando {item['name']}: {e}")
+        print(f"❌ Error en {item['name']}: {e}")
 
 # Generar el archivo TypeScript
 ts_content = "import { Product } from '../types';\n\n"
@@ -77,12 +77,10 @@ ts_content += "export const products: Product[] = "
 ts_content += json.dumps(todos_los_productos, indent=2, ensure_ascii=False)
 ts_content += ";"
 
-# Asegurarse de que la carpeta de salida exista
+# Guardar
 os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-
 with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
     f.write(ts_content)
 
-print("\n--- Proceso terminado ---")
-print(f"Total de productos exportados: {len(todos_los_productos)}")
-print(f"Archivo generado en: {OUTPUT_FILE}")
+print("\n--- ¡Listo! products.ts actualizado ---")
+print(f"Total productos: {len(todos_los_productos)}")
