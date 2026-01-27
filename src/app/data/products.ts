@@ -3,6 +3,17 @@ import { Product } from '../types';
 export const products: Product[] = [
   {
     "id": 1,
+    "name": "Chimichurri Vanoli 1L x6",
+    "priceUnidad": 2390.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Aderezos",
+    "image": "/img/Alimentos/aderezos/chimiVanoliGrande.png",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 2,
     "name": "Edulcorante Sidiet Stevia x6 200ml",
     "priceUnidad": 1490.0,
     "priceCantidad": 8940.0,
@@ -13,7 +24,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Edulcorante Sidiet x6 200ml",
     "priceUnidad": 1390.0,
     "priceCantidad": 0,
@@ -24,7 +35,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Ketchup Campagnola Picante x250g",
     "priceUnidad": 1290.0,
     "priceCantidad": 0,
@@ -35,7 +46,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Kepchup Danica x250gr",
     "priceUnidad": 1219.0,
     "priceCantidad": 0,
@@ -46,7 +57,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Ketchup Danica 50g x24",
     "priceUnidad": 439.0,
     "priceCantidad": 10536.0,
@@ -57,7 +68,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Mayonesa cada dia 12x250gr",
     "priceUnidad": 890.0,
     "priceCantidad": 0,
@@ -68,7 +79,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Mayo Natura x12 x250g",
     "priceUnidad": 1490.0,
     "priceCantidad": 17880.0,
@@ -79,7 +90,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Mayo Natura x20 x125g",
     "priceUnidad": 650.0,
     "priceCantidad": 13000.0,
@@ -90,7 +101,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "Mostaza Danica 50g x24",
     "priceUnidad": 399.0,
     "priceCantidad": 9576.0,
@@ -101,7 +112,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Mostaza Danica x12 x220g",
     "priceUnidad": 890.0,
     "priceCantidad": 10680.0,
@@ -112,7 +123,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "Vinagre Alcohol casalta x12 1L",
     "priceUnidad": 1390.0,
     "priceCantidad": 0,
@@ -123,18 +134,18 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 12,
-    "name": "Batata 500g x12",
+    "id": 13,
+    "name": "Batata 500g x12 dulcor",
     "priceUnidad": 1490.0,
     "priceCantidad": 17880.0,
     "priceOferta": null,
     "description": "Dulces",
-    "image": "/img/Alimentos/dulces/batataEmeth500g.png",
+    "image": "/img/Alimentos/dulces/batataDulcor.png",
     "category": "Comestibles",
     "stock": 10
   },
   {
-    "id": 13,
+    "id": 14,
     "name": "Batata x5 Kg",
     "priceUnidad": 9990.0,
     "priceCantidad": 0,
@@ -145,7 +156,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 14,
+    "id": 15,
     "name": "Dulce de leche 200g x24 Granja de Oro",
     "priceUnidad": 949.0,
     "priceCantidad": 22776.0,
@@ -156,7 +167,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 15,
+    "id": 16,
     "name": "Dulce de leche 400g x12 Granja de Oro",
     "priceUnidad": 1590.0,
     "priceCantidad": 19080.0,
@@ -167,7 +178,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 16,
+    "id": 17,
     "name": "Dulce de Mani x50",
     "priceUnidad": 5190.0,
     "priceCantidad": 0,
@@ -178,7 +189,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 17,
+    "id": 18,
     "name": "Leche Condensada x27",
     "priceUnidad": 2490.0,
     "priceCantidad": 0,
@@ -189,7 +200,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 18,
+    "id": 19,
     "name": "Membrilo doña pupa x4kg",
     "priceUnidad": 9490.0,
     "priceCantidad": 0,
@@ -200,7 +211,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 19,
+    "id": 20,
     "name": "Membrillo Emeth 500g x12",
     "priceUnidad": 1690.0,
     "priceCantidad": 0,
@@ -211,7 +222,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 20,
+    "id": 21,
     "name": "Mermeladas Aisol 420gr",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -222,7 +233,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 21,
+    "id": 22,
     "name": "Miel Chica x24",
     "priceUnidad": 840.0,
     "priceCantidad": 20160.0,
@@ -233,24 +244,13 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 22,
+    "id": 23,
     "name": "Miel Grande x12",
     "priceUnidad": 1540.0,
     "priceCantidad": 18480.0,
     "priceOferta": null,
     "description": "Dulces",
     "image": "/img/Alimentos/dulces/mielMisioneraGrande.png",
-    "category": "Comestibles",
-    "stock": 10
-  },
-  {
-    "id": 23,
-    "name": "Caballa San Remo agua y aceite",
-    "priceUnidad": 3949.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Enlatados",
-    "image": "/img/Alimentos/Enlatados/caballaRemo2.png",
     "category": "Comestibles",
     "stock": 10
   },
@@ -311,23 +311,23 @@ export const products: Product[] = [
   },
   {
     "id": 29,
-    "name": "Sardina Sp",
-    "priceUnidad": 1949.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Enlatados",
-    "image": "/img/Alimentos/Enlatados/sardinaSp.png",
-    "category": "Comestibles",
-    "stock": 10
-  },
-  {
-    "id": 30,
     "name": "Tomate perita SP",
     "priceUnidad": 869.0,
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Enlatados",
     "image": "/img/Alimentos/Enlatados/tomateSp.png",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 30,
+    "name": "Salchichas Nutryte x35",
+    "priceUnidad": 1059.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "nan",
+    "image": "/img/Alimentos/embutidos/salchiNutry.png",
     "category": "Comestibles",
     "stock": 10
   },
@@ -509,17 +509,6 @@ export const products: Product[] = [
   },
   {
     "id": 47,
-    "name": "Bizcochuelos x750g Vainilla",
-    "priceUnidad": 5319.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Otros",
-    "image": "/img/Alimentos/otros/bizcoVai.png",
-    "category": "Comestibles",
-    "stock": 10
-  },
-  {
-    "id": 48,
     "name": "Budin Bon Mase glaseado x12",
     "priceUnidad": 1394.0,
     "priceCantidad": 16728.0,
@@ -530,7 +519,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 49,
+    "id": 48,
     "name": "Budines",
     "priceUnidad": 790.0,
     "priceCantidad": 0,
@@ -541,7 +530,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 50,
+    "id": 49,
     "name": "Aceite Gerasoles x4,5L x4un",
     "priceUnidad": 9990.0,
     "priceCantidad": 0,
@@ -552,30 +541,19 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 51,
-    "name": "Aceite Leira 900ml x15u",
-    "priceUnidad": 2349.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Otros",
-    "image": "/img/Alimentos/otros/aceiteLeira.png",
-    "category": "Comestibles",
-    "stock": 10
-  },
-  {
-    "id": 52,
-    "name": "Grasa porcina y vacuna x500g caja x24",
+    "id": 50,
+    "name": "Grasa vacuna x500g caja x24",
     "priceUnidad": 1890.0,
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "/img/Alimentos/otros/grasaNono.png",
+    "image": "/img/Alimentos/otros/grasaNonoVaca.png",
     "category": "Comestibles",
     "stock": 10
   },
   {
-    "id": 53,
-    "name": "Jardinera Elio 220gr",
+    "id": 51,
+    "name": "Jardinera Elio 240gr",
     "priceUnidad": 939.0,
     "priceCantidad": 0,
     "priceOferta": null,
@@ -585,7 +563,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 54,
+    "id": 52,
     "name": "Jardinera San Remo 300gr",
     "priceUnidad": 939.0,
     "priceCantidad": 0,
@@ -596,7 +574,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 55,
+    "id": 53,
     "name": "Mani Salado x1kg",
     "priceUnidad": 4990.0,
     "priceCantidad": 0,
@@ -607,18 +585,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 56,
-    "name": "Margarina x500g",
-    "priceUnidad": 2390.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Otros",
-    "image": "/img/Alimentos/otros/margaDualis.png",
-    "category": "Comestibles",
-    "stock": 10
-  },
-  {
-    "id": 57,
+    "id": 54,
     "name": "Esencia de Vainilla liquida 120cc x24",
     "priceUnidad": 869.0,
     "priceCantidad": 0,
@@ -629,7 +596,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 58,
+    "id": 55,
     "name": "Baño de reposteria 150g",
     "priceUnidad": 2290.0,
     "priceCantidad": 0,
@@ -640,7 +607,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 59,
+    "id": 56,
     "name": "Esencia de vainilla liquida dauby",
     "priceUnidad": 1090.0,
     "priceCantidad": 0,
@@ -651,7 +618,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 60,
+    "id": 57,
     "name": "Aceitunas 290g x12",
     "priceUnidad": 1390.0,
     "priceCantidad": 0,
@@ -662,7 +629,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 61,
+    "id": 58,
     "name": "Pepino Daserra brasilero",
     "priceUnidad": 4490.0,
     "priceCantidad": 0,
@@ -673,7 +640,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 62,
+    "id": 59,
     "name": "Pure de tomates 18x205g huerta pulpa",
     "priceUnidad": 319.0,
     "priceCantidad": 5742.0,
@@ -684,7 +651,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 63,
+    "id": 60,
     "name": "Tomate Tritu Gallardo x8",
     "priceUnidad": 0,
     "priceCantidad": 11582.0,
@@ -695,7 +662,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 64,
+    "id": 61,
     "name": "Alimento Zimpi 15kg",
     "priceUnidad": 0,
     "priceCantidad": 13490.0,
@@ -706,7 +673,29 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 65,
+    "id": 62,
+    "name": "Alimento Gato x9 1kg",
+    "priceUnidad": 4190.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Secos",
+    "image": "/img/Alimentos/secos/alimentoGato.png",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 63,
+    "name": "Alimento Gato x9 500gr",
+    "priceUnidad": 1990.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "nan",
+    "image": "nan",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 64,
     "name": "Almidón x10",
     "priceUnidad": 1890.0,
     "priceCantidad": 0,
@@ -717,7 +706,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 66,
+    "id": 65,
     "name": "Arroz del Amigo 5kg",
     "priceUnidad": 2390.0,
     "priceCantidad": 0,
@@ -728,7 +717,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 67,
+    "id": 66,
     "name": "Arroz Riso Blanco 5/0 10x1kg",
     "priceUnidad": 975.0,
     "priceCantidad": 9750.0,
@@ -739,7 +728,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 68,
+    "id": 67,
     "name": "Arroz amanda 10x1kg",
     "priceUnidad": 0,
     "priceCantidad": 15900.0,
@@ -750,7 +739,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 69,
+    "id": 68,
     "name": "Arroz San Javier 10x1kg",
     "priceUnidad": 1049.0,
     "priceCantidad": 10490.0,
@@ -761,7 +750,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 70,
+    "id": 69,
     "name": "Arroz San Javier 10x500",
     "priceUnidad": 559.0,
     "priceCantidad": 5590.0,
@@ -772,7 +761,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 71,
+    "id": 70,
     "name": "Arroz San Javier DC 10x1kg",
     "priceUnidad": 1349.0,
     "priceCantidad": 13490.0,
@@ -783,7 +772,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 72,
+    "id": 71,
     "name": "Arroz Dos Hermanos 10x500gr",
     "priceUnidad": 690.0,
     "priceCantidad": 6900.0,
@@ -794,7 +783,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 73,
+    "id": 72,
     "name": "Leche en Polvo cotapa",
     "priceUnidad": 5290.0,
     "priceCantidad": 0,
@@ -805,7 +794,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 74,
+    "id": 73,
     "name": "Pure de papas instantaneo x100gr",
     "priceUnidad": 1349.0,
     "priceCantidad": 0,
@@ -816,10 +805,10 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 75,
+    "id": 74,
     "name": "Azucar de kilo x10",
     "priceUnidad": 0,
-    "priceCantidad": 9490.0,
+    "priceCantidad": 9690.0,
     "priceOferta": null,
     "description": "Secos",
     "image": "/img/Alimentos/secos/azucarCampe.png",
@@ -827,18 +816,18 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 76,
-    "name": "Bicarbonato x25g dos anclas x30",
-    "priceUnidad": 469.0,
+    "id": 75,
+    "name": "Bizcochuelo Barbara Chocolate x10",
+    "priceUnidad": 1890.0,
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/bicarb2.png",
+    "image": "/img/Alimentos/secos/bizcoBarbCho.png",
     "category": "Comestibles",
     "stock": 10
   },
   {
-    "id": 77,
+    "id": 76,
     "name": "Bizcochuelo Barbara Sabores x10",
     "priceUnidad": 1590.0,
     "priceCantidad": 0,
@@ -849,7 +838,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 78,
+    "id": 77,
     "name": "Caldo maggi gallina x24",
     "priceUnidad": 7900.0,
     "priceCantidad": 0,
@@ -860,7 +849,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 79,
+    "id": 78,
     "name": "Caldo gallina Maggi x6",
     "priceUnidad": 950.0,
     "priceCantidad": 0,
@@ -871,7 +860,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 80,
+    "id": 79,
     "name": "Cafe Pocillo",
     "priceUnidad": 1590.0,
     "priceCantidad": 0,
@@ -882,7 +871,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 81,
+    "id": 80,
     "name": "Cereal azucarados Exclusivo 150gr",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -893,7 +882,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 82,
+    "id": 81,
     "name": "Cereal sin azucar Exclusivo 150gr",
     "priceUnidad": 909.0,
     "priceCantidad": 0,
@@ -904,7 +893,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 83,
+    "id": 82,
     "name": "Te Boldo Nory X6",
     "priceUnidad": 1949.0,
     "priceCantidad": 11694.0,
@@ -915,7 +904,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 84,
+    "id": 83,
     "name": "Te Manzanilla Morenita x6",
     "priceUnidad": 1149.0,
     "priceCantidad": 0,
@@ -926,7 +915,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 85,
+    "id": 84,
     "name": "Mate cocido Hoja x20",
     "priceUnidad": 890.0,
     "priceCantidad": 0,
@@ -937,7 +926,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 86,
+    "id": 85,
     "name": "Mate Cocido Nory X12",
     "priceUnidad": 890.0,
     "priceCantidad": 10680.0,
@@ -948,7 +937,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 87,
+    "id": 86,
     "name": "Granas de colores",
     "priceUnidad": 490.0,
     "priceCantidad": 0,
@@ -959,7 +948,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 88,
+    "id": 87,
     "name": "Chantilly saborizados dauby",
     "priceUnidad": 2450.0,
     "priceCantidad": 0,
@@ -970,7 +959,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 89,
+    "id": 88,
     "name": "Postre",
     "priceUnidad": 1249.0,
     "priceCantidad": 0,
@@ -981,7 +970,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 90,
+    "id": 89,
     "name": "Flan x120g",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -992,7 +981,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 91,
+    "id": 90,
     "name": "Helado x100g",
     "priceUnidad": 1990.0,
     "priceCantidad": 0,
@@ -1003,7 +992,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 92,
+    "id": 91,
     "name": "Crema pastelera",
     "priceUnidad": 1290.0,
     "priceCantidad": 0,
@@ -1014,7 +1003,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 93,
+    "id": 92,
     "name": "Salsa blanca dos anclas x40g",
     "priceUnidad": 790.0,
     "priceCantidad": 0,
@@ -1025,13 +1014,24 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 94,
+    "id": 93,
     "name": "Canela Molida 30g",
     "priceUnidad": 1290.0,
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
     "image": "/img/Alimentos/secos/canela2.png",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 94,
+    "name": "Provenzal 50gr Dos Anclas",
+    "priceUnidad": 1420.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Secos",
+    "image": "/img/Alimentos/secos/proven2.png",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1048,12 +1048,12 @@ export const products: Product[] = [
   },
   {
     "id": 96,
-    "name": "Chimichurri Dauby",
-    "priceUnidad": 699.0,
+    "name": "Chimichurri Dos Anclas 20gr",
+    "priceUnidad": 790.0,
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Secos",
-    "image": "/img/Alimentos/secos/chimi.png",
+    "image": "/img/Alimentos/secos/chimi2.png",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1081,6 +1081,17 @@ export const products: Product[] = [
   },
   {
     "id": 99,
+    "name": "Condimento para pizza Dos anclas 25gr",
+    "priceUnidad": 890.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Secos",
+    "image": "/img/Alimentos/secos/adobo2.png",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 100,
     "name": "Crema Chantilly Polvo x12 Dos Anclas",
     "priceUnidad": 1590.0,
     "priceCantidad": 0,
@@ -1091,7 +1102,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 100,
+    "id": 101,
     "name": "Fideo al huevo Tagliatelle N2/N3 x10",
     "priceUnidad": 1290.0,
     "priceCantidad": 12900.0,
@@ -1102,7 +1113,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 101,
+    "id": 102,
     "name": "Fideo brasilero gallina",
     "priceUnidad": 550.0,
     "priceCantidad": 0,
@@ -1113,7 +1124,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 102,
+    "id": 103,
     "name": "Fideos x500g surtidos x15",
     "priceUnidad": 662.0,
     "priceCantidad": 0,
@@ -1124,7 +1135,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 103,
+    "id": 104,
     "name": "Fideo Tio Nico Económico x5kg",
     "priceUnidad": 6900.0,
     "priceCantidad": 0,
@@ -1135,7 +1146,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 104,
+    "id": 105,
     "name": "Fideo Tio Nico x5kg spaghetti",
     "priceUnidad": 8490.0,
     "priceCantidad": 0,
@@ -1146,7 +1157,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 105,
+    "id": 106,
     "name": "Fideo Tio Nico guiseros x5kg",
     "priceUnidad": 6849.0,
     "priceCantidad": 0,
@@ -1157,7 +1168,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 106,
+    "id": 107,
     "name": "Fideo Tio Nico guiseros 12x500g",
     "priceUnidad": 729.0,
     "priceCantidad": 8748.0,
@@ -1168,7 +1179,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 107,
+    "id": 108,
     "name": "Fideo Tio Nico spaghetti con espinaca x12",
     "priceUnidad": 1049.0,
     "priceCantidad": 12588.0,
@@ -1179,7 +1190,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 108,
+    "id": 109,
     "name": "Fideo Tio Nico tallarin y Spaghetti x12",
     "priceUnidad": 729.0,
     "priceCantidad": 8748.0,
@@ -1190,7 +1201,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 109,
+    "id": 110,
     "name": "Fideo Nido con espinaca x12",
     "priceUnidad": 1190.0,
     "priceCantidad": 0,
@@ -1201,24 +1212,13 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 110,
+    "id": 111,
     "name": "Fideo Nido spaghetti y cinta x500g",
     "priceUnidad": 990.0,
     "priceCantidad": 11880.0,
     "priceOferta": 900.0,
     "description": "Secos",
     "image": "/img/Alimentos/secos/fideoNidoNico.png",
-    "category": "Comestibles",
-    "stock": 10
-  },
-  {
-    "id": 111,
-    "name": "Flan Noel X8",
-    "priceUnidad": 569.0,
-    "priceCantidad": 4552.0,
-    "priceOferta": null,
-    "description": "Secos",
-    "image": "/img/Alimentos/otros/flanNoel.png",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1290,17 +1290,6 @@ export const products: Product[] = [
   },
   {
     "id": 118,
-    "name": "Harina Ramirez 3/0 5kg",
-    "priceUnidad": 3849.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Secos",
-    "image": "/img/Alimentos/secos/harinaRamirez000.png",
-    "category": "Comestibles",
-    "stock": 10
-  },
-  {
-    "id": 119,
     "name": "Lenteja 20x400g",
     "priceUnidad": 1249.0,
     "priceCantidad": 24980.0,
@@ -1311,18 +1300,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 120,
-    "name": "Levadura x125g good instant",
-    "priceUnidad": 2990.0,
-    "priceCantidad": 35880.0,
-    "priceOferta": null,
-    "description": "Secos",
-    "image": "/img/Alimentos/secos/levaduraGood.png",
-    "category": "Comestibles",
-    "stock": 10
-  },
-  {
-    "id": 121,
+    "id": 119,
     "name": "Maiz Pisingallo 10x500 sustento",
     "priceUnidad": 790.0,
     "priceCantidad": 15800.0,
@@ -1333,7 +1311,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 122,
+    "id": 120,
     "name": "Maizena Catini x20",
     "priceUnidad": 719.0,
     "priceCantidad": 14380.0,
@@ -1344,7 +1322,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 123,
+    "id": 121,
     "name": "Locro x1kg Catini x10",
     "priceUnidad": 1149.0,
     "priceCantidad": 11490.0,
@@ -1355,7 +1333,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 124,
+    "id": 122,
     "name": "Poroto Mulato 10x400g",
     "priceUnidad": 990.0,
     "priceCantidad": 9900.0,
@@ -1366,18 +1344,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 125,
-    "name": "Poroto Sustento 1Kg",
-    "priceUnidad": 2790.0,
-    "priceCantidad": 27900.0,
-    "priceOferta": null,
-    "description": "Secos",
-    "image": "/img/Alimentos/secos/porotoSustento.png",
-    "category": "Comestibles",
-    "stock": 10
-  },
-  {
-    "id": 126,
+    "id": 123,
     "name": "Sal Entref. Colosal x10",
     "priceUnidad": 1090.0,
     "priceCantidad": 10900.0,
@@ -1388,7 +1355,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 127,
+    "id": 124,
     "name": "Sal Fina Colosal x20",
     "priceUnidad": 595.0,
     "priceCantidad": 11900.0,
@@ -1399,7 +1366,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 128,
+    "id": 125,
     "name": "Sal Isabela condimentada x20",
     "priceUnidad": 675.0,
     "priceCantidad": 0,
@@ -1410,7 +1377,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 129,
+    "id": 126,
     "name": "Sal Isabela fina x20",
     "priceUnidad": 0,
     "priceCantidad": 6490.0,
@@ -1421,7 +1388,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 130,
+    "id": 127,
     "name": "Yerba Bosco 10x500g",
     "priceUnidad": 1299.0,
     "priceCantidad": 12990.0,
@@ -1432,7 +1399,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 131,
+    "id": 128,
     "name": "Yerba Bosco 10x1kg",
     "priceUnidad": 2590.0,
     "priceCantidad": 25900.0,
@@ -1443,7 +1410,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 132,
+    "id": 129,
     "name": "Yerba Mate Rojo 10x500g",
     "priceUnidad": 1149.0,
     "priceCantidad": 11490.0,
@@ -1454,7 +1421,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 133,
+    "id": 130,
     "name": "Yerba Mate Rojo x5un. 1kg",
     "priceUnidad": 2249.0,
     "priceCantidad": 0,
@@ -1465,7 +1432,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 134,
+    "id": 131,
     "name": "Yerba Mate Rojo x4un 2kg",
     "priceUnidad": 4179.0,
     "priceCantidad": 16716.0,
@@ -1476,7 +1443,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 135,
+    "id": 132,
     "name": "Yerba Primicia 10x500g",
     "priceUnidad": 1349.0,
     "priceCantidad": 13490.0,
@@ -1487,7 +1454,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 136,
+    "id": 133,
     "name": "Yerba Primicia 8x1kg",
     "priceUnidad": 2590.0,
     "priceCantidad": 20720.0,
@@ -1498,7 +1465,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 137,
+    "id": 134,
     "name": "Yerba Romance 10x500 tradicional",
     "priceUnidad": 1590.0,
     "priceCantidad": 15900.0,
@@ -1509,7 +1476,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 138,
+    "id": 135,
     "name": "Yerba Romance 10x1kg tradicional",
     "priceUnidad": 2980.0,
     "priceCantidad": 29800.0,
@@ -1520,7 +1487,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 139,
+    "id": 136,
     "name": "Yerba Romance suave 10x500g",
     "priceUnidad": 1749.0,
     "priceCantidad": 17490.0,
@@ -1531,7 +1498,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 140,
+    "id": 137,
     "name": "Yerba Romance suave 10x1kg",
     "priceUnidad": 3298.0,
     "priceCantidad": 32980.0,
@@ -1542,7 +1509,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 141,
+    "id": 138,
     "name": "Alfajor Suschen 3 blanco/negro x24",
     "priceUnidad": 6490.0,
     "priceCantidad": 0,
@@ -1553,7 +1520,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 142,
+    "id": 139,
     "name": "Bombones Oblibon",
     "priceUnidad": 6490.0,
     "priceCantidad": 0,
@@ -1564,7 +1531,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 143,
+    "id": 140,
     "name": "Caramelos duros marengo acido",
     "priceUnidad": 0,
     "priceCantidad": 3590.0,
@@ -1575,7 +1542,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 144,
+    "id": 141,
     "name": "Caramelos Surtidos Marengo",
     "priceUnidad": 0,
     "priceCantidad": 3590.0,
@@ -1586,7 +1553,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 145,
+    "id": 142,
     "name": "Caramelos Frutas Marengo",
     "priceUnidad": 0,
     "priceCantidad": 3590.0,
@@ -1597,7 +1564,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 146,
+    "id": 143,
     "name": "Caramelo misky toffees x118un",
     "priceUnidad": 0,
     "priceCantidad": 7990.0,
@@ -1608,7 +1575,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 147,
+    "id": 144,
     "name": "Caramelo masticable Taponazo",
     "priceUnidad": 1790.0,
     "priceCantidad": 0,
@@ -1619,7 +1586,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 148,
+    "id": 145,
     "name": "Masticable en Pote Pico Dulce",
     "priceUnidad": 3390.0,
     "priceCantidad": 0,
@@ -1630,7 +1597,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 149,
+    "id": 146,
     "name": "Chicle Fierita",
     "priceUnidad": 2990.0,
     "priceCantidad": 0,
@@ -1641,7 +1608,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 150,
+    "id": 147,
     "name": "Chocolate Hamlet way",
     "priceUnidad": 0,
     "priceCantidad": 9090.0,
@@ -1652,7 +1619,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 151,
+    "id": 148,
     "name": "Chupaleta Marengo x24",
     "priceUnidad": 0,
     "priceCantidad": 2790.0,
@@ -1663,7 +1630,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 152,
+    "id": 149,
     "name": "Chupetin Bola Loca",
     "priceUnidad": 3290.0,
     "priceCantidad": 0,
@@ -1674,7 +1641,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 153,
+    "id": 150,
     "name": "Chupetin Pepa Pig 14unid",
     "priceUnidad": 1849.0,
     "priceCantidad": 0,
@@ -1685,7 +1652,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 154,
+    "id": 151,
     "name": "Heladito mil colores 25unid",
     "priceUnidad": 1649.0,
     "priceCantidad": 0,
@@ -1696,7 +1663,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 155,
+    "id": 152,
     "name": "Paleta Multicolor Chica 25unid",
     "priceUnidad": 2890.0,
     "priceCantidad": 0,
@@ -1707,7 +1674,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 156,
+    "id": 153,
     "name": "Paleta Multicolor Grande 10unid",
     "priceUnidad": 2890.0,
     "priceCantidad": 0,
@@ -1718,7 +1685,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 157,
+    "id": 154,
     "name": "Super Pico 14umid",
     "priceUnidad": 1890.0,
     "priceCantidad": 0,
@@ -1729,7 +1696,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 158,
+    "id": 155,
     "name": "Chupete Cristal 25unid",
     "priceUnidad": 2890.0,
     "priceCantidad": 0,
@@ -1740,7 +1707,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 159,
+    "id": 156,
     "name": "Melon Carioca 25unid",
     "priceUnidad": 2590.0,
     "priceCantidad": 0,
@@ -1751,7 +1718,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 160,
+    "id": 157,
     "name": "Paleta Artesanal Nro 1 x12unid",
     "priceUnidad": 2490.0,
     "priceCantidad": 0,
@@ -1762,18 +1729,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 161,
-    "name": "Corazon Artesanal Nro1 x12",
-    "priceUnidad": 2490.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/cora.png",
-    "category": "Comestibles",
-    "stock": 10
-  },
-  {
-    "id": 162,
+    "id": 158,
     "name": "Melon con Ojo 20unid",
     "priceUnidad": 3190.0,
     "priceCantidad": 0,
@@ -1784,7 +1740,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 163,
+    "id": 159,
     "name": "Super Pirulin 30unid",
     "priceUnidad": 2390.0,
     "priceCantidad": 0,
@@ -1795,7 +1751,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 164,
+    "id": 160,
     "name": "Chupetin Cosmos 40unid",
     "priceUnidad": 3390.0,
     "priceCantidad": 0,
@@ -1806,7 +1762,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 165,
+    "id": 161,
     "name": "Garrapiñada Mielcita 80gr x15",
     "priceUnidad": 590.0,
     "priceCantidad": 0,
@@ -1817,7 +1773,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 166,
+    "id": 162,
     "name": "Turron de mani navideño Namur",
     "priceUnidad": 890.0,
     "priceCantidad": 0,
@@ -1828,7 +1784,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 167,
+    "id": 163,
     "name": "Pé de moleque",
     "priceUnidad": 2390.0,
     "priceCantidad": 0,
@@ -1839,7 +1795,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 168,
+    "id": 164,
     "name": "Gomitas Tubo Fierita 30u",
     "priceUnidad": 6990.0,
     "priceCantidad": 0,
@@ -1850,7 +1806,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 169,
+    "id": 165,
     "name": "Juguito para congelar",
     "priceUnidad": 4390.0,
     "priceCantidad": 0,
@@ -1861,7 +1817,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 170,
+    "id": 166,
     "name": "Heladito Seco x50",
     "priceUnidad": 0,
     "priceCantidad": 20900.0,
@@ -1872,7 +1828,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 171,
+    "id": 167,
     "name": "Mentitas",
     "priceUnidad": 4290.0,
     "priceCantidad": 0,
@@ -1883,7 +1839,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 172,
+    "id": 168,
     "name": "Merengues x50",
     "priceUnidad": 20900.0,
     "priceCantidad": 0,
@@ -1894,7 +1850,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 173,
+    "id": 169,
     "name": "Chizitos 1kg Rusitos",
     "priceUnidad": 4490.0,
     "priceCantidad": 0,
@@ -1905,7 +1861,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 174,
+    "id": 170,
     "name": "Chizitos 1Kg Alemanitos",
     "priceUnidad": 3449.0,
     "priceCantidad": 0,
@@ -1916,7 +1872,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 175,
+    "id": 171,
     "name": "Conitos De Queso 45g Rusitos",
     "priceUnidad": 795.0,
     "priceCantidad": 0,
@@ -1927,7 +1883,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 176,
+    "id": 172,
     "name": "Palitos Salados Rusitos",
     "priceUnidad": 749.0,
     "priceCantidad": 0,
@@ -1938,7 +1894,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 177,
+    "id": 173,
     "name": "Papas Fritas 70g x12",
     "priceUnidad": 899.0,
     "priceCantidad": 0,
@@ -1949,7 +1905,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 178,
+    "id": 174,
     "name": "Tutuca Rusitos 1Kg",
     "priceUnidad": 4490.0,
     "priceCantidad": 0,
@@ -1960,7 +1916,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 179,
+    "id": 175,
     "name": "Sagu Saborizado",
     "priceUnidad": 2190.0,
     "priceCantidad": 0,
@@ -1971,7 +1927,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 180,
+    "id": 176,
     "name": "Surtido Especial",
     "priceUnidad": 5090.0,
     "priceCantidad": 0,
@@ -1982,18 +1938,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 181,
-    "name": "Pastillas Alka Negro",
-    "priceUnidad": 0,
-    "priceCantidad": 2900.0,
-    "priceOferta": null,
-    "description": "Golosinas",
-    "image": "/img/Alimentos/Golosinas/pastillaAlka.png",
-    "category": "Comestibles",
-    "stock": 10
-  },
-  {
-    "id": 182,
+    "id": 177,
     "name": "Tic Tac x12",
     "priceUnidad": 0,
     "priceCantidad": 8690.0,
@@ -2004,7 +1949,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 183,
+    "id": 178,
     "name": "Mortadela 254 x3kg",
     "priceUnidad": 5490.0,
     "priceCantidad": 0,
@@ -2015,7 +1960,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 184,
+    "id": 179,
     "name": "Mortadela Minu brasilera x3kg",
     "priceUnidad": 3900.0,
     "priceCantidad": 11700.0,
@@ -2026,7 +1971,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 185,
+    "id": 180,
     "name": "Queso cremoso Lecherita",
     "priceUnidad": 6990.0,
     "priceCantidad": 0,
@@ -2037,7 +1982,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 186,
+    "id": 181,
     "name": "Queso en barra",
     "priceUnidad": 9390.0,
     "priceCantidad": 0,
@@ -2048,7 +1993,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 187,
+    "id": 182,
     "name": "Queso rallado San Francisco x20",
     "priceUnidad": 849.0,
     "priceCantidad": 16980.0,
@@ -2059,7 +2004,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 188,
+    "id": 183,
     "name": "Salame Milan 3kg",
     "priceUnidad": 6900.0,
     "priceCantidad": 20700.0,
@@ -2070,18 +2015,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 189,
-    "name": "Salchichas granalier x20",
-    "priceUnidad": 969.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Frescos",
-    "image": "/img/Alimentos/embutidos/salchiGrana.png",
-    "category": "Comestibles",
-    "stock": 10
-  },
-  {
-    "id": 190,
+    "id": 184,
     "name": "Salchichon c/jamon/primavera 3kg",
     "priceUnidad": 5490.0,
     "priceCantidad": 16470.0,
@@ -2092,7 +2026,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 191,
+    "id": 185,
     "name": "Agua 6.5L",
     "priceUnidad": 1890.0,
     "priceCantidad": 0,
@@ -2103,7 +2037,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 192,
+    "id": 186,
     "name": "Agua 12x500ml",
     "priceUnidad": 0,
     "priceCantidad": 6290.0,
@@ -2114,7 +2048,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 193,
+    "id": 187,
     "name": "Agua Gourmet con gas/sin gas x12",
     "priceUnidad": 0,
     "priceCantidad": 16490.0,
@@ -2125,7 +2059,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 194,
+    "id": 188,
     "name": "Caña 12x200ml Blanca/Color",
     "priceUnidad": 0,
     "priceCantidad": 9990.0,
@@ -2136,7 +2070,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 195,
+    "id": 189,
     "name": "Caña Fortin x24",
     "priceUnidad": 859.0,
     "priceCantidad": 0,
@@ -2147,7 +2081,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 196,
+    "id": 190,
     "name": "Caña Rosinha brasilera x6",
     "priceUnidad": 2490.0,
     "priceCantidad": 14940.0,
@@ -2158,7 +2092,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 197,
+    "id": 191,
     "name": "Caña 500ml x10 color",
     "priceUnidad": 1390.0,
     "priceCantidad": 13900.0,
@@ -2169,7 +2103,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 198,
+    "id": 192,
     "name": "Caña x1L x6 color",
     "priceUnidad": 0,
     "priceCantidad": 14090.0,
@@ -2180,7 +2114,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 199,
+    "id": 193,
     "name": "Cerveza Isenbeck x12",
     "priceUnidad": 0,
     "priceCantidad": 14990.0,
@@ -2191,7 +2125,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 200,
+    "id": 194,
     "name": "Cerveza Malta 12u",
     "priceUnidad": 0,
     "priceCantidad": 19900.0,
@@ -2202,7 +2136,18 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 201,
+    "id": 195,
+    "name": "Chocolatada 7 dias 18x200ml",
+    "priceUnidad": 649.0,
+    "priceCantidad": 11682.0,
+    "priceOferta": null,
+    "description": "Bebidas",
+    "image": "/img/Bebidas/choco7.png",
+    "category": "Bebidas",
+    "stock": 10
+  },
+  {
+    "id": 196,
     "name": "Coctel brasilero x6",
     "priceUnidad": 3690.0,
     "priceCantidad": 22140.0,
@@ -2213,7 +2158,18 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 202,
+    "id": 197,
+    "name": "Fernet Branca clasico 450ml x12",
+    "priceUnidad": 10650.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Bebidas",
+    "image": "/img/Bebidas/branca450.png",
+    "category": "Bebidas",
+    "stock": 10
+  },
+  {
+    "id": 198,
     "name": "Fernet Branca Menta 450ml x12",
     "priceUnidad": 9500.0,
     "priceCantidad": 0,
@@ -2224,7 +2180,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 203,
+    "id": 199,
     "name": "Fernet Capri x12",
     "priceUnidad": 3490.0,
     "priceCantidad": 41880.0,
@@ -2235,7 +2191,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 204,
+    "id": 200,
     "name": "Frizze Blue x6",
     "priceUnidad": 0,
     "priceCantidad": 14900.0,
@@ -2246,7 +2202,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 205,
+    "id": 201,
     "name": "Gaseosa Cimes",
     "priceUnidad": 0,
     "priceCantidad": 8340.0,
@@ -2257,7 +2213,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 206,
+    "id": 202,
     "name": "Coca cola lata x12",
     "priceUnidad": 15890.0,
     "priceCantidad": 0,
@@ -2268,7 +2224,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 207,
+    "id": 203,
     "name": "Jugo Baggio 1L x8",
     "priceUnidad": 1619.0,
     "priceCantidad": 12952.0,
@@ -2279,18 +2235,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 208,
-    "name": "Jugo Baggio 200ml x18",
-    "priceUnidad": 469.0,
-    "priceCantidad": 8442.0,
-    "priceOferta": null,
-    "description": "Bebidas",
-    "image": "/img/Bebidas/baggio200.png",
-    "category": "Bebidas",
-    "stock": 10
-  },
-  {
-    "id": 209,
+    "id": 204,
     "name": "Agua saborizada Brio x6",
     "priceUnidad": 0,
     "priceCantidad": 4990.0,
@@ -2301,7 +2246,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 210,
+    "id": 205,
     "name": "Jugo Tutti 200ml x18",
     "priceUnidad": 0,
     "priceCantidad": 6462.0,
@@ -2312,7 +2257,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 211,
+    "id": 206,
     "name": "Jugo Gatorade x500ml x6",
     "priceUnidad": 1690.0,
     "priceCantidad": 0,
@@ -2323,7 +2268,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 212,
+    "id": 207,
     "name": "Jugo Tutti sports 750cc x6",
     "priceUnidad": 1390.0,
     "priceCantidad": 8340.0,
@@ -2334,7 +2279,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 213,
+    "id": 208,
     "name": "Jugo Suerox x6",
     "priceUnidad": 1390.0,
     "priceCantidad": 8340.0,
@@ -2345,7 +2290,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 214,
+    "id": 209,
     "name": "Jugo BC 18u",
     "priceUnidad": 0,
     "priceCantidad": 4590.0,
@@ -2356,7 +2301,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 215,
+    "id": 210,
     "name": "Jugo Arcor 18u",
     "priceUnidad": 0,
     "priceCantidad": 4590.0,
@@ -2367,7 +2312,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 216,
+    "id": 211,
     "name": "Jugo Inca 18u",
     "priceUnidad": 0,
     "priceCantidad": 3890.0,
@@ -2378,7 +2323,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 217,
+    "id": 212,
     "name": "Leche ilolay x12",
     "priceUnidad": 0,
     "priceCantidad": 17900.0,
@@ -2389,7 +2334,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 218,
+    "id": 213,
     "name": "Leche liquida x12 Cotapa",
     "priceUnidad": 0,
     "priceCantidad": 15900.0,
@@ -2400,7 +2345,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 219,
+    "id": 214,
     "name": "Batidos Tropic Club x6",
     "priceUnidad": 3990.0,
     "priceCantidad": 23940.0,
@@ -2411,7 +2356,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 220,
+    "id": 215,
     "name": "Licor Borsa x6",
     "priceUnidad": 3690.0,
     "priceCantidad": 22140.0,
@@ -2422,7 +2367,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 221,
+    "id": 216,
     "name": "Petaca W x24",
     "priceUnidad": 1749.0,
     "priceCantidad": 41976.0,
@@ -2433,7 +2378,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 222,
+    "id": 217,
     "name": "Petacas Borsa x20",
     "priceUnidad": 949.0,
     "priceCantidad": 18980.0,
@@ -2444,7 +2389,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 223,
+    "id": 218,
     "name": "Rockstar x6",
     "priceUnidad": 1665.0,
     "priceCantidad": 9990.0,
@@ -2455,7 +2400,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 224,
+    "id": 219,
     "name": "Speed chico x24",
     "priceUnidad": 1490.0,
     "priceCantidad": 35760.0,
@@ -2466,7 +2411,18 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 225,
+    "id": 220,
+    "name": "Speed Grande x12",
+    "priceUnidad": 2349.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Bebidas",
+    "image": "/img/Bebidas/speedGrande.png",
+    "category": "Bebidas",
+    "stock": 10
+  },
+  {
+    "id": 221,
     "name": "Vino 4 monos locos caja 4u",
     "priceUnidad": 0,
     "priceCantidad": 12760.0,
@@ -2477,18 +2433,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 226,
-    "name": "Vino Alvear 6u",
-    "priceUnidad": 0,
-    "priceCantidad": 15900.0,
-    "priceOferta": null,
-    "description": "Bebidas",
-    "image": "/img/Bebidas/vinoAlvear.png",
-    "category": "Bebidas",
-    "stock": 10
-  },
-  {
-    "id": 227,
+    "id": 222,
     "name": "Vino Alvear 6u 750cc",
     "priceUnidad": 0,
     "priceCantidad": 13590.0,
@@ -2499,7 +2444,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 228,
+    "id": 223,
     "name": "Vino Balbo 6u",
     "priceUnidad": 0,
     "priceCantidad": 15990.0,
@@ -2510,7 +2455,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 229,
+    "id": 224,
     "name": "Vino Cabarceno 6u",
     "priceUnidad": 0,
     "priceCantidad": 14900.0,
@@ -2521,18 +2466,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 230,
-    "name": "Vino California 6u",
-    "priceUnidad": 0,
-    "priceCantidad": 13490.0,
-    "priceOferta": null,
-    "description": "Bebidas",
-    "image": "/img/Bebidas/vinoCalifornia.png",
-    "category": "Bebidas",
-    "stock": 10
-  },
-  {
-    "id": 231,
+    "id": 225,
     "name": "Vino Colon Dulce x6",
     "priceUnidad": 0,
     "priceCantidad": 26700.0,
@@ -2543,7 +2477,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 232,
+    "id": 226,
     "name": "Vino Encepado 6u",
     "priceUnidad": 0,
     "priceCantidad": 11900.0,
@@ -2554,7 +2488,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 233,
+    "id": 227,
     "name": "Vino Lobo Negro Malbec y Caber",
     "priceUnidad": 0,
     "priceCantidad": 18490.0,
@@ -2565,7 +2499,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 234,
+    "id": 228,
     "name": "Vino muñeco rebelde malbec",
     "priceUnidad": 0,
     "priceCantidad": 18290.0,
@@ -2576,7 +2510,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 235,
+    "id": 229,
     "name": "Vino Nampe Blanco 6u",
     "priceUnidad": 0,
     "priceCantidad": 21590.0,
@@ -2587,7 +2521,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 236,
+    "id": 230,
     "name": "Vino Obejablack 6u",
     "priceUnidad": 0,
     "priceCantidad": 17900.0,
@@ -2598,7 +2532,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 237,
+    "id": 231,
     "name": "Vino Profugo Especias x6",
     "priceUnidad": 0,
     "priceCantidad": 17900.0,
@@ -2609,7 +2543,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 238,
+    "id": 232,
     "name": "Vino Pico de Oro x12 tinto",
     "priceUnidad": 0,
     "priceCantidad": 15900.0,
@@ -2620,7 +2554,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 239,
+    "id": 233,
     "name": "Vino Quebrada 6u blanco y tinto",
     "priceUnidad": 0,
     "priceCantidad": 14900.0,
@@ -2631,7 +2565,18 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 240,
+    "id": 234,
+    "name": "Vino Uvita Tinto x12",
+    "priceUnidad": 0,
+    "priceCantidad": 19800.0,
+    "priceOferta": null,
+    "description": "Bebidas",
+    "image": "/img/Bebidas/uvitaTintoCom.png",
+    "category": "Bebidas",
+    "stock": 10
+  },
+  {
+    "id": 235,
     "name": "Vino Uvita Rosado x12",
     "priceUnidad": 0,
     "priceCantidad": 17900.0,
@@ -2642,7 +2587,18 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 241,
+    "id": 236,
+    "name": "Vino Uvita Blanco x12",
+    "priceUnidad": 0,
+    "priceCantidad": 17490.0,
+    "priceOferta": null,
+    "description": "Bebidas",
+    "image": "/img/Bebidas/uvitaBlanco.png",
+    "category": "Bebidas",
+    "stock": 10
+  },
+  {
+    "id": 237,
     "name": "Vino Uvita Botella 6u",
     "priceUnidad": 0,
     "priceCantidad": 14900.0,
@@ -2653,7 +2609,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 242,
+    "id": 238,
     "name": "Vodka Alaskasha x6",
     "priceUnidad": 3190.0,
     "priceCantidad": 19140.0,
@@ -2664,7 +2620,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 243,
+    "id": 239,
     "name": "Whisky W x1L",
     "priceUnidad": 5890.0,
     "priceCantidad": 0,
@@ -2675,7 +2631,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 244,
+    "id": 240,
     "name": "Alcohol Tudoc 20x250g",
     "priceUnidad": 690.0,
     "priceCantidad": 13800.0,
@@ -2686,7 +2642,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 245,
+    "id": 241,
     "name": "Alcohol VIlla Iris 500ml",
     "priceUnidad": 1420.0,
     "priceCantidad": 0,
@@ -2697,7 +2653,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 246,
+    "id": 242,
     "name": "Agua Oxigenada 100cc",
     "priceUnidad": 790.0,
     "priceCantidad": 0,
@@ -2708,7 +2664,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 247,
+    "id": 243,
     "name": "Bic 3 hojas x12",
     "priceUnidad": 1249.0,
     "priceCantidad": 14988.0,
@@ -2719,7 +2675,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 248,
+    "id": 244,
     "name": "Bic 1 hoja x24",
     "priceUnidad": 469.0,
     "priceCantidad": 11256.0,
@@ -2730,7 +2686,18 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 249,
+    "id": 245,
+    "name": "Geemillet 3hojas x24",
+    "priceUnidad": 0,
+    "priceCantidad": 16790.0,
+    "priceOferta": null,
+    "description": "Higiene",
+    "image": "/img/Higiene/geemillet.png",
+    "category": "Higiene",
+    "stock": 10
+  },
+  {
+    "id": 246,
     "name": "Prestobarba astra x24 2hojas",
     "priceUnidad": 0,
     "priceCantidad": 16776.0,
@@ -2741,7 +2708,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 250,
+    "id": 247,
     "name": "Xmart Rapi 2hojas x24",
     "priceUnidad": 399.0,
     "priceCantidad": 9576.0,
@@ -2752,9 +2719,9 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 251,
-    "name": "Tintura para el pelo 3-4-5-5,7-7,1-8,1",
-    "priceUnidad": 2190.0,
+    "id": 248,
+    "name": "Tintura para el pelo 1-3-4-5-5,7-6.5-7,1-8,1",
+    "priceUnidad": 2390.0,
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
@@ -2763,7 +2730,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 252,
+    "id": 249,
     "name": "Crema Hinds 125ml x12",
     "priceUnidad": 2490.0,
     "priceCantidad": 29880.0,
@@ -2774,7 +2741,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 253,
+    "id": 250,
     "name": "Curitas",
     "priceUnidad": 450.0,
     "priceCantidad": 0,
@@ -2785,7 +2752,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 254,
+    "id": 251,
     "name": "Enjuague Bucal 250ml",
     "priceUnidad": 2790.0,
     "priceCantidad": 0,
@@ -2796,7 +2763,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 255,
+    "id": 252,
     "name": "Enjuague Bucal 500ml",
     "priceUnidad": 3890.0,
     "priceCantidad": 0,
@@ -2807,7 +2774,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 256,
+    "id": 253,
     "name": "Esmalte Uñas",
     "priceUnidad": 1500.0,
     "priceCantidad": 0,
@@ -2818,7 +2785,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 257,
+    "id": 254,
     "name": "Gel para el cabello x150ml",
     "priceUnidad": 1890.0,
     "priceCantidad": 0,
@@ -2829,7 +2796,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 258,
+    "id": 255,
     "name": "Gomitas para el pelo",
     "priceUnidad": 0,
     "priceCantidad": 2590.0,
@@ -2840,7 +2807,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 259,
+    "id": 256,
     "name": "Jabon Signo x3",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -2851,7 +2818,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 260,
+    "id": 257,
     "name": "Jabon Tocador Kenia x3",
     "priceUnidad": 1449.0,
     "priceCantidad": 0,
@@ -2862,7 +2829,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 261,
+    "id": 258,
     "name": "Jabon Io x80g",
     "priceUnidad": 509.0,
     "priceCantidad": 0,
@@ -2873,7 +2840,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 262,
+    "id": 259,
     "name": "Jabón Liquido para manos Algabo repuesto",
     "priceUnidad": 1390.0,
     "priceCantidad": 0,
@@ -2884,7 +2851,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 263,
+    "id": 260,
     "name": "Dentrifico kolynos x70gr x12",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -2895,7 +2862,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 264,
+    "id": 261,
     "name": "Dentrifico Oral b x70g x12",
     "priceUnidad": 1390.0,
     "priceCantidad": 0,
@@ -2906,7 +2873,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 265,
+    "id": 262,
     "name": "Dentrifico Close Up x12",
     "priceUnidad": 1390.0,
     "priceCantidad": 0,
@@ -2917,7 +2884,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 266,
+    "id": 263,
     "name": "Manteca cacao x6",
     "priceUnidad": 0,
     "priceCantidad": 7140.0,
@@ -2928,7 +2895,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 267,
+    "id": 264,
     "name": "Oleo Calcareo",
     "priceUnidad": 4490.0,
     "priceCantidad": 0,
@@ -2939,7 +2906,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 268,
+    "id": 265,
     "name": "Pañal Babysec x8 G-M-XXG",
     "priceUnidad": 2449.0,
     "priceCantidad": 0,
@@ -2950,7 +2917,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 269,
+    "id": 266,
     "name": "Papel 12x100mts blanco",
     "priceUnidad": 0,
     "priceCantidad": 9490.0,
@@ -2961,7 +2928,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 270,
+    "id": 267,
     "name": "Papel 24x80m natural",
     "priceUnidad": 0,
     "priceCantidad": 10900.0,
@@ -2972,7 +2939,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 271,
+    "id": 268,
     "name": "Papel 24x80m danci",
     "priceUnidad": 639.0,
     "priceCantidad": 15336.0,
@@ -2983,18 +2950,18 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 272,
-    "name": "Papel New Pel 24x50m blanco",
-    "priceUnidad": 509.0,
-    "priceCantidad": 12216.0,
+    "id": 269,
+    "name": "Papel gamuza 12x4 blanco",
+    "priceUnidad": 1390.0,
+    "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "/img/Higiene/newpel.png",
+    "image": "/img/Higiene/gamuza4.png",
     "category": "Higiene",
     "stock": 10
   },
   {
-    "id": 273,
+    "id": 270,
     "name": "Papel gamuza 12x6 blanco",
     "priceUnidad": 1790.0,
     "priceCantidad": 21480.0,
@@ -3005,7 +2972,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 274,
+    "id": 271,
     "name": "Impulse aerosol mujer x12",
     "priceUnidad": 2190.0,
     "priceCantidad": 0,
@@ -3016,7 +2983,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 275,
+    "id": 272,
     "name": "Hisopos",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -3027,18 +2994,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 276,
-    "name": "Desodorante Nivea Mujer",
-    "priceUnidad": 2490.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Higiene",
-    "image": "/img/Higiene/niveaDry.png",
-    "category": "Higiene",
-    "stock": 10
-  },
-  {
-    "id": 277,
+    "id": 273,
     "name": "Polyana aerosol Hombre x12",
     "priceUnidad": 2590.0,
     "priceCantidad": 0,
@@ -3049,7 +3005,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 278,
+    "id": 274,
     "name": "Polyana aerosol Mujer x12",
     "priceUnidad": 2590.0,
     "priceCantidad": 0,
@@ -3060,7 +3016,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 279,
+    "id": 275,
     "name": "Rexona crema x12",
     "priceUnidad": 2149.0,
     "priceCantidad": 0,
@@ -3071,7 +3027,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 280,
+    "id": 276,
     "name": "Preservativo M",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -3082,7 +3038,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 281,
+    "id": 277,
     "name": "Quitaesmalte Chico",
     "priceUnidad": 1190.0,
     "priceCantidad": 0,
@@ -3093,7 +3049,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 282,
+    "id": 278,
     "name": "Quitaesmalte Grande",
     "priceUnidad": 1690.0,
     "priceCantidad": 0,
@@ -3104,7 +3060,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 283,
+    "id": 279,
     "name": "Repelente aerosol VN",
     "priceUnidad": 2900.0,
     "priceCantidad": 0,
@@ -3115,7 +3071,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 284,
+    "id": 280,
     "name": "Repelente Above 150ml",
     "priceUnidad": 4900.0,
     "priceCantidad": 0,
@@ -3126,7 +3082,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 285,
+    "id": 281,
     "name": "Repelente Puff",
     "priceUnidad": 1849.0,
     "priceCantidad": 0,
@@ -3137,7 +3093,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 286,
+    "id": 282,
     "name": "Shampoo/Acondicionador  Vo5 x12",
     "priceUnidad": 2990.0,
     "priceCantidad": 0,
@@ -3148,18 +3104,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 287,
-    "name": "Shampoo Pantene 200ml x12",
-    "priceUnidad": 2890.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Higiene",
-    "image": "/img/Higiene/shamPantene.png",
-    "category": "Higiene",
-    "stock": 10
-  },
-  {
-    "id": 288,
+    "id": 283,
     "name": "Talco corporal algabo rosa",
     "priceUnidad": 1890.0,
     "priceCantidad": 0,
@@ -3170,7 +3115,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 289,
+    "id": 284,
     "name": "Talco pie Algabo Mujer x12",
     "priceUnidad": 1390.0,
     "priceCantidad": 16680.0,
@@ -3181,7 +3126,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 290,
+    "id": 285,
     "name": "Talco Algabo pies x12",
     "priceUnidad": 1390.0,
     "priceCantidad": 16680.0,
@@ -3192,7 +3137,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 291,
+    "id": 286,
     "name": "Pañuelos Descart. Cata x6",
     "priceUnidad": 1390.0,
     "priceCantidad": 0,
@@ -3203,7 +3148,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 292,
+    "id": 287,
     "name": "Pañuelos Descart. Felpita",
     "priceUnidad": 1690.0,
     "priceCantidad": 0,
@@ -3214,7 +3159,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 293,
+    "id": 288,
     "name": "Protector Carefree 20u  x60",
     "priceUnidad": 1290.0,
     "priceCantidad": 77400.0,
@@ -3225,7 +3170,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 294,
+    "id": 289,
     "name": "Protector Carefree 60u  x30",
     "priceUnidad": 2690.0,
     "priceCantidad": 80700.0,
@@ -3236,7 +3181,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 295,
+    "id": 290,
     "name": "Toallitas Always 8u  x16",
     "priceUnidad": 790.0,
     "priceCantidad": 12640.0,
@@ -3247,7 +3192,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 296,
+    "id": 291,
     "name": "Toallitas She 8u",
     "priceUnidad": 599.0,
     "priceCantidad": 0,
@@ -3258,7 +3203,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 297,
+    "id": 292,
     "name": "Toallitas Calipso 16u  x25",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -3269,7 +3214,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 298,
+    "id": 293,
     "name": "Toallitas Doncella x16 bolson x25",
     "priceUnidad": 1449.0,
     "priceCantidad": 0,
@@ -3280,7 +3225,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 299,
+    "id": 294,
     "name": "Toallitas Nosotras 8u x30",
     "priceUnidad": 849.0,
     "priceCantidad": 25470.0,
@@ -3291,7 +3236,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 300,
+    "id": 295,
     "name": "Toallitas Siempre Libre 16u x24",
     "priceUnidad": 1649.0,
     "priceCantidad": 39576.0,
@@ -3302,7 +3247,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 301,
+    "id": 296,
     "name": "Toallitas Siempre Libre Adapt 8u x48",
     "priceUnidad": 849.0,
     "priceCantidad": 40752.0,
@@ -3313,7 +3258,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 302,
+    "id": 297,
     "name": "Toallitas Siempre Libre 32u  x12",
     "priceUnidad": 2990.0,
     "priceCantidad": 35880.0,
@@ -3324,7 +3269,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 303,
+    "id": 298,
     "name": "Toallitas Humedas bebes",
     "priceUnidad": 1390.0,
     "priceCantidad": 0,
@@ -3335,7 +3280,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 304,
+    "id": 299,
     "name": "Tratamiento Capilar Hadibell",
     "priceUnidad": 2949.0,
     "priceCantidad": 0,
@@ -3346,7 +3291,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 305,
+    "id": 300,
     "name": "Tratamiento capilar skala",
     "priceUnidad": 4490.0,
     "priceCantidad": 0,
@@ -3357,7 +3302,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 306,
+    "id": 301,
     "name": "Tratamiento para cabello 20g",
     "priceUnidad": 969.0,
     "priceCantidad": 0,
@@ -3368,7 +3313,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 307,
+    "id": 302,
     "name": "Cepillo Infantil x12",
     "priceUnidad": 679.0,
     "priceCantidad": 8148.0,
@@ -3379,7 +3324,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 308,
+    "id": 303,
     "name": "Adhesivo Pato",
     "priceUnidad": 2390.0,
     "priceCantidad": 0,
@@ -3390,7 +3335,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 309,
+    "id": 304,
     "name": "Antipolillas",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -3401,7 +3346,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 310,
+    "id": 305,
     "name": "Lavandina comun Fragante y Val x15",
     "priceUnidad": 729.0,
     "priceCantidad": 10935.0,
@@ -3412,7 +3357,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 311,
+    "id": 306,
     "name": "Ayudin Comun x15",
     "priceUnidad": 1090.0,
     "priceCantidad": 0,
@@ -3423,7 +3368,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 312,
+    "id": 307,
     "name": "Ayudin comun 2litros",
     "priceUnidad": 1790.0,
     "priceCantidad": 0,
@@ -3434,7 +3379,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 313,
+    "id": 308,
     "name": "Ayudin ropa blanca x15",
     "priceUnidad": 1890.0,
     "priceCantidad": 28350.0,
@@ -3445,7 +3390,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 314,
+    "id": 309,
     "name": "Bolsa Residuo 45x60 x30un",
     "priceUnidad": 1390.0,
     "priceCantidad": 0,
@@ -3456,7 +3401,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 315,
+    "id": 310,
     "name": "Bolsa Residuo 60x90 x10un",
     "priceUnidad": 1390.0,
     "priceCantidad": 0,
@@ -3467,18 +3412,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 316,
-    "name": "Cabo de madera",
-    "priceUnidad": 690.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Limpieza",
-    "image": "/img/Limpieza/palo.png",
-    "category": "Limpieza",
-    "stock": 10
-  },
-  {
-    "id": 317,
+    "id": 311,
     "name": "Cepillo Condor x12",
     "priceUnidad": 1249.0,
     "priceCantidad": 0,
@@ -3489,7 +3423,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 318,
+    "id": 312,
     "name": "Cera Liquida Negra",
     "priceUnidad": 6369.0,
     "priceCantidad": 0,
@@ -3500,7 +3434,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 319,
+    "id": 313,
     "name": "Ceramicol rojo brillo",
     "priceUnidad": 6990.0,
     "priceCantidad": 0,
@@ -3511,18 +3445,18 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 320,
-    "name": "Desod. Ambiente Glade x6",
+    "id": 314,
+    "name": "Desod. Ambiente Poett x6",
     "priceUnidad": 2890.0,
     "priceCantidad": 17340.0,
     "priceOferta": null,
     "description": "Limpieza",
-    "image": "/img/Limpieza/glade.png",
+    "image": "/img/Limpieza/poett.png",
     "category": "Limpieza",
     "stock": 10
   },
   {
-    "id": 321,
+    "id": 315,
     "name": "Detergente Ala Concentrado x300ml x12",
     "priceUnidad": 1590.0,
     "priceCantidad": 0,
@@ -3533,7 +3467,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 322,
+    "id": 316,
     "name": "Detergente Ala cremoso x15",
     "priceUnidad": 1590.0,
     "priceCantidad": 23850.0,
@@ -3544,18 +3478,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 323,
-    "name": "Detergente magistral x500",
-    "priceUnidad": 2890.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Limpieza",
-    "image": "/img/Limpieza/deterMagis.png",
-    "category": "Limpieza",
-    "stock": 10
-  },
-  {
-    "id": 324,
+    "id": 317,
     "name": "Detergente Val x24 x300gr",
     "priceUnidad": 850.0,
     "priceCantidad": 20400.0,
@@ -3566,7 +3489,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 325,
+    "id": 318,
     "name": "Escobillon Chico",
     "priceUnidad": 1890.0,
     "priceCantidad": 0,
@@ -3577,7 +3500,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 326,
+    "id": 319,
     "name": "Escurridor doble goma",
     "priceUnidad": 1890.0,
     "priceCantidad": 0,
@@ -3588,7 +3511,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 327,
+    "id": 320,
     "name": "Espiral Matiris 12u",
     "priceUnidad": 1349.0,
     "priceCantidad": 0,
@@ -3599,7 +3522,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 328,
+    "id": 321,
     "name": "Espiral Matiris 4u x50",
     "priceUnidad": 619.0,
     "priceCantidad": 30950.0,
@@ -3610,7 +3533,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 329,
+    "id": 322,
     "name": "Espiral Raid 12x4",
     "priceUnidad": 8990.0,
     "priceCantidad": 0,
@@ -3621,7 +3544,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 330,
+    "id": 323,
     "name": "Esponja acero Ruletec",
     "priceUnidad": 650.0,
     "priceCantidad": 0,
@@ -3632,7 +3555,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 331,
+    "id": 324,
     "name": "Esponja Acero chica help",
     "priceUnidad": 399.0,
     "priceCantidad": 0,
@@ -3643,7 +3566,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 332,
+    "id": 325,
     "name": "Esponja Batuque x12 plato",
     "priceUnidad": 499.0,
     "priceCantidad": 5988.0,
@@ -3654,7 +3577,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 333,
+    "id": 326,
     "name": "Fluido Manchester",
     "priceUnidad": 4490.0,
     "priceCantidad": 0,
@@ -3665,7 +3588,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 334,
+    "id": 327,
     "name": "Fluido Triunfo",
     "priceUnidad": 3290.0,
     "priceCantidad": 0,
@@ -3676,7 +3599,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 335,
+    "id": 328,
     "name": "Franela",
     "priceUnidad": 1190.0,
     "priceCantidad": 0,
@@ -3687,7 +3610,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 336,
+    "id": 329,
     "name": "Rejilla",
     "priceUnidad": 710.0,
     "priceCantidad": 0,
@@ -3698,7 +3621,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 337,
+    "id": 330,
     "name": "Sopapa negra",
     "priceUnidad": 1990.0,
     "priceCantidad": 0,
@@ -3709,18 +3632,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 338,
-    "name": "Baygon mata cucarachas y arañas x12",
-    "priceUnidad": 4990.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Limpieza",
-    "image": "/img/Limpieza/baygonCuca.png",
-    "category": "Limpieza",
-    "stock": 10
-  },
-  {
-    "id": 339,
+    "id": 331,
     "name": "Selton mata cucarachas 360cm",
     "priceUnidad": 3790.0,
     "priceCantidad": 0,
@@ -3731,18 +3643,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 340,
-    "name": "Fuyi Mosquitos x12 aerosol",
-    "priceUnidad": 4290.0,
-    "priceCantidad": 51480.0,
-    "priceOferta": null,
-    "description": "Limpieza",
-    "image": "/img/Limpieza/fuyiMosqui.png",
-    "category": "Limpieza",
-    "stock": 10
-  },
-  {
-    "id": 341,
+    "id": 332,
     "name": "Fuyi Tableta vape X12",
     "priceUnidad": 2900.0,
     "priceCantidad": 0,
@@ -3753,7 +3654,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 342,
+    "id": 333,
     "name": "Raid vape x24",
     "priceUnidad": 4900.0,
     "priceCantidad": 0,
@@ -3764,7 +3665,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 343,
+    "id": 334,
     "name": "Jabon Blanco 150g x24u",
     "priceUnidad": 369.0,
     "priceCantidad": 8856.0,
@@ -3775,7 +3676,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 344,
+    "id": 335,
     "name": "Jabon en polvo Ala x400g Reg/matic x24",
     "priceUnidad": 1149.0,
     "priceCantidad": 0,
@@ -3786,7 +3687,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 345,
+    "id": 336,
     "name": "Jabon en polvo Ala x800g Reg/Matic x24",
     "priceUnidad": 2249.0,
     "priceCantidad": 0,
@@ -3797,7 +3698,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 346,
+    "id": 337,
     "name": "Jabon en polvo Granby 800gr Reg/Matic",
     "priceUnidad": 1649.0,
     "priceCantidad": 39576.0,
@@ -3808,7 +3709,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 347,
+    "id": 338,
     "name": "Jabon en polvo Granby 3Kg Reg/Matic",
     "priceUnidad": 5740.0,
     "priceCantidad": 40180.0,
@@ -3819,7 +3720,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 348,
+    "id": 339,
     "name": "Jabon Petirrojo 150g blanco x56",
     "priceUnidad": 449.0,
     "priceCantidad": 25144.0,
@@ -3830,7 +3731,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 349,
+    "id": 340,
     "name": "Jabon Seiseme x50",
     "priceUnidad": 1790.0,
     "priceCantidad": 89500.0,
@@ -3841,7 +3742,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 350,
+    "id": 341,
     "name": "Jabon verde Astro x56",
     "priceUnidad": 0,
     "priceCantidad": 18490.0,
@@ -3852,7 +3753,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 351,
+    "id": 342,
     "name": "Jabon verde Petirrojo x48",
     "priceUnidad": 369.0,
     "priceCantidad": 17712.0,
@@ -3863,7 +3764,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 352,
+    "id": 343,
     "name": "Liquido Piso Sedile x15",
     "priceUnidad": 1190.0,
     "priceCantidad": 17850.0,
@@ -3874,7 +3775,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 353,
+    "id": 344,
     "name": "Palita Residuos",
     "priceUnidad": 890.0,
     "priceCantidad": 0,
@@ -3885,7 +3786,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 354,
+    "id": 345,
     "name": "Pastilla baño Sani-Sol x12",
     "priceUnidad": 890.0,
     "priceCantidad": 0,
@@ -3896,7 +3797,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 355,
+    "id": 346,
     "name": "Pastila inodoro pato x24",
     "priceUnidad": 1290.0,
     "priceCantidad": 0,
@@ -3907,7 +3808,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 356,
+    "id": 347,
     "name": "Puloil Polvo",
     "priceUnidad": 2290.0,
     "priceCantidad": 0,
@@ -3918,7 +3819,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 357,
+    "id": 348,
     "name": "Raid Moscas y Mosquitos x12",
     "priceUnidad": 4290.0,
     "priceCantidad": 51480.0,
@@ -3929,18 +3830,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 358,
-    "name": "Rastrillo",
-    "priceUnidad": 1490.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Limpieza",
-    "image": "/img/Limpieza/rastrillo.png",
-    "category": "Limpieza",
-    "stock": 10
-  },
-  {
-    "id": 359,
+    "id": 349,
     "name": "Raticida en semillas",
     "priceUnidad": 749.0,
     "priceCantidad": 0,
@@ -3951,7 +3841,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 360,
+    "id": 350,
     "name": "Rollo cocina x12",
     "priceUnidad": 1349.0,
     "priceCantidad": 16188.0,
@@ -3962,7 +3852,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 361,
+    "id": 351,
     "name": "Suavizante Gota Limpa 2L x6",
     "priceUnidad": 3590.0,
     "priceCantidad": 21540.0,
@@ -3973,7 +3863,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 362,
+    "id": 352,
     "name": "Suavizante Vivere 3L rosa y celeste",
     "priceUnidad": 5900.0,
     "priceCantidad": 23600.0,
@@ -3984,7 +3874,18 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 363,
+    "id": 353,
+    "name": "Suavizante Borita x12 900ml",
+    "priceUnidad": 1690.0,
+    "priceCantidad": 20280.0,
+    "priceOferta": null,
+    "description": "Limpieza",
+    "image": "/img/Limpieza/suaviBorita.png",
+    "category": "Limpieza",
+    "stock": 10
+  },
+  {
+    "id": 354,
     "name": "Suavizante Clow x16",
     "priceUnidad": 1690.0,
     "priceCantidad": 0,
@@ -3995,7 +3896,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 364,
+    "id": 355,
     "name": "Trapo Piso",
     "priceUnidad": 849.0,
     "priceCantidad": 0,
@@ -4006,18 +3907,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 365,
-    "name": "Virulana Batuque x25",
-    "priceUnidad": 690.0,
-    "priceCantidad": 17250.0,
-    "priceOferta": null,
-    "description": "Limpieza",
-    "image": "/img/Limpieza/virulanaBatuque.png",
-    "category": "Limpieza",
-    "stock": 10
-  },
-  {
-    "id": 366,
+    "id": 356,
     "name": "Actron 400 10u",
     "priceUnidad": 6450.0,
     "priceCantidad": 0,
@@ -4028,7 +3918,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 367,
+    "id": 357,
     "name": "Actron 600 x10u",
     "priceUnidad": 8650.0,
     "priceCantidad": 0,
@@ -4039,7 +3929,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 368,
+    "id": 358,
     "name": "Al Maximo x2",
     "priceUnidad": 1500.0,
     "priceCantidad": 0,
@@ -4050,7 +3940,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 369,
+    "id": 359,
     "name": "Al Maximo Masticable x2",
     "priceUnidad": 1000.0,
     "priceCantidad": 0,
@@ -4061,18 +3951,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 370,
-    "name": "Alikal x30 limon,naranja  y tradicional",
-    "priceUnidad": 815.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Medicamentos",
-    "image": "/img/Medicamentos/alikal.png",
-    "category": "Medicamentos",
-    "stock": 10
-  },
-  {
-    "id": 371,
+    "id": 360,
     "name": "Amoxicilina",
     "priceUnidad": 2300.0,
     "priceCantidad": 0,
@@ -4083,7 +3962,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 372,
+    "id": 361,
     "name": "Aspirina prevent",
     "priceUnidad": 1650.0,
     "priceCantidad": 0,
@@ -4094,7 +3973,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 373,
+    "id": 362,
     "name": "Aspirinetas Tableta",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -4105,7 +3984,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 374,
+    "id": 363,
     "name": "Azitromicina",
     "priceUnidad": 2200.0,
     "priceCantidad": 0,
@@ -4116,29 +3995,18 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 375,
-    "name": "Buscapina Duo",
-    "priceUnidad": 8050.0,
+    "id": 364,
+    "name": "Bayaspirina Tableta",
+    "priceUnidad": 2090.0,
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/buscapDuo.png",
+    "image": "/img/Medicamentos/aspirinaTableta.png",
     "category": "Medicamentos",
     "stock": 10
   },
   {
-    "id": 376,
-    "name": "Buscapina perla Tableta",
-    "priceUnidad": 5790.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Medicamentos",
-    "image": "/img/Medicamentos/buscap.png",
-    "category": "Medicamentos",
-    "stock": 10
-  },
-  {
-    "id": 377,
+    "id": 365,
     "name": "Diclofenac",
     "priceUnidad": 1200.0,
     "priceCantidad": 0,
@@ -4149,7 +4017,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 378,
+    "id": 366,
     "name": "Diclofenac relajante",
     "priceUnidad": 1200.0,
     "priceCantidad": 0,
@@ -4160,7 +4028,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 379,
+    "id": 367,
     "name": "Z-cal",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -4171,7 +4039,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 380,
+    "id": 368,
     "name": "Enalapril",
     "priceUnidad": 1000.0,
     "priceCantidad": 0,
@@ -4182,7 +4050,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 381,
+    "id": 369,
     "name": "Hierba Medicinal",
     "priceUnidad": 1790.0,
     "priceCantidad": 0,
@@ -4193,18 +4061,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 382,
-    "name": "Ibu Jarabe 2%",
-    "priceUnidad": 1800.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Medicamentos",
-    "image": "/img/Medicamentos/ibuJarabe2.png",
-    "category": "Medicamentos",
-    "stock": 10
-  },
-  {
-    "id": 383,
+    "id": 370,
     "name": "Ibu Jarabe 4%",
     "priceUnidad": 2000.0,
     "priceCantidad": 0,
@@ -4215,7 +4072,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 384,
+    "id": 371,
     "name": "Ibuevanol 20u",
     "priceUnidad": 5590.0,
     "priceCantidad": 0,
@@ -4226,7 +4083,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 385,
+    "id": 372,
     "name": "Ibuevanol forte x20",
     "priceUnidad": 6190.0,
     "priceCantidad": 0,
@@ -4237,7 +4094,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 386,
+    "id": 373,
     "name": "Ibuprofeno 400",
     "priceUnidad": 1000.0,
     "priceCantidad": 0,
@@ -4248,7 +4105,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 387,
+    "id": 374,
     "name": "Ibuprofeno 600",
     "priceUnidad": 1300.0,
     "priceCantidad": 0,
@@ -4259,7 +4116,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 388,
+    "id": 375,
     "name": "Keterolac",
     "priceUnidad": 1000.0,
     "priceCantidad": 0,
@@ -4270,18 +4127,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 389,
-    "name": "Loratadina",
-    "priceUnidad": 790.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Medicamentos",
-    "image": "/img/Medicamentos/loratadina.png",
-    "category": "Medicamentos",
-    "stock": 10
-  },
-  {
-    "id": 390,
+    "id": 376,
     "name": "Mejoral Niño Tableta",
     "priceUnidad": 2190.0,
     "priceCantidad": 0,
@@ -4292,7 +4138,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 391,
+    "id": 377,
     "name": "Mentolina",
     "priceUnidad": 969.0,
     "priceCantidad": 0,
@@ -4303,7 +4149,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 392,
+    "id": 378,
     "name": "Mieligtus chico",
     "priceUnidad": 589.0,
     "priceCantidad": 0,
@@ -4314,7 +4160,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 393,
+    "id": 379,
     "name": "Migral",
     "priceUnidad": 4690.0,
     "priceCantidad": 0,
@@ -4325,7 +4171,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 394,
+    "id": 380,
     "name": "Norgestrel Emergencia",
     "priceUnidad": 4190.0,
     "priceCantidad": 0,
@@ -4336,7 +4182,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 395,
+    "id": 381,
     "name": "Norgestrel Plus 21u",
     "priceUnidad": 5590.0,
     "priceCantidad": 0,
@@ -4347,7 +4193,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 396,
+    "id": 382,
     "name": "Novalgina",
     "priceUnidad": 3500.0,
     "priceCantidad": 0,
@@ -4358,7 +4204,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 397,
+    "id": 383,
     "name": "Omeprazol",
     "priceUnidad": 1000.0,
     "priceCantidad": 0,
@@ -4369,7 +4215,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 398,
+    "id": 384,
     "name": "Pastilla Carbon",
     "priceUnidad": 1700.0,
     "priceCantidad": 0,
@@ -4380,7 +4226,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 399,
+    "id": 385,
     "name": "Paracetamol 500",
     "priceUnidad": 1000.0,
     "priceCantidad": 0,
@@ -4391,7 +4237,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 400,
+    "id": 386,
     "name": "Paracetamol 1g x8u",
     "priceUnidad": 1500.0,
     "priceCantidad": 0,
@@ -4402,7 +4248,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 401,
+    "id": 387,
     "name": "Pomada Medicinal",
     "priceUnidad": 1790.0,
     "priceCantidad": 0,
@@ -4413,7 +4259,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 402,
+    "id": 388,
     "name": "Pomada Curativa",
     "priceUnidad": 1590.0,
     "priceCantidad": 0,
@@ -4424,29 +4270,18 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 403,
-    "name": "Sertal Perlas",
-    "priceUnidad": 5090.0,
+    "id": 389,
+    "name": "Qura Plus",
+    "priceUnidad": 8450.0,
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "/img/Medicamentos/sertal.png",
+    "image": "/img/Medicamentos/qura.png",
     "category": "Medicamentos",
     "stock": 10
   },
   {
-    "id": 404,
-    "name": "Tafirol Plus x8",
-    "priceUnidad": 2790.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Medicamentos",
-    "image": "/img/Medicamentos/tafirolPlus.png",
-    "category": "Medicamentos",
-    "stock": 10
-  },
-  {
-    "id": 405,
+    "id": 390,
     "name": "Te Vent3 x50",
     "priceUnidad": 1090.0,
     "priceCantidad": 0,
@@ -4457,7 +4292,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 406,
+    "id": 391,
     "name": "Test Embarazo",
     "priceUnidad": 1300.0,
     "priceCantidad": 0,
@@ -4468,7 +4303,18 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 407,
+    "id": 392,
+    "name": "Uvasal x30",
+    "priceUnidad": 490.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Medicamentos",
+    "image": "/img/Medicamentos/uvasal.png",
+    "category": "Medicamentos",
+    "stock": 10
+  },
+  {
+    "id": 393,
     "name": "Gripaben plus x20",
     "priceUnidad": 5590.0,
     "priceCantidad": 0,
@@ -4479,18 +4325,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 408,
-    "name": "Aceite Multiuso 100cm",
-    "priceUnidad": 1490.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Otros",
-    "image": "/img/Otros/aceiteMulti.png",
-    "category": "Otros",
-    "stock": 10
-  },
-  {
-    "id": 409,
+    "id": 394,
     "name": "Adaptadores x2",
     "priceUnidad": 1790.0,
     "priceCantidad": 0,
@@ -4501,7 +4336,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 410,
+    "id": 395,
     "name": "Alpargatas 34 36 37 39 41 42 44",
     "priceUnidad": 3890.0,
     "priceCantidad": 0,
@@ -4512,7 +4347,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 411,
+    "id": 396,
     "name": "Anilina Colibri azul",
     "priceUnidad": 1690.0,
     "priceCantidad": 0,
@@ -4523,7 +4358,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 412,
+    "id": 397,
     "name": "Anilina Tupy azul",
     "priceUnidad": 1990.0,
     "priceCantidad": 0,
@@ -4534,7 +4369,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 413,
+    "id": 398,
     "name": "Azufre x5",
     "priceUnidad": 649.0,
     "priceCantidad": 0,
@@ -4545,7 +4380,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 414,
+    "id": 399,
     "name": "Bengala x4",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -4556,7 +4391,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 415,
+    "id": 400,
     "name": "Birome Azul y Negro",
     "priceUnidad": 250.0,
     "priceCantidad": 0,
@@ -4567,7 +4402,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 416,
+    "id": 401,
     "name": "Bolsa Camiseta G",
     "priceUnidad": 4100.0,
     "priceCantidad": 0,
@@ -4578,7 +4413,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 417,
+    "id": 402,
     "name": "Bolsa Camiseta M",
     "priceUnidad": 2590.0,
     "priceCantidad": 0,
@@ -4589,7 +4424,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 418,
+    "id": 403,
     "name": "Bolsa Transparente 1Kg",
     "priceUnidad": 790.0,
     "priceCantidad": 0,
@@ -4600,7 +4435,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 419,
+    "id": 404,
     "name": "Bolsa Transparente 2Kg",
     "priceUnidad": 1140.0,
     "priceCantidad": 0,
@@ -4611,7 +4446,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 420,
+    "id": 405,
     "name": "Bolsa Transparente 3Kg",
     "priceUnidad": 1400.0,
     "priceCantidad": 0,
@@ -4622,7 +4457,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 421,
+    "id": 406,
     "name": "Bombilla Alpaca",
     "priceUnidad": 2890.0,
     "priceCantidad": 0,
@@ -4633,7 +4468,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 422,
+    "id": 407,
     "name": "Broches ropa",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -4644,7 +4479,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 423,
+    "id": 408,
     "name": "Chupete x6",
     "priceUnidad": 0,
     "priceCantidad": 5400.0,
@@ -4655,7 +4490,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 424,
+    "id": 409,
     "name": "Cinta Teflon 10mts",
     "priceUnidad": 749.0,
     "priceCantidad": 0,
@@ -4666,7 +4501,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 425,
+    "id": 410,
     "name": "Cinta Aisladora x10",
     "priceUnidad": 1600.0,
     "priceCantidad": 0,
@@ -4677,7 +4512,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 426,
+    "id": 411,
     "name": "Cinta ancha x41m",
     "priceUnidad": 1200.0,
     "priceCantidad": 0,
@@ -4688,7 +4523,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 427,
+    "id": 412,
     "name": "Cubiertos x12",
     "priceUnidad": 0,
     "priceCantidad": 15900.0,
@@ -4699,7 +4534,18 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 428,
+    "id": 413,
+    "name": "Encendedor Bic Maxi x12",
+    "priceUnidad": 1290.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Otros",
+    "image": "/img/Otros/bicMaxi.png",
+    "category": "Otros",
+    "stock": 10
+  },
+  {
+    "id": 414,
     "name": "Encendedor Bic Mini x12",
     "priceUnidad": 929.0,
     "priceCantidad": 11148.0,
@@ -4710,7 +4556,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 429,
+    "id": 415,
     "name": "Encendedor comun x25",
     "priceUnidad": 290.0,
     "priceCantidad": 7250.0,
@@ -4721,7 +4567,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 430,
+    "id": 416,
     "name": "Escarbadientes x24",
     "priceUnidad": 549.0,
     "priceCantidad": 13176.0,
@@ -4732,7 +4578,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 431,
+    "id": 417,
     "name": "Foco 10W x5",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -4743,7 +4589,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 432,
+    "id": 418,
     "name": "Foco 14w x10",
     "priceUnidad": 1290.0,
     "priceCantidad": 0,
@@ -4754,7 +4600,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 433,
+    "id": 419,
     "name": "Foco 9w",
     "priceUnidad": 949.0,
     "priceCantidad": 0,
@@ -4765,7 +4611,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 434,
+    "id": 420,
     "name": "Foco 7W x5",
     "priceUnidad": 890.0,
     "priceCantidad": 0,
@@ -4776,7 +4622,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 435,
+    "id": 421,
     "name": "Foco 18w",
     "priceUnidad": 1990.0,
     "priceCantidad": 0,
@@ -4787,7 +4633,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 436,
+    "id": 422,
     "name": "Goma Latex",
     "priceUnidad": 4290.0,
     "priceCantidad": 0,
@@ -4798,7 +4644,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 437,
+    "id": 423,
     "name": "Gotita x6",
     "priceUnidad": 0,
     "priceCantidad": 10390.0,
@@ -4809,7 +4655,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 438,
+    "id": 424,
     "name": "Hilo blanco/negro/colores x12",
     "priceUnidad": 0,
     "priceCantidad": 3900.0,
@@ -4820,7 +4666,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 439,
+    "id": 425,
     "name": "Guantes Reforzados blancos",
     "priceUnidad": 1890.0,
     "priceCantidad": 0,
@@ -4831,18 +4677,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 440,
-    "name": "Globos",
-    "priceUnidad": 0,
-    "priceCantidad": 3490.0,
-    "priceOferta": null,
-    "description": "Otros",
-    "image": "/img/Otros/globo.png",
-    "category": "Otros",
-    "stock": 10
-  },
-  {
-    "id": 441,
+    "id": 426,
     "name": "Juego de Loteria",
     "priceUnidad": 5900.0,
     "priceCantidad": 0,
@@ -4853,7 +4688,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 442,
+    "id": 427,
     "name": "Mates de calabaza",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -4864,7 +4699,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 443,
+    "id": 428,
     "name": "Medias x12",
     "priceUnidad": 0,
     "priceCantidad": 14900.0,
@@ -4875,7 +4710,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 444,
+    "id": 429,
     "name": "Naipes x12",
     "priceUnidad": 990.0,
     "priceCantidad": 11880.0,
@@ -4886,7 +4721,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 445,
+    "id": 430,
     "name": "Papel aluminio",
     "priceUnidad": 1350.0,
     "priceCantidad": 0,
@@ -4897,7 +4732,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 446,
+    "id": 431,
     "name": "Papelillo Ocb x25",
     "priceUnidad": 0,
     "priceCantidad": 24900.0,
@@ -4908,7 +4743,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 447,
+    "id": 432,
     "name": "Papelillo Poker x25",
     "priceUnidad": 0,
     "priceCantidad": 9990.0,
@@ -4919,7 +4754,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 448,
+    "id": 433,
     "name": "Pegamento Candela liquida",
     "priceUnidad": 590.0,
     "priceCantidad": 0,
@@ -4930,7 +4765,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 449,
+    "id": 434,
     "name": "Pegamento candela en gel",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -4941,7 +4776,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 450,
+    "id": 435,
     "name": "Pegamento Sol de Noche x12",
     "priceUnidad": 5508.0,
     "priceCantidad": 0,
@@ -4952,7 +4787,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 451,
+    "id": 436,
     "name": "Perchas x4",
     "priceUnidad": 1590.0,
     "priceCantidad": 0,
@@ -4963,7 +4798,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 452,
+    "id": 437,
     "name": "Pilas AA x4",
     "priceUnidad": 2396.0,
     "priceCantidad": 0,
@@ -4974,7 +4809,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 453,
+    "id": 438,
     "name": "Pilas AAA x4",
     "priceUnidad": 2396.0,
     "priceCantidad": 0,
@@ -4985,7 +4820,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 454,
+    "id": 439,
     "name": "Pilas grande linterna c/u",
     "priceUnidad": 2690.0,
     "priceCantidad": 0,
@@ -4996,7 +4831,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 455,
+    "id": 440,
     "name": "Pinza para cejas x12",
     "priceUnidad": 0,
     "priceCantidad": 4900.0,
@@ -5007,7 +4842,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 456,
+    "id": 441,
     "name": "Plato Hondo",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -5018,7 +4853,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 457,
+    "id": 442,
     "name": "Pomada liquida Marron y Negro",
     "priceUnidad": 2290.0,
     "priceCantidad": 0,
@@ -5029,7 +4864,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 458,
+    "id": 443,
     "name": "Poxiran x6",
     "priceUnidad": 3290.0,
     "priceCantidad": 0,
@@ -5040,7 +4875,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 459,
+    "id": 444,
     "name": "Termo Lumilagro",
     "priceUnidad": 6990.0,
     "priceCantidad": 0,
@@ -5051,7 +4886,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 460,
+    "id": 445,
     "name": "Vasos de Vidrio 270ml",
     "priceUnidad": 479.0,
     "priceCantidad": 0,
@@ -5062,7 +4897,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 461,
+    "id": 446,
     "name": "Termolar para tereré x2,50L",
     "priceUnidad": 13490.0,
     "priceCantidad": 0,
@@ -5073,7 +4908,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 462,
+    "id": 447,
     "name": "Termolar 2L",
     "priceUnidad": 5900.0,
     "priceCantidad": 0,
@@ -5084,7 +4919,7 @@ export const products: Product[] = [
     "stock": 10
   },
   {
-    "id": 463,
+    "id": 448,
     "name": "Botellita de agua sport",
     "priceUnidad": 1349.0,
     "priceCantidad": 0,
