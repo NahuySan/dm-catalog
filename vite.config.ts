@@ -8,6 +8,11 @@ export default defineConfig({
     react(),
     tailwindcss(), 
   ],
+  // --- AGREGAMOS ESTO PARA FIXEAR EL BUFFER ---
+  define: {
+    global: 'window',
+  },
+  // --------------------------------------------
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

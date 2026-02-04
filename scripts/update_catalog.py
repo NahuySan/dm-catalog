@@ -30,7 +30,7 @@ def limpiar_precio(valor):
 todos_los_productos = []
 current_id = 1
 
-print("--- Actualizando products.ts (Optimizado para JPEG 600px) ---")
+print("--- Actualizando products.ts (Fix para productos sin imagen) ---")
 
 for item in archivos:
     file_path = os.path.join(INPUT_FOLDER, item['name'])
@@ -42,14 +42,23 @@ for item in archivos:
     try:
         df = pd.read_csv(file_path)
         for _, row in df.iterrows():
-            img_orig = str(row.get('@imagen', '')).strip()
+            # --- LÓGICA ANTIBUGS PARA LA IMAGEN ---
+            img_raw = row.get('@imagen')
             
-            # --- LÓGICA DE RUTA PARA JPEG ---
-            if img_orig:
+            # Verificamos si es nulo, si es el string 'nan' o si está vacío
+            if pd.isna(img_raw) or str(img_raw).lower() == 'nan' or not str(img_raw).strip():
+                img_path = ""
+            else:
+                img_orig = str(img_raw).strip()
                 # Quitamos la barra inicial si la tiene y cambiamos a .jpg
                 img_path = os.path.splitext(img_orig)[0].lstrip('/') + ".jpg"
+
+            # --- LÓGICA PARA LA DESCRIPCIÓN (Evita 'nan' en subcategoría) ---
+            desc_raw = row.get('subCategoria')
+            if pd.isna(desc_raw) or str(desc_raw).lower() == 'nan' or not str(desc_raw).strip():
+                description = item['cat']
             else:
-                img_path = ""
+                description = str(desc_raw).strip()
 
             producto = {
                 "id": current_id,
@@ -57,8 +66,8 @@ for item in archivos:
                 "priceUnidad": limpiar_precio(row.get('precioUnitario')),
                 "priceCantidad": limpiar_precio(row.get('precioCantidad')),
                 "priceOferta": limpiar_precio(row.get('precioOferta')) or None,
-                "description": str(row.get('subCategoria', item['cat'])).strip(),
-                "image": img_path, # Guardamos como 'img/Categoria/nombre.jpg'
+                "description": description,
+                "image": img_path,
                 "category": item['cat'],
                 "stock": 0 if str(row.get('stock')).lower() == "sin stock" else 10
             }
@@ -66,7 +75,7 @@ for item in archivos:
             todos_los_productos.append(producto)
             current_id += 1
             
-        print(f"✅ {item['name']} procesado.")
+        print(f"✅ {item['name']} procesado correctamente.")
 
     except Exception as e:
         print(f"❌ Error en {item['name']}: {e}")
@@ -77,10 +86,10 @@ ts_content += "export const products: Product[] = "
 ts_content += json.dumps(todos_los_productos, indent=2, ensure_ascii=False)
 ts_content += ";"
 
-# Guardar
+# Guardar con codificación UTF-8 para las tildes
 os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
     f.write(ts_content)
 
-print("\n--- ¡Listo! products.ts actualizado ---")
-print(f"Total productos: {len(todos_los_productos)}")
+print("\n--- ¡Listo! El catálogo se actualizó sin errores de 'nan' ---")
+print(f"Total de productos en el sistema: {len(todos_los_productos)}")
