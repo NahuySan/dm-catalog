@@ -1,6 +1,4 @@
-import { Product } from '../types';
-
-export const products: Product[] = [
+[
   {
     "id": 1,
     "name": "Chimichurri Vanoli 1L x6",
@@ -5017,4 +5015,4 @@ export const products: Product[] = [
     "category": "Otros",
     "stock": 10
   }
-];
+]

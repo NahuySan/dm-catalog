@@ -1,26 +1,50 @@
-import { useState, useRef, useMemo } from 'react';
+import { useState, useRef, useMemo, useEffect } from 'react'; // Sumamos useEffect
 import { handleDownloadFullCatalog } from '@/lib/pdfHelper'; 
 import { Header } from '@/app/components/Header';
 import { Hero } from '@/app/components/Hero';
 import { SearchBar } from '@/app/components/SearchBar';
 import { CategoryFilter } from '@/app/components/CategoryFilter';
 import { ProductCard } from '@/app/components/ProductCard';
-import { products } from '@/app/data/products'; 
+// Quitamos el import estático de products
 import { Category, Product } from '@/app/types';
 import { FloatingCart } from '@/app/components/FloatingCart'; 
 import { CartProvider } from '@/context/CartContext'; 
+import { PWAHandler } from '@/app/components/PWAHandler';
 
 const categories: Category[] = ['Todas', 'Ofertas', 'Comestibles', 'Bebidas', 'Higiene', 'Limpieza', 'Medicamentos', 'Otros'];
 
 export default function App() {
+  // --- NUEVOS ESTADOS PARA EL JSON ---
+  const [products, setProducts] = useState<Product[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+
   const [selectedCategory, setSelectedCategory] = useState<Category>('Todas');
   const [searchTerm, setSearchTerm] = useState('');
   const [isGenerating, setIsGenerating] = useState(false);
   const [downloadProgress, setDownloadProgress] = useState(0);
   const catalogRef = useRef<HTMLDivElement>(null);
 
+  // 1. CARGA DEL ARCHIVO JSON
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        // Fetch al archivo generado por tu script en public/data/products.json
+        const response = await fetch('/data/products.json');
+        if (!response.ok) throw new Error('No se pudo cargar el catálogo');
+        const data = await response.json();
+        setProducts(data);
+      } catch (error) {
+        console.error('Error cargando productos:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    loadData();
+  }, []);
+
+  // 2. FILTRADO (Se mantiene igual, pero ahora depende del estado 'products')
   const filteredProducts = useMemo(() => {
-    return (products as Product[]).filter((product: Product) => {
+    return products.filter((product: Product) => {
       const matchesCategory = 
         selectedCategory === 'Todas' || 
         (selectedCategory === 'Ofertas' 
@@ -33,11 +57,11 @@ export default function App() {
 
       return matchesCategory && matchesSearch;
     });
-  }, [selectedCategory, searchTerm]);
+  }, [selectedCategory, searchTerm, products]); // Sumamos products a las dependencias
 
   const horizontalOffers = useMemo(() => {
-    return (products as Product[]).filter(p => p.priceOferta && p.priceOferta > 0);
-  }, []);
+    return products.filter(p => p.priceOferta && p.priceOferta > 0);
+  }, [products]);
 
   const handleScrollToCatalog = () => {
     catalogRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -48,7 +72,7 @@ export default function App() {
       alert("No hay productos para exportar.");
       return;
     }
-    let progressInterval: NodeJS.Timeout;
+    let progressInterval: ReturnType<typeof setInterval>; // Usamos ReturnType para evitar líos de tipos
     try {
       setIsGenerating(true);
       setDownloadProgress(10);
@@ -56,10 +80,10 @@ export default function App() {
         setDownloadProgress((prev) => (prev < 95 ? prev + 2 : prev));
       }, 500);
       await handleDownloadFullCatalog(filteredProducts, selectedCategory);
-      clearInterval(progressInterval);
+      clearInterval(progressInterval!);
       setDownloadProgress(100);
     } catch (error) {
-      console.error('Error al generar el catálogo fusionado:', error);
+      console.error('Error al generar el catálogo:', error);
       alert('Hubo un error al generar el catálogo completo.');
     } finally {
       setTimeout(() => {
@@ -69,8 +93,19 @@ export default function App() {
     }
   };
 
+  // 3. PANTALLA DE CARGA (Para que no tire error de undefined)
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex flex-col items-center justify-center bg-accent">
+        <div className="w-12 h-12 border-4 border-secondary border-t-transparent rounded-full animate-spin mb-4"></div>
+        <p className="text-secondary font-black uppercase tracking-widest animate-pulse">
+          Actualizando Precios...
+        </p>
+      </div>
+    );
+  }
+
   return (
-    // ENVOLVEMOS TODO EL CONTENIDO
     <CartProvider>
       <div className="min-h-screen bg-accent transition-colors duration-300">
         <Header 
@@ -148,7 +183,8 @@ export default function App() {
             <p className="mt-1">Jardín América, Misiones</p>
           </div>
         </footer>
-
+        
+        <PWAHandler />
         <FloatingCart />
       </div>
     </CartProvider>

@@ -76,23 +76,25 @@ export const CatalogPDF = ({ products, selectedCategory }: CatalogPDFProps) => {
   // ===============================================
   //  DISEÑO OFERTAS (3x3)
   // ===============================================
-  const RenderOfferPage = ({ group, pageNum }: { group: Product[], pageNum: number }) => (
+const RenderOfferPage = ({ group, pageNum }: { group: Product[], pageNum: number }) => (
     <Page key={`ofertas-${pageNum}`} size="A4" style={{ padding: 0, flexDirection: 'column', position: 'relative', fontFamily: 'Segoe UI' }}>
       <View style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: -1 }}>
-        <Image src="/assets/fondoPDF.png" style={{ width: '100%', height: '100%', objectFit: 'fill' }} />
+        {/* FIX: Cambiado a .jpg para que coincida con tu optimización */}
+        <Image src="/assets/fondoPDF.jpg" style={{ width: '100%', height: '100%', objectFit: 'fill' }} />
       </View>
+      
       <View style={{ height: 160 }} />
+
       <View style={{ paddingVertical: 16, paddingLeft: 35, paddingRight: 5, flexDirection: 'row', flexWrap: 'wrap' }}>
         {group.map((product) => (
           <View key={product.id} style={{ width: '29.5%', height: '180pt', borderRadius: 12, backgroundColor: 'white', position: 'relative', borderWidth: 3, borderColor: theme.green, marginRight: 20, marginBottom: 20, overflow: 'hidden' }}>
             
-            {/* 1. LA IMAGEN PRIMERO (Abajo de todo) */}
+            {/* Imagen del producto con fallback seguro */}
             <Image 
-              src={product.image ? `/${product.image}` : PDF_PLACEHOLDER} 
+              src={product.image ? `/${ product.image.replace(/^\//, '')}` : PDF_PLACEHOLDER} 
               style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, objectFit: 'contain', padding: 5 }} 
             />
 
-            {/* 2. LOS TEXTOS DESPUÉS (Se imprimen encima) */}
             <View style={{ paddingVertical: 4, paddingHorizontal: 10, marginTop: 6, width: '90%', alignSelf: 'center', backgroundColor: 'rgba(255, 255, 255, 0.8)' }}>
               <Text style={{ fontSize: 9, fontWeight: 900, color: theme.dark, textTransform: 'uppercase', textAlign: 'center' }}>{product.name}</Text>
             </View>
@@ -103,6 +105,7 @@ export const CatalogPDF = ({ products, selectedCategory }: CatalogPDFProps) => {
           </View>
         ))}
       </View>
+
       <View style={{ marginTop: 'auto', padding: 15, alignItems: 'flex-end' }}>
         <Text style={{ fontSize: 8, color: 'white', fontWeight: 700 }}>Pág. {pageNum}</Text>
       </View>

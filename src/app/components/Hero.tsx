@@ -15,7 +15,7 @@ export function Hero({ onScrollToCatalog }: HeroProps) {
           src="/assets/logoBig.png" 
           alt="Distribuidora Mauri Fondo" 
           // Usamos w-[90%] para que nunca se corte en los costados del celu
-          className="w-[90%] md:w-[650px] lg:w-[850px] h-auto object-contain opacity-[0.08]"
+          className="w-[90%] md:w-[650px] lg:w-[850px] h-auto object-contain opacity-[0.2]"
         />
       </div>
 
