@@ -15,10 +15,10 @@ export const FloatingCart = () => {
     const lineas = cart.map(item => {
       let detalle = `• *${item.name.toUpperCase()}*\n`;
       if (item.qtyUnidad > 0) {
-        detalle += `   - ${item.qtyUnidad} Un. x $${item.priceUnidad.toLocaleString('es-AR')} c/u\n`;
+        detalle += `   - ${item.qtyUnidad} Un. ☝️​​ x $${item.priceUnidad.toLocaleString('es-AR')} c/u\n`;
       }
       if (item.qtyMayor > 0) {
-        detalle += `   - ${item.qtyMayor} Bultos x $${item.priceCantidad.toLocaleString('es-AR')} c/u\n`;
+        detalle += `   - ${item.qtyMayor} Bultos 📦​ x $${item.priceCantidad.toLocaleString('es-AR')} c/u\n`;
       }
       const subtotalItem = (item.qtyUnidad * item.priceUnidad) + (item.qtyMayor * item.priceCantidad);
       detalle += `   _Subtotal: $${subtotalItem.toLocaleString('es-AR')}_`;

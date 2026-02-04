@@ -2,7 +2,7 @@ import { Package, CheckCircle2, AlertCircle, Plus, Minus, User } from 'lucide-re
 import { Product, Category } from '../types';
 import { useCart } from '@/context/CartContext';
 
-// --- MAPEO DE COLORES PASTEL (Sin cambios) ---
+// --- MAPEO DE COLORES PASTEL ---
 const categoryStyles: Record<Exclude<Category, 'Todas'>, { 
   primary: string, badge: string, border: string, lightBg: string, icon: string 
 }> = {
@@ -25,53 +25,49 @@ export function ProductCard({ product }: { product: Product }) {
   const isOffer = product.priceOferta && product.priceOferta > 0;
   const hasStock = product.stock > 0;
   const localPlaceholder = "/assets/logoBig.png";
-
-  // Estilo base según categoría (si no es oferta)
   const baseStyle = categoryStyles[product.category as Exclude<Category, 'Todas'>] || categoryStyles.Otros;
 
   const formatPrice = (price: number) => 
     price.toLocaleString('es-AR', { style: 'currency', currency: 'ARS', minimumFractionDigits: 2 }).replace(/\s+/g, '');
 
-  // --- SUB-COMPONENTE: Selector de Cantidad (+/-) ---
+  // --- SELECTOR DE CANTIDAD OPTIMIZADO ---
   const QtySelector = ({ qty, type, disabled }: { qty: number, type: 'unidad' | 'mayor', disabled?: boolean }) => {
     const currentStyle = isOffer ? categoryStyles.Ofertas : baseStyle;
     return (
-      <div className={`flex items-center gap-1.5 rounded-lg p-1 border shadow-sm transition-all ${disabled ? 'bg-gray-100 border-gray-200 opacity-50 cursor-not-allowed' : 'bg-white/80 backdrop-blur-sm border-black/5'}`}>
+      <div className={`flex items-center gap-1 sm:gap-1.5 rounded-lg p-0.5 sm:p-1 border shadow-sm transition-all shrink-0 ${disabled ? 'bg-gray-100 border-gray-200 opacity-50 cursor-not-allowed' : 'bg-white/80 backdrop-blur-sm border-black/5'}`}>
         <button 
           onClick={() => removeFromCart(product.id, type)}
           disabled={disabled || qty === 0}
-          className={`w-7 h-7 flex items-center justify-center rounded-md transition-all ${!disabled && qty > 0 ? 'text-red-500 hover:bg-red-50 active:scale-90' : 'text-gray-300'}`}
+          className={`w-6 h-6 sm:w-7 sm:h-7 flex items-center justify-center rounded-md transition-all ${!disabled && qty > 0 ? 'text-red-500 hover:bg-red-50 active:scale-90' : 'text-gray-300'}`}
         >
-          <Minus size={14} strokeWidth={3} />
+          <Minus size={12} className="sm:w-[14px]" strokeWidth={3} />
         </button>
         
-        <span className={`text-[11px] font-black min-w-[18px] text-center ${!disabled && qty > 0 ? 'text-secondary' : 'text-gray-400'}`}>
+        <span className={`text-[10px] sm:text-[11px] font-black min-w-[14px] sm:min-w-[18px] text-center ${!disabled && qty > 0 ? 'text-secondary' : 'text-gray-400'}`}>
           {qty}
         </span>
 
         <button 
           onClick={() => addToCart(product, type)}
           disabled={disabled || !hasStock}
-          className={`w-7 h-7 flex items-center justify-center rounded-md text-white shadow-sm transition-all active:scale-90 
+          className={`w-6 h-6 sm:w-7 sm:h-7 flex items-center justify-center rounded-md text-white shadow-sm transition-all active:scale-90 
             ${disabled || !hasStock ? 'bg-gray-300' : `${currentStyle.badge} hover:brightness-110`}`}
         >
-          <Plus size={14} strokeWidth={3} />
+          <Plus size={12} className="sm:w-[14px]" strokeWidth={3} />
         </button>
       </div>
     );
   }
 
-  // --- SUB-COMPONENTE: Renglón de Precio (Activo o Inactivo) ---
   const PriceRow = ({ type, price, label, icon: Icon, currentQty }: { type: 'unidad' | 'mayor', price: number, label: string, icon: any, currentQty: number }) => {
     const isActive = price > 0;
-    // Definimos estilos para estado activo (color pastel) o inactivo (gris)
     const rowStyle = isActive ? {
         bg: baseStyle.lightBg,
         border: baseStyle.border,
         text: 'text-secondary',
         labelColor: baseStyle.primary,
         iconBg: baseStyle.icon,
-        activeBorder: currentQty > 0 ? 'border-l-4 ring-1 ring-black/5' : ''
+        activeBorder: currentQty > 0 ? 'border-l-2 sm:border-l-4 ring-1 ring-black/5' : ''
     } : {
         bg: 'bg-gray-100/50',
         border: 'border-gray-200',
@@ -82,35 +78,34 @@ export function ProductCard({ product }: { product: Product }) {
     };
 
     return (
-      <div className={`flex items-center justify-between ${rowStyle.bg} p-2 rounded-lg border ${rowStyle.border} transition-all ${rowStyle.activeBorder}`}>
-        <div className="flex flex-col">
+      <div className={`flex items-center justify-between ${rowStyle.bg} p-1.5 sm:p-2 rounded-lg border ${rowStyle.border} transition-all ${rowStyle.activeBorder} gap-1`}>
+        <div className="flex flex-col min-w-0 flex-1">
           <div className="flex items-center gap-1">
-            <div className={`w-3.5 h-3.5 rounded-sm ${rowStyle.iconBg} flex items-center justify-center`}>
-              <Icon className="w-2.5 h-2.5 text-white" />
+            <div className={`w-3 h-3 sm:w-3.5 sm:h-3.5 rounded-sm ${rowStyle.iconBg} flex items-center justify-center shrink-0`}>
+              <Icon className="w-2 sm:w-2.5 text-white" />
             </div>
-            <span className={`text-[8px] sm:text-[9px] ${rowStyle.labelColor} font-black uppercase`}>{label}</span>
+            <span className={`text-[7px] sm:text-[9px] ${rowStyle.labelColor} font-black uppercase truncate`}>{label}</span>
           </div>
-          <span className={`text-[11px] sm:text-sm font-black tracking-tighter ${rowStyle.text}`}>
+          <span className={`text-[10px] sm:text-sm font-black tracking-tighter truncate ${rowStyle.text}`}>
             {isActive ? formatPrice(price) : "---"}
           </span>
         </div>
-        {/* El selector se deshabilita si no hay precio */}
         <QtySelector qty={currentQty} type={type} disabled={!isActive} />
       </div>
     );
   }
 
   return (
-    <div className={`group bg-card rounded-xl shadow-sm border ${isOffer ? categoryStyles.Ofertas.border : baseStyle.border} overflow-hidden flex flex-col hover:shadow-xl hover:-translate-y-1 transition-all duration-300 h-full`}>
+    <div className={`group bg-card rounded-xl shadow-sm border ${isOffer ? categoryStyles.Ofertas.border : baseStyle.border} overflow-hidden flex flex-col hover:shadow-xl sm:hover:-translate-y-1 transition-all duration-300 h-full`}>
       
-      {/* --- HEADER DE IMAGEN (Sin Cambios) --- */}
-      <div className="relative aspect-square w-full bg-white overflow-hidden flex items-center justify-center p-4">
-        <div className="absolute top-2 left-2 z-10 flex flex-col gap-1">
-          <span className={`${isOffer ? categoryStyles.Ofertas.badge : baseStyle.badge} text-white text-[8px] sm:text-[9px] font-black px-2 py-0.5 rounded uppercase tracking-wider shadow-sm`}>
+      {/* IMAGEN */}
+      <div className="relative aspect-square w-full bg-white overflow-hidden flex items-center justify-center p-2 sm:p-4 text-center">
+        <div className="absolute top-1.5 left-1.5 z-10 flex flex-col gap-0.5">
+          <span className={`${isOffer ? categoryStyles.Ofertas.badge : baseStyle.badge} text-white text-[7px] sm:text-[9px] font-black px-1.5 py-0.5 rounded uppercase tracking-wider shadow-sm`}>
             {product.category}
           </span>
           {product.description && product.description !== product.category && (
-            <span className="bg-white/90 text-muted-foreground border border-border text-[7px] sm:text-[8px] font-bold px-1.5 py-0.5 rounded uppercase">
+            <span className="bg-white/90 text-muted-foreground border border-border text-[6px] sm:text-[8px] font-bold px-1 py-0.5 rounded uppercase truncate max-w-[80px]">
               {product.description}
             </span>
           )}
@@ -118,56 +113,39 @@ export function ProductCard({ product }: { product: Product }) {
         <img 
           src={product.image ? `/${product.image}` : localPlaceholder} 
           alt={product.name} 
-          className="max-h-full max-w-full object-contain group-hover:scale-110 transition-transform duration-500"
+          className="max-h-full max-w-full object-contain group-hover:scale-105 sm:group-hover:scale-110 transition-transform duration-500"
           onError={(e) => { const target = e.target as HTMLImageElement; if (target.src !== window.location.origin + localPlaceholder) target.src = localPlaceholder; }}
         />
       </div>
       
-      {/* --- CUERPO DE LA TARJETA --- */}
-      <div className="p-3 sm:p-4 flex-1 flex flex-col">
-        {/* Título y Stock */}
-        <div className="flex justify-between items-start mb-3 gap-2">
-          <h3 className="font-bold text-foreground uppercase text-[10px] sm:text-[11px] leading-tight line-clamp-2 min-h-[2.2rem]">
+      {/* CUERPO */}
+      <div className="p-2 sm:p-4 flex-1 flex flex-col">
+        <div className="flex justify-between items-start mb-2 sm:mb-3 gap-1">
+          <h3 className="font-bold text-foreground uppercase text-[9px] sm:text-[11px] leading-tight line-clamp-2 min-h-[1.8rem] sm:min-h-[2.2rem] flex-1">
             {product.name}
           </h3>
           {hasStock ? (
-            <CheckCircle2 className={`w-4 h-4 ${isOffer ? categoryStyles.Ofertas.primary : baseStyle.primary} shrink-0`} />
+            <CheckCircle2 className={`w-3 h-3 sm:w-4 sm:h-4 ${isOffer ? categoryStyles.Ofertas.primary : baseStyle.primary} shrink-0`} />
           ) : (
-            <AlertCircle className="w-4 h-4 text-destructive shrink-0" />
+            <AlertCircle className="w-3 h-3 sm:w-4 sm:h-4 text-destructive shrink-0" />
           )}
         </div>
 
-        <div className="mt-auto space-y-2.5 h-[124px] flex flex-col justify-end">
-          {/* --- LÓGICA PRINCIPAL DE PRECIOS --- */}
+        <div className="mt-auto space-y-2 sm:space-y-2.5 h-[100px] sm:h-[124px] flex flex-col justify-end">
           {isOffer ? (
-            // ESCENARIO A: OFERTA GIGANTE (Ocupa todo el espacio)
-            <div className="relative overflow-hidden bg-red-500 p-3 rounded-lg shadow-md border-b-4 border-black/10 flex flex-col justify-center items-center group-hover:rotate-0 transition-transform h-full">
-              <span className="text-[9px] text-white/90 font-black uppercase italic mb-1 tracking-widest">¡Precio Oferta!</span>
-              <span className="text-2xl sm:text-3xl font-black text-white italic tracking-tighter mb-2">
+            <div className="relative overflow-hidden bg-red-500 p-2 sm:p-3 rounded-lg shadow-md border-b-[3px] sm:border-b-4 border-black/10 flex flex-col justify-center items-center h-full">
+              <span className="text-[7px] sm:text-[9px] text-white/90 font-black uppercase italic mb-0.5 sm:mb-1 tracking-widest">¡Oferta!</span>
+              <span className="text-base sm:text-3xl font-black text-white italic tracking-tighter mb-1.5 sm:mb-2 leading-none">
                 {formatPrice(product.priceOferta!)}
               </span>
-               {/* Usamos el selector de UNIDAD para la oferta */}
-              <div className="scale-110">
+              <div className="scale-90 sm:scale-110">
                  <QtySelector qty={qtyU} type="unidad" disabled={!hasStock} />
               </div>
             </div>
           ) : (
-            // ESCENARIO B: SIEMPRE DOS RENGLONES (Activos o Desactivados)
             <>
-              <PriceRow 
-                type="unidad" 
-                label="Unidad" 
-                price={product.priceUnidad} 
-                icon={User} 
-                currentQty={qtyU} 
-              />
-              <PriceRow 
-                type="mayor" 
-                label="X Bulto" 
-                price={product.priceCantidad} 
-                icon={Package} 
-                currentQty={qtyM} 
-              />
+              <PriceRow type="unidad" label="Unidad" price={product.priceUnidad} icon={User} currentQty={qtyU} />
+              <PriceRow type="mayor" label="X Bulto" price={product.priceCantidad} icon={Package} currentQty={qtyM} />
             </>
           )}
         </div>
