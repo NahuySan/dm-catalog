@@ -9,16 +9,16 @@ export const FloatingCart = () => {
   if (totalItems === 0) return null;
 
   const handleWhatsAppSend = () => {
-    const phoneNumber = "5493743xxxxxx"; // Número de Mauri
+    const phoneNumber = "5493743411662"; // Número de Mauri
     
     // 1. FORMATEO DETALLADO DEL MENSAJE
     const lineas = cart.map(item => {
       let detalle = `• *${item.name.toUpperCase()}*\n`;
       if (item.qtyUnidad > 0) {
-        detalle += `   - ${item.qtyUnidad} Un. x $${item.priceUnidad.toLocaleString('es-AR')}\n`;
+        detalle += `   - ${item.qtyUnidad} Un. x $${item.priceUnidad.toLocaleString('es-AR')} c/u\n`;
       }
       if (item.qtyMayor > 0) {
-        detalle += `   - ${item.qtyMayor} Bultos x $${item.priceCantidad.toLocaleString('es-AR')}\n`;
+        detalle += `   - ${item.qtyMayor} Bultos x $${item.priceCantidad.toLocaleString('es-AR')} c/u\n`;
       }
       const subtotalItem = (item.qtyUnidad * item.priceUnidad) + (item.qtyMayor * item.priceCantidad);
       detalle += `   _Subtotal: $${subtotalItem.toLocaleString('es-AR')}_`;
@@ -34,7 +34,7 @@ export const FloatingCart = () => {
       "\n¿Me confirmás stock y el total final?",
     ].join("\n");
 
-    const url = `https://wa.me/${3743411662}?text=${encodeURIComponent(mensaje)}`;
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(mensaje)}`;
     window.open(url, '_blank');
   };
 
