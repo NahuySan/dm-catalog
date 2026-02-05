@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState, ReactNode } from 'react';
-import { Product } from '@/app/types'; // Chequeá que la ruta sea esta
+import { Product } from '@/app/types';
+import { getItemSubtotal } from '@/lib/priceUtils'; // Importamos la utilidad centralizada
 
-// 1. Definimos el item del carrito con las dos cantidades
 export interface CartItem extends Product {
   qtyUnidad: number;
   qtyMayor: number;
@@ -10,7 +10,7 @@ export interface CartItem extends Product {
 interface CartContextType {
   cart: CartItem[];
   addToCart: (product: Product, type: 'unidad' | 'mayor') => void;
-  removeFromCart: (productId: number, type: 'unidad' | 'mayor') => void;
+  removeFromCart: (productId: string | number, type: 'unidad' | 'mayor') => void;
   clearCart: () => void;
   totalItems: number;
   totalPrice: number;
@@ -38,7 +38,6 @@ export const CartProvider = ({ children }: { children: ReactNode }) => {
         );
       }
 
-      // Si el producto no estaba, lo agregamos con la cantidad inicial según el tipo
       return [
         ...prevCart,
         {
@@ -51,7 +50,7 @@ export const CartProvider = ({ children }: { children: ReactNode }) => {
   };
 
   // Función para RESTAR productos
-  const removeFromCart = (productId: number, type: 'unidad' | 'mayor') => {
+  const removeFromCart = (productId: string | number, type: 'unidad' | 'mayor') => {
     setCart(prevCart => {
       const newCart = prevCart.map(item => {
         if (item.id === productId) {
@@ -64,7 +63,6 @@ export const CartProvider = ({ children }: { children: ReactNode }) => {
         return item;
       });
 
-      // Si ambas cantidades llegan a 0, volamos el producto del array
       return newCart.filter(item => item.qtyUnidad > 0 || item.qtyMayor > 0);
     });
   };
@@ -72,15 +70,11 @@ export const CartProvider = ({ children }: { children: ReactNode }) => {
   const clearCart = () => setCart([]);
 
   // CÁLCULOS DINÁMICOS
-  // Sumamos todas las unidades y todos los bultos
   const totalItems = cart.reduce((acc, item) => acc + item.qtyUnidad + item.qtyMayor, 0);
 
-  // El precio total es la suma de (unidades * precioUnidad) + (bultos * precioCantidad)
+  // PRECIO TOTAL: Delegamos la cuenta a la utilidad de precios
   const totalPrice = cart.reduce((acc, item) => {
-    const subtotalUnidad = item.qtyUnidad * (item.priceUnidad || 0);
-    const subtotalMayor = item.qtyMayor * (item.priceCantidad || 0);
-    // Nota: Si el item tiene priceOferta, podrías priorizarlo acá con una lógica extra
-    return acc + subtotalUnidad + subtotalMayor;
+    return acc + getItemSubtotal(item);
   }, 0);
 
   return (
@@ -97,7 +91,6 @@ export const CartProvider = ({ children }: { children: ReactNode }) => {
   );
 };
 
-// Hook para usar el carrito en cualquier componente
 export const useCart = () => {
   const context = useContext(CartContext);
   if (!context) {
