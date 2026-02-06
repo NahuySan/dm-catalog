@@ -10,26 +10,19 @@ export const FloatingCart = () => {
 
   if (totalItems === 0) return null;
 
-const handleWhatsAppSend = () => {
-  const phoneNumber = "5493743411662";
-  
-  // Detección simple de dispositivo
-  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-  
-  // Generamos el mensaje según el dispositivo
-  const mensajePlano = formatWhatsAppMessage(cart, isMobile);
-  const mensajeCodificado = encodeURIComponent(mensajePlano);
+  const handleWhatsAppSend = () => {
+    const phoneNumber = "5493743411662";
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    const mensajePlano = formatWhatsAppMessage(cart, isMobile);
+    const mensajeCodificado = encodeURIComponent(mensajePlano);
 
-  // Elegimos la URL según el dispositivo
-  // En PC usamos 'web.whatsapp.com', en móvil el link corto 'wa.me'
-  const baseUrl = isMobile 
-    ? `https://api.whatsapp.com/send` 
-    : `https://web.whatsapp.com/send`;
+    const baseUrl = isMobile 
+      ? `https://api.whatsapp.com/send` 
+      : `https://web.whatsapp.com/send`;
 
-  const url = `${baseUrl}?phone=${phoneNumber}&text=${mensajeCodificado}`;
-  
-  window.open(url, '_blank');
-};
+    const url = `${baseUrl}?phone=${phoneNumber}&text=${mensajeCodificado}`;
+    window.open(url, '_blank');
+  };
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-4">
@@ -48,7 +41,6 @@ const handleWhatsAppSend = () => {
 
           <div className="max-h-96 overflow-y-auto p-4 space-y-4">
             {cart.map((item) => {
-              // Calculamos precios usando las utilidades
               const subtotalItem = getItemSubtotal(item);
               const unitPrice = getEffectiveUnitPrice(item);
               const esOferta = item.priceOferta != null && item.priceOferta > 0;
@@ -65,12 +57,13 @@ const handleWhatsAppSend = () => {
                     </span>
                   </div>
                   
-                  {/* Desglose de cantidades */}
+                  {/* Desglose de cantidades con pluralización */}
                   <div className="flex flex-col gap-1 px-1">
                     {item.qtyUnidad > 0 && (
                       <div className="flex justify-between items-center text-[10px] text-muted-foreground bg-gray-50 p-1 rounded border border-black/5">
                         <span className="flex items-center gap-1">
-                          <User size={10} /> {item.qtyUnidad} Un. x ${unitPrice.toLocaleString('es-AR')}
+                          <User size={10} /> 
+                          {item.qtyUnidad} {item.qtyUnidad > 1 ? 'Unidades' : 'Unidad'} x ${unitPrice.toLocaleString('es-AR')}
                         </span>
                         <button 
                           onClick={() => removeFromCart(item.id, 'unidad')} 
@@ -83,7 +76,8 @@ const handleWhatsAppSend = () => {
                     {item.qtyMayor > 0 && (
                       <div className="flex justify-between items-center text-[10px] text-muted-foreground bg-gray-50 p-1 rounded border border-black/5">
                         <span className="flex items-center gap-1">
-                          <Package size={10} /> {item.qtyMayor} Bultos x ${item.priceCantidad.toLocaleString('es-AR')}
+                          <Package size={10} /> 
+                          {item.qtyMayor} {item.qtyMayor > 1 ? 'Bultos' : 'Bulto'} x ${item.priceCantidad.toLocaleString('es-AR')}
                         </span>
                         <button 
                           onClick={() => removeFromCart(item.id, 'mayor')} 
@@ -99,7 +93,6 @@ const handleWhatsAppSend = () => {
             })}
           </div>
 
-          {/* TOTAL Y ACCIONES */}
           <div className="p-4 bg-gray-50 border-t border-gray-100">
             <div className="flex justify-between items-center mb-4">
               <span className="text-muted-foreground text-xs font-bold uppercase">Total estimado:</span>
@@ -126,22 +119,29 @@ const handleWhatsAppSend = () => {
         </div>
       )}
 
-      {/* BOTÓN FLOTANTE */}
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="bg-secondary text-white p-4 rounded-full shadow-2xl hover:scale-110 active:scale-90 transition-all relative group"
-      >
-        <ShoppingBag size={28} />
-        <span className="absolute -top-1 -right-1 bg-red-600 text-white text-[10px] font-black w-6 h-6 rounded-full flex items-center justify-center border-2 border-white">
-          {totalItems}
-        </span>
-        
-        {!isOpen && (
-          <span className="absolute right-16 top-1/2 -translate-y-1/2 bg-secondary text-white text-[10px] font-bold py-2 px-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none shadow-xl border border-white/20">
-            VER PEDIDO: ${totalPrice.toLocaleString('es-AR')}
-          </span>
-        )}
-      </button>
+{/* BOTÓN FLOTANTE */}
+<button
+  onClick={() => setIsOpen(!isOpen)}
+  className="
+    bg-secondary text-white p-4 rounded-full shadow-2xl 
+    transition-all relative group
+    animate-pulse-soft hover:animate-none hover:scale-110 active:scale-90
+  "
+>
+  <ShoppingBag size={28} />
+  
+  {/* Contador de ítems (el circulito rojo) */}
+  <span className="absolute -top-1 -right-1 bg-red-600 text-white text-[10px] font-black w-6 h-6 rounded-full flex items-center justify-center border-2 border-white">
+    {totalItems}
+  </span>
+  
+  {/* Tooltip con el total */}
+  {!isOpen && (
+    <span className="absolute right-16 top-1/2 -translate-y-1/2 bg-secondary text-white text-[10px] font-bold py-2 px-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none shadow-xl border border-white/20">
+      VER PEDIDO: ${totalPrice.toLocaleString('es-AR')}
+    </span>
+  )}
+</button>
     </div>
   );
 };
