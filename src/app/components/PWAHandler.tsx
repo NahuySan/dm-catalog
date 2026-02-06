@@ -77,15 +77,15 @@ export const PWAHandler = () => {
 
       {/* 2. Botón de Instalar (Solo aparece si no está instalada) */}
       {showInstallBtn && (
-        <div className="fixed bottom-24 right-6 z-[45] animate-in slide-in-from-right duration-500">
-          <button
-            onClick={handleInstallClick}
-            className="bg-white border-2 border-secondary text-secondary px-4 py-2 rounded-full shadow-lg font-black text-[10px] uppercase flex items-center gap-2 hover:bg-secondary hover:text-white transition-all group"
-          >
-            <Download size={14} className="group-hover:bounce" />
-            Instalar App
-          </button>
-        </div>
+<div className="fixed top-24 right-6 z-[45] animate-in slide-in-from-right duration-500">
+  <button
+    onClick={handleInstallClick}
+    className="bg-white border-2 border-secondary text-secondary px-4 py-2 rounded-full shadow-lg font-black text-[10px] uppercase flex items-center gap-2 hover:bg-secondary hover:text-white transition-all group"
+  >
+    <Download size={14} className="group-hover:bounce" />
+    Instalar App
+  </button>
+</div>
       )}
     </>
   );
