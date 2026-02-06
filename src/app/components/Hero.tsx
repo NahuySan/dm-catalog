@@ -1,4 +1,4 @@
-import { ChevronDown, Home, Sparkles } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 
 interface HeroProps {
   onScrollToCatalog: () => void;
@@ -8,20 +8,17 @@ export function Hero({ onScrollToCatalog }: HeroProps) {
   return (
     <section className="relative pt-32 pb-20 px-4 overflow-hidden bg-gradient-to-br from-primary/10 via-accent to-secondary/10">
       
-      {/* --- LOGO DE FONDO CORREGIDO --- */}
-      {/* Quitamos overflow-hidden de acá y ajustamos el posicionamiento */}
+      {/* --- LOGO DE FONDO --- */}
       <div className="absolute inset-0 flex items-start md:items-center justify-center pointer-events-none z-0 pt-24 md:pt-0">
         <img 
           src="/assets/logoBig.png" 
           alt="Distribuidora Mauri Fondo" 
-          // Usamos w-[90%] para que nunca se corte en los costados del celu
           className="w-[90%] md:w-[650px] lg:w-[850px] h-auto object-contain opacity-[0.2]"
         />
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center">
-          {/* Título: Mantenemos el estilo que ya tenías */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl mb-6 tracking-tighter drop-shadow-lg">
             <span className="text-primary font-light">Distribuidora</span>
             <br />
@@ -32,12 +29,25 @@ export function Hero({ onScrollToCatalog }: HeroProps) {
             Abasteciendo con <span className="text-primary">Variedad</span>, <span className="text-secondary">Confianza</span> y el mejor precio de la región
           </p>
 
+          {/* BOTÓN CON EFECTO PULSACIÓN */}
           <button
             onClick={onScrollToCatalog}
-            className="bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-5 rounded-2xl text-lg font-bold shadow-xl shadow-primary/20 hover:shadow-2xl hover:-translate-y-1 transition-all inline-flex items-center gap-4 group mb-12"
+            className="
+              relative bg-primary hover:bg-primary/90 text-primary-foreground 
+              px-10 py-5 rounded-2xl text-lg font-bold 
+              shadow-xl shadow-primary/30 hover:shadow-2xl 
+              transition-all duration-300 inline-flex items-center gap-4 group mb-12
+              animate-pulse-soft hover:animate-none active:scale-95
+            "
           >
             Explorar Catálogo
             <ChevronDown className="w-6 h-6 group-hover:translate-y-1 transition-transform" />
+            
+            {/* El puntito rojo (ping) si querés dejalo, ayuda un montón visualmente */}
+            <span className="absolute -top-1 -right-1 flex h-3 w-3">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-3 w-3 bg-secondary"></span>
+            </span>
           </button>
 
           {/* Info Bar de Horarios */}

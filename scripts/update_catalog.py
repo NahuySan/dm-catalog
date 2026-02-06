@@ -2,20 +2,32 @@ import pandas as pd
 import json
 import os
 
-# CONFIGURACIÓN DE RUTAS (Cambiamos a la carpeta public)
-INPUT_FOLDER = 'data_csv'
-OUTPUT_FILE = 'public/data/products.json' # <--- Cambiado a public
+# ==========================================
+# CONFIGURACIÓN FINAL DE ARCHIVOS Y HOJAS
+# ==========================================
+config_hojas = [
+    # COMESTIBLES (Mismo archivo, diferentes GIDs)
+    {'file_id': '1pfUU_MJoPUGhE-NUkgEDiqOblolCAX4e2a6URBeaFMs', 'gid': '82111512', 'cat': 'Comestibles', 'name': 'Resto'},
+    {'file_id': '1pfUU_MJoPUGhE-NUkgEDiqOblolCAX4e2a6URBeaFMs', 'gid': '690038982', 'cat': 'Comestibles', 'name': 'Golosinas'},
+    {'file_id': '1pfUU_MJoPUGhE-NUkgEDiqOblolCAX4e2a6URBeaFMs', 'gid': '1593622508', 'cat': 'Comestibles', 'name': 'Frescos'},
 
-archivos = [
-    {'name': '1_Comestibles - 1(0)_Resto.csv', 'cat': 'Comestibles'},
-    {'name': '1_Comestibles - 1(1)_Golosinas.csv', 'cat': 'Comestibles'},
-    {'name': '1_Comestibles - 1(2)_Frescos.csv', 'cat': 'Comestibles'},
-    {'name': '2_Bebidas - 2(0)_Bebidas.csv', 'cat': 'Bebidas'},
-    {'name': '3_Higiene - 3(0)_Higiene.csv', 'cat': 'Higiene'},
-    {'name': '4_Limpieza - 4(0)_Limpieza.csv', 'cat': 'Limpieza'},
-    {'name': '5_Medicamentos - 5(0)_Medicamentos.csv', 'cat': 'Medicamentos'},
-    {'name': '6_Otros - 6(0)_Otros.csv', 'cat': 'Otros'}
+    # BEBIDAS
+    {'file_id': '1R5eSEW4hZI4IHUUnQbjFcLSZ2TE5nRDA5poiGKXq6lE', 'gid': '577267747', 'cat': 'Bebidas', 'name': 'Bebidas'},
+
+    # HIGIENE
+    {'file_id': '1XTYHhAt_zqNkt2L5HIsx7obQgpc1jS2fSy8caa1btcQ', 'gid': '1161367578', 'cat': 'Higiene', 'name': 'Higiene'},
+
+    # LIMPIEZA
+    {'file_id': '1oZOzgcB_a6yzGWXzYDZbSKktj8daYxh1iUJIJNMD94I', 'gid': '1017642377', 'cat': 'Limpieza', 'name': 'Limpieza'},
+
+    # MEDICAMENTOS
+    {'file_id': '1m-3bnBMPbvmWw9hw5avacHcEcNfqA1vOfrdcLDxU-BA', 'gid': '1452568486', 'cat': 'Medicamentos', 'name': 'Medicamentos'},
+
+    # OTROS
+    {'file_id': '1W_2g2QuynjJQQmO6Ol5M9x696FPLF2tky5wMnDzuXnM', 'gid': '1956494593', 'cat': 'Otros', 'name': 'Otros'}
 ]
+
+OUTPUT_FILE = 'public/data/products.json'
 
 def limpiar_precio(valor):
     if pd.isna(valor) or str(valor).strip() in ['', '0', '0.0', '0,0']: 
@@ -29,48 +41,58 @@ def limpiar_precio(valor):
 todos_los_productos = []
 current_id = 1
 
-print("--- Generando products.json para carga dinámica ---")
+print("--- 🚀 INICIANDO SINCRONIZACIÓN DESDE GOOGLE DRIVE ---")
 
-for item in archivos:
-    file_path = os.path.join(INPUT_FOLDER, item['name'])
-    if not os.path.exists(file_path):
-        continue
-
+for hoja in config_hojas:
+    # URL de exportación como CSV directo
+    url = f'https://docs.google.com/spreadsheets/d/{hoja["file_id"]}/export?format=csv&gid={hoja["gid"]}'
+    
     try:
-        df = pd.read_csv(file_path)
-        for _, row in df.iterrows():
-            img_raw = row.get('@imagen')
-            if pd.isna(img_raw) or str(img_raw).lower() == 'nan' or not str(img_raw).strip():
-                img_path = ""
-            else:
-                img_orig = str(img_raw).strip()
-                img_path = os.path.splitext(img_orig)[0].lstrip('/') + ".jpg"
+        df = pd.read_csv(url)
+        
+        # Validación de nombres para la consola
+        nombres_prueba = df['titulo'].dropna().head(2).tolist()
+        print(f"\n📂 Procesando: [{hoja['name'].upper()}]")
+        print(f"   🔍 Primeros items: {nombres_prueba}")
 
+        for _, row in df.iterrows():
+            nombre = str(row.get('titulo', '')).strip()
+            if not nombre or nombre.lower() in ['nan', 'sin nombre', '']:
+                continue
+
+            # Procesamiento de Imagen
+            img_raw = row.get('@imagen')
+            img_path = os.path.splitext(str(img_raw).strip())[0].lstrip('/') + ".jpg" if not pd.isna(img_raw) else ""
+
+            # Procesamiento de Descripción (subCategoría)
             desc_raw = row.get('subCategoria')
-            description = str(desc_raw).strip() if not (pd.isna(desc_raw) or str(desc_raw).lower() == 'nan') else item['cat']
+            description = str(desc_raw).strip() if not pd.isna(desc_raw) else hoja['cat']
 
             producto = {
                 "id": current_id,
-                "name": str(row.get('titulo', 'Sin nombre')).strip(),
+                "name": nombre,
                 "priceUnidad": limpiar_precio(row.get('precioUnitario')),
                 "priceCantidad": limpiar_precio(row.get('precioCantidad')),
                 "priceOferta": limpiar_precio(row.get('precioOferta')) or None,
                 "description": description,
                 "image": img_path,
-                "category": item['cat'],
+                "category": hoja['cat'],
                 "stock": 0 if str(row.get('stock')).lower() == "sin stock" else 10
             }
             todos_los_productos.append(producto)
             current_id += 1
-        print(f"✅ {item['name']} procesado.")
-    except Exception as e:
-        print(f"❌ Error en {item['name']}: {e}")
+            
+        print(f"   ✅ OK: {len(df)} filas procesadas.")
 
-# GUARDAR COMO JSON PURO
+    except Exception as e:
+        print(f"   ❌ ERROR en '{hoja['name']}': {e}")
+
+# GUARDADO FINAL DEL JSON
 os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-    # Solo el dump del array, sin código JS
     json.dump(todos_los_productos, f, indent=2, ensure_ascii=False)
 
-print(f"\n--- ¡Listo! Archivo generado en: {OUTPUT_FILE} ---")
-print(f"Total de productos: {len(todos_los_productos)}")
+print(f"\n==========================================")
+print(f"✅ SINCRONIZACIÓN EXITOSA")
+print(f"Total de productos en el catálogo: {len(todos_los_productos)}")
+print(f"==========================================")
