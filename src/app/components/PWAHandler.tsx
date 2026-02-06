@@ -77,7 +77,7 @@ export const PWAHandler = () => {
 
       {/* 2. Botón de Instalar (Solo aparece si no está instalada) */}
       {showInstallBtn && (
-<div className="fixed top-21 right-4 md:top-26 md:right-7 z-[45] animate-in slide-in-from-right duration-500">
+<div className="fixed top-21 right-4 md:top-26 md:right-8 z-[45] animate-in slide-in-from-right duration-500">
   <button
     onClick={handleInstallClick}
     className="

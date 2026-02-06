@@ -58,7 +58,7 @@ export function Header({ onExportPDF, isGenerating, progress }: HeaderProps) {
           <button
             onClick={onExportPDF}
             disabled={isGenerating}
-            className={`flex items-center gap-2 px-3 sm:px-5 py-2 rounded-xl font-bold transition-all duration-300 shadow-sm active:scale-95 flex-shrink-0
+            className={`flex items-center gap-2 px-3 sm:px-5 py-2 rounded-full font-bold transition-all duration-300 shadow-sm active:scale-95 flex-shrink-0
               ${isGenerating ? "opacity-70 cursor-not-allowed" : "hover:shadow-lg"}
               ${isScrolled 
                 ? "bg-[#14943b] text-white hover:bg-[#117a31]" 
