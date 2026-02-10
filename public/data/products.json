@@ -50,7 +50,7 @@
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Aderezos",
-    "image": "",
+    "image": "img/Alimentos/aderezos/ketchupNatura.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -138,7 +138,7 @@
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Aderezos",
-    "image": "",
+    "image": "img/Alimentos/aderezos/mostaNatura250.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -721,7 +721,7 @@
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Salsas",
-    "image": "",
+    "image": "img/Alimentos/salsas/pulpaRemo.jpg",
     "category": "Comestibles",
     "stock": 10
   },
