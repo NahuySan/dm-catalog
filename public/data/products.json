@@ -204,7 +204,7 @@
     "priceCantidad": 19080.0,
     "priceOferta": null,
     "description": "Dulces",
-    "image": "img/Alimentos/dulces/ddlArrdodul.jpg",
+    "image": "img/Alimentos/dulces/ddlArrodul.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -314,7 +314,7 @@
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Enlatados",
-    "image": "img/Alimentos/dulces/arvejaElio.jpg",
+    "image": "img/Alimentos/Enlatados/arvejaElio.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -3856,7 +3856,7 @@
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "img/Medicamentos/diclo100-2.jpg",
+    "image": "img/Medicamentos/diclo1002.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
