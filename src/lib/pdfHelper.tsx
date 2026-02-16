@@ -17,7 +17,8 @@ export const handleDownloadFullCatalog = async (products: Product[], selectedCat
 
     // 2. Definimos las rutas de tus archivos estáticos
     const staticPdfUrls = [
-      '/assets/Portada.pdf', 
+      '/assets/Portada.pdf',
+      '/assets/reyMomo.pdf',
       '/assets/OfertaVino.pdf', 
       '/assets/OfertaNico.pdf'
     ];
