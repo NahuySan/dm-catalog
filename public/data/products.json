@@ -1601,7 +1601,7 @@
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "img/Alimentos/Golosinas/mentitasLacasa.jpg",
+    "image": "img/Alimentos/Golosinas/mentitaMenta.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -1997,7 +1997,7 @@
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "img/Bebidas/gatorade.jpg",
+    "image": "img/Bebidas/gatoradeNaranja.jpg",
     "category": "Bebidas",
     "stock": 10
   },
