@@ -545,7 +545,7 @@
     "priceCantidad": 0,
     "priceOferta": 6000.0,
     "description": "Secos",
-    "image": "img/Alimentos/secos/aptiGall24.jpg",
+    "image": "img/Alimentos/secos/caldoVerd24.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -2877,7 +2877,7 @@
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "",
+    "image": "img/Medicamentos/actron400.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -3306,7 +3306,7 @@
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "",
+    "image": "img/Medicamentos/uvaLimon.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
@@ -3317,7 +3317,7 @@
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Medicamentos",
-    "image": "",
+    "image": "img/Medicamentos/uvaNaran.jpg",
     "category": "Medicamentos",
     "stock": 10
   },
