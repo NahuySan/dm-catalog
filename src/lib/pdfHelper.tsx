@@ -21,7 +21,7 @@ export const handleDownloadFullCatalog = async (products: Product[], selectedCat
       '/assets/reyMomo.pdf',
       '/assets/OfertaVino.pdf', 
       '/assets/OfertaNico.pdf',
-      '/assets/sueltoNico.pdf'
+      '/assets/OfertaNicoSuelto.pdf'
     ];
     
     const mergedPdf = await PDFDocument.create();
