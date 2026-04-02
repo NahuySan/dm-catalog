@@ -15,7 +15,7 @@ export const handleDownloadFullCatalog = async (products: Product[], selectedCat
     ).toBlob();
     const dynamicPdfBytes = await blob.arrayBuffer();
 
-    // 2. Definimos las rutas de tus archivos estáticos
+    // 2. Definimos las rutas de los archivos estáticos
     const staticPdfUrls = [
       '/assets/Portada.pdf',
       '/assets/reyMomo.pdf',
@@ -25,7 +25,8 @@ export const handleDownloadFullCatalog = async (products: Product[], selectedCat
       '/assets/pañal1.pdf',
       '/assets/pañal2.pdf',
       '/assets/pañal3.pdf',
-      '/assets/pañal4.pdf'
+      '/assets/pañal4.pdf',
+      '/assets/tioNico5.pdf',
       
     ];
     
