@@ -192,8 +192,8 @@
     "priceUnidad": 0,
     "priceCantidad": 13700.0,
     "priceOferta": null,
-    "description": "Comestibles",
-    "image": "",
+    "description": "Dulces",
+    "image": "img/Alimentos/dulces/membSerra5.jpg",
     "category": "Comestibles",
     "stock": 10
   },
