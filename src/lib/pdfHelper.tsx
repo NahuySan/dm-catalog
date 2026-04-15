@@ -22,10 +22,6 @@ export const handleDownloadFullCatalog = async (products: Product[], selectedCat
       '/assets/OfertaVino.pdf', 
       '/assets/OfertaNico.pdf',
       '/assets/OfertaNicoSuelto.pdf',
-      '/assets/pañal1.pdf',
-      '/assets/pañal2.pdf',
-      '/assets/pañal3.pdf',
-      '/assets/pañal4.pdf',
       '/assets/tioNico5.pdf',
       
     ];
