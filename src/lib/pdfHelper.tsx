@@ -23,7 +23,11 @@ export const handleDownloadFullCatalog = async (products: Product[], selectedCat
       '/assets/OfertaNico.pdf',
       '/assets/OfertaNicoSuelto.pdf',
       '/assets/tioNico5.pdf',
-      
+      '/assets/pañal1.pdf',
+      '/assets/pañal2.pdf',
+      '/assets/pañal3.pdf',
+      '/assets/pañal4.pdf',
+    
     ];
     
     const mergedPdf = await PDFDocument.create();
