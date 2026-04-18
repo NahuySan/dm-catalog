@@ -1618,12 +1618,12 @@
   },
   {
     "id": 148,
-    "name": "Salchichon Primavera don Alejandro 4kg",
+    "name": "Salchichon Ale Primavera/Jamon 4kg",
     "priceUnidad": 4990.0,
     "priceCantidad": 19960.0,
     "priceOferta": null,
     "description": "Frescos",
-    "image": "img/Alimentos/embutidos/salchichonAlePrima.jpg",
+    "image": "img/Alimentos/embutidos/salchichonAle.jpg",
     "category": "Comestibles",
     "stock": 10
   },
