@@ -936,10 +936,10 @@
   },
   {
     "id": 86,
-    "name": "Fideo brasilero gallina",
+    "name": "Fideo brasilero",
     "priceUnidad": 590.0,
     "priceCantidad": 0,
-    "priceOferta": 550.0,
+    "priceOferta": null,
     "description": "Secos",
     "image": "img/Alimentos/secos/fideosBrasi.jpg",
     "category": "Comestibles",
