@@ -291,8 +291,8 @@
     "priceUnidad": 2319.0,
     "priceCantidad": 0,
     "priceOferta": null,
-    "description": "Comestibles",
-    "image": "",
+    "description": "Enlatados",
+    "image": "img/Alimentos/Enlatados/duraznoRemoMitad.jpg",
     "category": "Comestibles",
     "stock": 10
   },
