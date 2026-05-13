@@ -3873,17 +3873,6 @@
   },
   {
     "id": 353,
-    "name": "Ibu Jarabe 4%",
-    "priceUnidad": 2000.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Medicamentos",
-    "image": "img/Medicamentos/ibuJarabe.jpg",
-    "category": "Medicamentos",
-    "stock": 10
-  },
-  {
-    "id": 354,
     "name": "Ibuevanol 20u",
     "priceUnidad": 5590.0,
     "priceCantidad": 0,
@@ -3894,7 +3883,7 @@
     "stock": 10
   },
   {
-    "id": 355,
+    "id": 354,
     "name": "Ibuevanol forte x20",
     "priceUnidad": 6490.0,
     "priceCantidad": 0,
@@ -3905,7 +3894,7 @@
     "stock": 10
   },
   {
-    "id": 356,
+    "id": 355,
     "name": "Ibuprofeno 400",
     "priceUnidad": 1000.0,
     "priceCantidad": 0,
@@ -3916,7 +3905,7 @@
     "stock": 10
   },
   {
-    "id": 357,
+    "id": 356,
     "name": "Ibuprofeno 600",
     "priceUnidad": 1300.0,
     "priceCantidad": 0,
@@ -3927,7 +3916,7 @@
     "stock": 10
   },
   {
-    "id": 358,
+    "id": 357,
     "name": "Keterolac",
     "priceUnidad": 1200.0,
     "priceCantidad": 0,
@@ -3938,7 +3927,7 @@
     "stock": 10
   },
   {
-    "id": 359,
+    "id": 358,
     "name": "Loratadina",
     "priceUnidad": 890.0,
     "priceCantidad": 0,
@@ -3949,7 +3938,7 @@
     "stock": 10
   },
   {
-    "id": 360,
+    "id": 359,
     "name": "Mejoral Niño Tableta",
     "priceUnidad": 3290.0,
     "priceCantidad": 0,
@@ -3960,7 +3949,7 @@
     "stock": 10
   },
   {
-    "id": 361,
+    "id": 360,
     "name": "Mieligtus chico",
     "priceUnidad": 689.0,
     "priceCantidad": 0,
@@ -3971,7 +3960,7 @@
     "stock": 10
   },
   {
-    "id": 362,
+    "id": 361,
     "name": "Mieligtus Grande",
     "priceUnidad": 1890.0,
     "priceCantidad": 0,
@@ -3982,7 +3971,7 @@
     "stock": 10
   },
   {
-    "id": 363,
+    "id": 362,
     "name": "Migral",
     "priceUnidad": 5390.0,
     "priceCantidad": 0,
@@ -3993,7 +3982,7 @@
     "stock": 10
   },
   {
-    "id": 364,
+    "id": 363,
     "name": "Norgestrel Emergencia",
     "priceUnidad": 4190.0,
     "priceCantidad": 0,
@@ -4004,7 +3993,7 @@
     "stock": 10
   },
   {
-    "id": 365,
+    "id": 364,
     "name": "Norgestrel Plus 21u",
     "priceUnidad": 6900.0,
     "priceCantidad": 0,
@@ -4015,7 +4004,7 @@
     "stock": 10
   },
   {
-    "id": 366,
+    "id": 365,
     "name": "Novalgina",
     "priceUnidad": 3500.0,
     "priceCantidad": 0,
@@ -4026,7 +4015,7 @@
     "stock": 10
   },
   {
-    "id": 367,
+    "id": 366,
     "name": "Omeprazol",
     "priceUnidad": 1100.0,
     "priceCantidad": 0,
@@ -4037,7 +4026,7 @@
     "stock": 10
   },
   {
-    "id": 368,
+    "id": 367,
     "name": "Pastilla Carbon",
     "priceUnidad": 1890.0,
     "priceCantidad": 0,
@@ -4048,7 +4037,7 @@
     "stock": 10
   },
   {
-    "id": 369,
+    "id": 368,
     "name": "Paracetamol 500",
     "priceUnidad": 1000.0,
     "priceCantidad": 0,
@@ -4059,7 +4048,7 @@
     "stock": 10
   },
   {
-    "id": 370,
+    "id": 369,
     "name": "Paracetamol 1g x8u",
     "priceUnidad": 1500.0,
     "priceCantidad": 0,
@@ -4070,7 +4059,7 @@
     "stock": 10
   },
   {
-    "id": 371,
+    "id": 370,
     "name": "Pomada Medicinal",
     "priceUnidad": 1790.0,
     "priceCantidad": 0,
@@ -4081,7 +4070,7 @@
     "stock": 10
   },
   {
-    "id": 372,
+    "id": 371,
     "name": "Qura Plus",
     "priceUnidad": 9715.0,
     "priceCantidad": 0,
@@ -4092,7 +4081,7 @@
     "stock": 10
   },
   {
-    "id": 373,
+    "id": 372,
     "name": "Sertal Perlas",
     "priceUnidad": 5400.0,
     "priceCantidad": 0,
@@ -4103,18 +4092,7 @@
     "stock": 10
   },
   {
-    "id": 374,
-    "name": "Tafirol Plus x8",
-    "priceUnidad": 2990.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Medicamentos",
-    "image": "img/Medicamentos/tafirolPlus.jpg",
-    "category": "Medicamentos",
-    "stock": 10
-  },
-  {
-    "id": 375,
+    "id": 373,
     "name": "Te Vent3 x50",
     "priceUnidad": 1090.0,
     "priceCantidad": 0,
@@ -4125,7 +4103,7 @@
     "stock": 10
   },
   {
-    "id": 376,
+    "id": 374,
     "name": "Uvasal tradicional x30",
     "priceUnidad": 1050.0,
     "priceCantidad": 0,
@@ -4136,7 +4114,7 @@
     "stock": 10
   },
   {
-    "id": 377,
+    "id": 375,
     "name": "Aceite Multiuso 100cm",
     "priceUnidad": 1990.0,
     "priceCantidad": 0,
@@ -4147,7 +4125,7 @@
     "stock": 10
   },
   {
-    "id": 378,
+    "id": 376,
     "name": "Adaptadores x2",
     "priceUnidad": 1790.0,
     "priceCantidad": 0,
@@ -4158,7 +4136,7 @@
     "stock": 10
   },
   {
-    "id": 379,
+    "id": 377,
     "name": "Agujas",
     "priceUnidad": 700.0,
     "priceCantidad": 0,
@@ -4169,7 +4147,7 @@
     "stock": 10
   },
   {
-    "id": 380,
+    "id": 378,
     "name": "Alpargatas",
     "priceUnidad": 4550.0,
     "priceCantidad": 0,
@@ -4180,7 +4158,7 @@
     "stock": 10
   },
   {
-    "id": 381,
+    "id": 379,
     "name": "Anilina Tupy azul",
     "priceUnidad": 1990.0,
     "priceCantidad": 0,
@@ -4191,7 +4169,7 @@
     "stock": 10
   },
   {
-    "id": 382,
+    "id": 380,
     "name": "Azufre x5",
     "priceUnidad": 649.0,
     "priceCantidad": 0,
@@ -4202,7 +4180,7 @@
     "stock": 10
   },
   {
-    "id": 383,
+    "id": 381,
     "name": "Birome Azul y Negro",
     "priceUnidad": 250.0,
     "priceCantidad": 0,
@@ -4213,7 +4191,7 @@
     "stock": 10
   },
   {
-    "id": 384,
+    "id": 382,
     "name": "Bolsa Camiseta Chica",
     "priceUnidad": 3890.0,
     "priceCantidad": 0,
@@ -4224,7 +4202,7 @@
     "stock": 10
   },
   {
-    "id": 385,
+    "id": 383,
     "name": "Bolsa Camiseta Grande",
     "priceUnidad": 7990.0,
     "priceCantidad": 0,
@@ -4235,7 +4213,7 @@
     "stock": 10
   },
   {
-    "id": 386,
+    "id": 384,
     "name": "Bolsa Transparente 1Kg",
     "priceUnidad": 1590.0,
     "priceCantidad": 0,
@@ -4246,7 +4224,7 @@
     "stock": 10
   },
   {
-    "id": 387,
+    "id": 385,
     "name": "Bolsa Transparente 2Kg",
     "priceUnidad": 2390.0,
     "priceCantidad": 0,
@@ -4257,7 +4235,7 @@
     "stock": 10
   },
   {
-    "id": 388,
+    "id": 386,
     "name": "Bolsa Transparente 3Kg",
     "priceUnidad": 2790.0,
     "priceCantidad": 0,
@@ -4268,7 +4246,7 @@
     "stock": 10
   },
   {
-    "id": 389,
+    "id": 387,
     "name": "Bombilla Alpaca",
     "priceUnidad": 2890.0,
     "priceCantidad": 0,
@@ -4279,7 +4257,7 @@
     "stock": 10
   },
   {
-    "id": 390,
+    "id": 388,
     "name": "Bombilla x12",
     "priceUnidad": 0,
     "priceCantidad": 16188.0,
@@ -4290,7 +4268,7 @@
     "stock": 10
   },
   {
-    "id": 391,
+    "id": 389,
     "name": "Botellón 1500cc",
     "priceUnidad": 1949.0,
     "priceCantidad": 0,
@@ -4301,7 +4279,7 @@
     "stock": 10
   },
   {
-    "id": 392,
+    "id": 390,
     "name": "Broches ropa",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -4312,7 +4290,7 @@
     "stock": 10
   },
   {
-    "id": 393,
+    "id": 391,
     "name": "Bolitas x100u",
     "priceUnidad": 2900.0,
     "priceCantidad": 0,
@@ -4323,7 +4301,7 @@
     "stock": 10
   },
   {
-    "id": 394,
+    "id": 392,
     "name": "Chupete x6",
     "priceUnidad": 0,
     "priceCantidad": 5400.0,
@@ -4334,7 +4312,7 @@
     "stock": 10
   },
   {
-    "id": 395,
+    "id": 393,
     "name": "Conservadora 34litros",
     "priceUnidad": 26900.0,
     "priceCantidad": 0,
@@ -4345,7 +4323,7 @@
     "stock": 10
   },
   {
-    "id": 396,
+    "id": 394,
     "name": "Cinta Teflon 10mts",
     "priceUnidad": 749.0,
     "priceCantidad": 0,
@@ -4356,7 +4334,7 @@
     "stock": 10
   },
   {
-    "id": 397,
+    "id": 395,
     "name": "Cinta Aisladora x10",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -4367,7 +4345,7 @@
     "stock": 10
   },
   {
-    "id": 398,
+    "id": 396,
     "name": "Cinta ancha x42m",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -4378,7 +4356,7 @@
     "stock": 10
   },
   {
-    "id": 399,
+    "id": 397,
     "name": "Combo 1 300ml",
     "priceUnidad": 2100.0,
     "priceCantidad": 0,
@@ -4389,7 +4367,7 @@
     "stock": 10
   },
   {
-    "id": 400,
+    "id": 398,
     "name": "Combo 2 600ml",
     "priceUnidad": 2790.0,
     "priceCantidad": 0,
@@ -4400,7 +4378,7 @@
     "stock": 10
   },
   {
-    "id": 401,
+    "id": 399,
     "name": "Combo 3 Salero/Yerbero",
     "priceUnidad": 2890.0,
     "priceCantidad": 0,
@@ -4411,7 +4389,7 @@
     "stock": 10
   },
   {
-    "id": 402,
+    "id": 400,
     "name": "Cordón Blanco x12",
     "priceUnidad": 9900.0,
     "priceCantidad": 0,
@@ -4422,7 +4400,7 @@
     "stock": 10
   },
   {
-    "id": 403,
+    "id": 401,
     "name": "Cocina a Leña Nro 0",
     "priceUnidad": 319000.0,
     "priceCantidad": 0,
@@ -4433,7 +4411,7 @@
     "stock": 10
   },
   {
-    "id": 404,
+    "id": 402,
     "name": "Vertedor con Pico",
     "priceUnidad": 1549.0,
     "priceCantidad": 0,
@@ -4444,7 +4422,7 @@
     "stock": 10
   },
   {
-    "id": 405,
+    "id": 403,
     "name": "Eccole x6",
     "priceUnidad": 4990.0,
     "priceCantidad": 0,
@@ -4455,7 +4433,7 @@
     "stock": 10
   },
   {
-    "id": 406,
+    "id": 404,
     "name": "Encendedor Bic Maxi x12",
     "priceUnidad": 1249.0,
     "priceCantidad": 0,
@@ -4466,7 +4444,7 @@
     "stock": 10
   },
   {
-    "id": 407,
+    "id": 405,
     "name": "Encendedor Bic Max 150F",
     "priceUnidad": 1090.0,
     "priceCantidad": 0,
@@ -4477,7 +4455,7 @@
     "stock": 10
   },
   {
-    "id": 408,
+    "id": 406,
     "name": "Encendedor Clipper",
     "priceUnidad": 490.0,
     "priceCantidad": 0,
@@ -4488,7 +4466,7 @@
     "stock": 10
   },
   {
-    "id": 409,
+    "id": 407,
     "name": "Escarbadientes x24",
     "priceUnidad": 549.0,
     "priceCantidad": 13176.0,
@@ -4499,7 +4477,7 @@
     "stock": 10
   },
   {
-    "id": 410,
+    "id": 408,
     "name": "Foco 10W x10",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -4510,7 +4488,7 @@
     "stock": 10
   },
   {
-    "id": 411,
+    "id": 409,
     "name": "Foco 14w x10",
     "priceUnidad": 1290.0,
     "priceCantidad": 0,
@@ -4521,7 +4499,7 @@
     "stock": 10
   },
   {
-    "id": 412,
+    "id": 410,
     "name": "Foco 18w",
     "priceUnidad": 1990.0,
     "priceCantidad": 0,
@@ -4532,7 +4510,7 @@
     "stock": 10
   },
   {
-    "id": 413,
+    "id": 411,
     "name": "Goma Latex",
     "priceUnidad": 4290.0,
     "priceCantidad": 0,
@@ -4543,7 +4521,7 @@
     "stock": 10
   },
   {
-    "id": 414,
+    "id": 412,
     "name": "Gomera sin mango",
     "priceUnidad": 1900.0,
     "priceCantidad": 0,
@@ -4554,7 +4532,7 @@
     "stock": 10
   },
   {
-    "id": 415,
+    "id": 413,
     "name": "Gotita x6",
     "priceUnidad": 0,
     "priceCantidad": 10990.0,
@@ -4565,7 +4543,7 @@
     "stock": 10
   },
   {
-    "id": 416,
+    "id": 414,
     "name": "Hilo negro x12",
     "priceUnidad": 0,
     "priceCantidad": 3900.0,
@@ -4576,7 +4554,7 @@
     "stock": 10
   },
   {
-    "id": 417,
+    "id": 415,
     "name": "Guantes Reforzados amarillos",
     "priceUnidad": 1890.0,
     "priceCantidad": 0,
@@ -4587,7 +4565,7 @@
     "stock": 10
   },
   {
-    "id": 418,
+    "id": 416,
     "name": "Globos",
     "priceUnidad": 0,
     "priceCantidad": 3490.0,
@@ -4598,7 +4576,7 @@
     "stock": 10
   },
   {
-    "id": 419,
+    "id": 417,
     "name": "Juego de 5 Piezas",
     "priceUnidad": 32900.0,
     "priceCantidad": 0,
@@ -4609,7 +4587,7 @@
     "stock": 10
   },
   {
-    "id": 420,
+    "id": 418,
     "name": "Lanza Nieves Rey Momo x12",
     "priceUnidad": 2190.0,
     "priceCantidad": 0,
@@ -4620,7 +4598,7 @@
     "stock": 10
   },
   {
-    "id": 421,
+    "id": 419,
     "name": "Linterna",
     "priceUnidad": 8490.0,
     "priceCantidad": 0,
@@ -4631,7 +4609,7 @@
     "stock": 10
   },
   {
-    "id": 422,
+    "id": 420,
     "name": "Mamaderas Lisas x unidad",
     "priceUnidad": 1890.0,
     "priceCantidad": 0,
@@ -4642,7 +4620,7 @@
     "stock": 10
   },
   {
-    "id": 423,
+    "id": 421,
     "name": "Mamaderas Decoradas",
     "priceUnidad": 2990.0,
     "priceCantidad": 0,
@@ -4653,7 +4631,7 @@
     "stock": 10
   },
   {
-    "id": 424,
+    "id": 422,
     "name": "Medias x3 pares",
     "priceUnidad": 0,
     "priceCantidad": 3490.0,
@@ -4664,7 +4642,7 @@
     "stock": 10
   },
   {
-    "id": 425,
+    "id": 423,
     "name": "Naipes x12",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -4675,7 +4653,7 @@
     "stock": 10
   },
   {
-    "id": 426,
+    "id": 424,
     "name": "Naipes Uno",
     "priceUnidad": 1390.0,
     "priceCantidad": 0,
@@ -4686,7 +4664,7 @@
     "stock": 10
   },
   {
-    "id": 427,
+    "id": 425,
     "name": "Papel Aluminio Inca",
     "priceUnidad": 1350.0,
     "priceCantidad": 0,
@@ -4697,7 +4675,7 @@
     "stock": 10
   },
   {
-    "id": 428,
+    "id": 426,
     "name": "Papelillo Ocb x25",
     "priceUnidad": 0,
     "priceCantidad": 24900.0,
@@ -4708,7 +4686,7 @@
     "stock": 10
   },
   {
-    "id": 429,
+    "id": 427,
     "name": "Papelillo Poker x25",
     "priceUnidad": 0,
     "priceCantidad": 10490.0,
@@ -4719,7 +4697,7 @@
     "stock": 10
   },
   {
-    "id": 430,
+    "id": 428,
     "name": "Pegamento Instantaneo x12",
     "priceUnidad": 0,
     "priceCantidad": 6900.0,
@@ -4730,7 +4708,7 @@
     "stock": 10
   },
   {
-    "id": 431,
+    "id": 429,
     "name": "Pegamento Instantaneo Pegamil",
     "priceUnidad": 1390.0,
     "priceCantidad": 0,
@@ -4741,7 +4719,7 @@
     "stock": 10
   },
   {
-    "id": 432,
+    "id": 430,
     "name": "Perchas x4",
     "priceUnidad": 1590.0,
     "priceCantidad": 0,
@@ -4752,7 +4730,7 @@
     "stock": 10
   },
   {
-    "id": 433,
+    "id": 431,
     "name": "Pilas AAA x4",
     "priceUnidad": 2396.0,
     "priceCantidad": 0,
@@ -4763,7 +4741,7 @@
     "stock": 10
   },
   {
-    "id": 434,
+    "id": 432,
     "name": "Pilas AAA Cada Una",
     "priceUnidad": 599.0,
     "priceCantidad": 0,
@@ -4774,7 +4752,7 @@
     "stock": 10
   },
   {
-    "id": 435,
+    "id": 433,
     "name": "Pinza para cejas x12",
     "priceUnidad": 0,
     "priceCantidad": 4900.0,
@@ -4785,7 +4763,7 @@
     "stock": 10
   },
   {
-    "id": 436,
+    "id": 434,
     "name": "Plato Hondo",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -4796,7 +4774,7 @@
     "stock": 10
   },
   {
-    "id": 437,
+    "id": 435,
     "name": "Plato Playo",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -4807,7 +4785,7 @@
     "stock": 10
   },
   {
-    "id": 438,
+    "id": 436,
     "name": "Pomada Negra en lata",
     "priceUnidad": 1990.0,
     "priceCantidad": 0,
@@ -4818,7 +4796,7 @@
     "stock": 10
   },
   {
-    "id": 439,
+    "id": 437,
     "name": "Poxiran transparente x6",
     "priceUnidad": 3590.0,
     "priceCantidad": 0,
@@ -4829,7 +4807,7 @@
     "stock": 10
   },
   {
-    "id": 440,
+    "id": 438,
     "name": "Termo Termolar",
     "priceUnidad": 8900.0,
     "priceCantidad": 0,
@@ -4840,7 +4818,7 @@
     "stock": 10
   },
   {
-    "id": 441,
+    "id": 439,
     "name": "Vasos de Vidrio 270ml",
     "priceUnidad": 479.0,
     "priceCantidad": 0,
@@ -4851,7 +4829,7 @@
     "stock": 10
   },
   {
-    "id": 442,
+    "id": 440,
     "name": "Vela chica x50",
     "priceUnidad": 490.0,
     "priceCantidad": 0,
@@ -4862,7 +4840,7 @@
     "stock": 10
   },
   {
-    "id": 443,
+    "id": 441,
     "name": "Vela larga blanca x25",
     "priceUnidad": 949.0,
     "priceCantidad": 0,
@@ -4873,7 +4851,7 @@
     "stock": 10
   },
   {
-    "id": 444,
+    "id": 442,
     "name": "Vela larga roja x25",
     "priceUnidad": 1190.0,
     "priceCantidad": 0,
@@ -4884,7 +4862,7 @@
     "stock": 10
   },
   {
-    "id": 445,
+    "id": 443,
     "name": "Voligoma",
     "priceUnidad": 1290.0,
     "priceCantidad": 0,
@@ -4895,7 +4873,7 @@
     "stock": 10
   },
   {
-    "id": 446,
+    "id": 444,
     "name": "Termolar para tereré x2,50L",
     "priceUnidad": 13490.0,
     "priceCantidad": 0,
@@ -4906,7 +4884,7 @@
     "stock": 10
   },
   {
-    "id": 447,
+    "id": 445,
     "name": "Termolar 2L",
     "priceUnidad": 5900.0,
     "priceCantidad": 0,
