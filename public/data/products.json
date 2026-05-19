@@ -501,7 +501,7 @@
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Otros",
-    "image": "img/Alimentos/otros/tortas400.jpg",
+    "image": "img/Alimentos/otros/tortaNarCo.jpg",
     "category": "Comestibles",
     "stock": 10
   },
@@ -2822,7 +2822,7 @@
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "img/Higiene/acondDove.jpg",
+    "image": "img/Higiene/realDove.jpg",
     "category": "Higiene",
     "stock": 10
   },
