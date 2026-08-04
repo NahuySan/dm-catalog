@@ -45,17 +45,6 @@
   },
   {
     "id": 5,
-    "name": "Ketchup Natura x250g",
-    "priceUnidad": 1690.0,
-    "priceCantidad": 0,
-    "priceOferta": null,
-    "description": "Aderezos",
-    "image": "img/Alimentos/aderezos/ketchupNatura.jpg",
-    "category": "Comestibles",
-    "stock": 10
-  },
-  {
-    "id": 6,
     "name": "Ketchup Danica 50g x24",
     "priceUnidad": 0,
     "priceCantidad": 10776.0,
@@ -66,7 +55,7 @@
     "stock": 10
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "Ketchup SP 200G",
     "priceUnidad": 1190.0,
     "priceCantidad": 0,
@@ -77,7 +66,7 @@
     "stock": 10
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "Mayonesa Cada Dia 20x125gr",
     "priceUnidad": 0,
     "priceCantidad": 8690.0,
@@ -88,13 +77,24 @@
     "stock": 10
   },
   {
-    "id": 9,
+    "id": 8,
     "name": "Mayonesa cada dia 12x250gr",
     "priceUnidad": 890.0,
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Aderezos",
     "image": "img/Alimentos/aderezos/mayoCadaDia.jpg",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 9,
+    "name": "Mayo Natura x12 x250g",
+    "priceUnidad": 1690.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Aderezos",
+    "image": "img/Alimentos/aderezos/mayoNatura.jpg",
     "category": "Comestibles",
     "stock": 10
   },
