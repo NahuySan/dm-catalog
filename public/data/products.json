@@ -2778,7 +2778,7 @@
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Higiene",
-    "image": "img/Higiene/alcohoSani.jpg",
+    "image": "img/Higiene/alcoholSani.jpg",
     "category": "Higiene",
     "stock": 10
   },
@@ -2850,7 +2850,7 @@
   },
   {
     "id": 260,
-    "name": "Tintura para el pelo N° 1 y 11",
+    "name": "Tintura para el pelo",
     "priceUnidad": 2599.0,
     "priceCantidad": 0,
     "priceOferta": null,
