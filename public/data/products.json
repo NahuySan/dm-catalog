@@ -35,7 +35,7 @@
   {
     "id": 4,
     "name": "Edulcorante Sidiet x6 200ml",
-    "priceUnidad": 1490.0,
+    "priceUnidad": 1590.0,
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Aderezos",
@@ -782,6 +782,17 @@
   },
   {
     "id": 72,
+    "name": "Fecula Cuña Piru 800g",
+    "priceUnidad": 2239.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Secos",
+    "image": "img/Alimentos/secos/feculaCuna.jpg",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 73,
     "name": "Anís 25g x10",
     "priceUnidad": 800.0,
     "priceCantidad": 0,
@@ -792,7 +803,7 @@
     "stock": 10
   },
   {
-    "id": 73,
+    "id": 74,
     "name": "Arroz del Amigo 5kg",
     "priceUnidad": 2690.0,
     "priceCantidad": 0,
@@ -803,7 +814,7 @@
     "stock": 10
   },
   {
-    "id": 74,
+    "id": 75,
     "name": "Arroz Mantulak 10x1kg",
     "priceUnidad": 1090.0,
     "priceCantidad": 10900.0,
@@ -814,7 +825,7 @@
     "stock": 10
   },
   {
-    "id": 75,
+    "id": 76,
     "name": "Arroz amanda 10x1kg",
     "priceUnidad": 1649.0,
     "priceCantidad": 16490.0,
@@ -825,7 +836,7 @@
     "stock": 10
   },
   {
-    "id": 76,
+    "id": 77,
     "name": "Arroz San Javier DC 10x1kg",
     "priceUnidad": 1349.0,
     "priceCantidad": 13490.0,
@@ -836,7 +847,7 @@
     "stock": 10
   },
   {
-    "id": 77,
+    "id": 78,
     "name": "Arroz Integral San Javier",
     "priceUnidad": 1090.0,
     "priceCantidad": 0,
@@ -847,7 +858,7 @@
     "stock": 10
   },
   {
-    "id": 78,
+    "id": 79,
     "name": "Arroz Doña Luli 1kg",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -858,7 +869,7 @@
     "stock": 10
   },
   {
-    "id": 79,
+    "id": 80,
     "name": "Arvejas secas 10x400g Olinto",
     "priceUnidad": 990.0,
     "priceCantidad": 9900.0,
@@ -869,7 +880,7 @@
     "stock": 10
   },
   {
-    "id": 80,
+    "id": 81,
     "name": "Arveja Criolla 400g",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -880,7 +891,7 @@
     "stock": 10
   },
   {
-    "id": 81,
+    "id": 82,
     "name": "Leche en Polvo Cotapa",
     "priceUnidad": 5990.0,
     "priceCantidad": 0,
@@ -891,7 +902,7 @@
     "stock": 10
   },
   {
-    "id": 82,
+    "id": 83,
     "name": "Leche en Polvo Luisa 400g",
     "priceUnidad": 2900.0,
     "priceCantidad": 0,
@@ -902,7 +913,7 @@
     "stock": 10
   },
   {
-    "id": 83,
+    "id": 84,
     "name": "Leche en Polvo Nido 750g",
     "priceUnidad": 9900.0,
     "priceCantidad": 0,
@@ -913,7 +924,7 @@
     "stock": 10
   },
   {
-    "id": 84,
+    "id": 85,
     "name": "Azucar de kilo x10 hogareña",
     "priceUnidad": 11900.0,
     "priceCantidad": 0,
@@ -924,7 +935,18 @@
     "stock": 10
   },
   {
-    "id": 85,
+    "id": 86,
+    "name": "Bicarbonato Dumba 20g",
+    "priceUnidad": 590.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Secos",
+    "image": "img/Alimentos/secos/bicarbDumba.jpg",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 87,
     "name": "Bizcochuelo Barbara Chocolate x10",
     "priceUnidad": 2449.0,
     "priceCantidad": 0,
@@ -935,7 +957,7 @@
     "stock": 10
   },
   {
-    "id": 86,
+    "id": 88,
     "name": "Bizcochuelo Barbara x10",
     "priceUnidad": 1849.0,
     "priceCantidad": 0,
@@ -946,7 +968,7 @@
     "stock": 10
   },
   {
-    "id": 87,
+    "id": 89,
     "name": "Caldo maggi verduras x24",
     "priceUnidad": 7900.0,
     "priceCantidad": 0,
@@ -957,7 +979,7 @@
     "stock": 10
   },
   {
-    "id": 88,
+    "id": 90,
     "name": "Caldo apti verdura brasilero x24",
     "priceUnidad": 5990.0,
     "priceCantidad": 0,
@@ -968,7 +990,7 @@
     "stock": 10
   },
   {
-    "id": 89,
+    "id": 91,
     "name": "Caldo Verduras Maggi x12",
     "priceUnidad": 1660.0,
     "priceCantidad": 0,
@@ -979,7 +1001,7 @@
     "stock": 10
   },
   {
-    "id": 90,
+    "id": 92,
     "name": "Caldo Gallina Maggi x12",
     "priceUnidad": 1660.0,
     "priceCantidad": 0,
@@ -990,7 +1012,7 @@
     "stock": 10
   },
   {
-    "id": 91,
+    "id": 93,
     "name": "Cacao Emeth 180g x12",
     "priceUnidad": 1249.0,
     "priceCantidad": 0,
@@ -1001,7 +1023,7 @@
     "stock": 10
   },
   {
-    "id": 92,
+    "id": 94,
     "name": "Cereal sin azucar Exclusivo 150gr",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -1012,7 +1034,7 @@
     "stock": 10
   },
   {
-    "id": 93,
+    "id": 95,
     "name": "Cafe Torrado La Virginia",
     "priceUnidad": 2990.0,
     "priceCantidad": 0,
@@ -1023,7 +1045,7 @@
     "stock": 10
   },
   {
-    "id": 94,
+    "id": 96,
     "name": "Café la Planta 100g",
     "priceUnidad": 4290.0,
     "priceCantidad": 0,
@@ -1034,7 +1056,7 @@
     "stock": 10
   },
   {
-    "id": 95,
+    "id": 97,
     "name": "Cafe en Saquitos Nory 25u",
     "priceUnidad": 3749.0,
     "priceCantidad": 0,
@@ -1045,7 +1067,7 @@
     "stock": 10
   },
   {
-    "id": 96,
+    "id": 98,
     "name": "Clavo de olor 15g x10",
     "priceUnidad": 1990.0,
     "priceCantidad": 0,
@@ -1056,7 +1078,7 @@
     "stock": 10
   },
   {
-    "id": 97,
+    "id": 99,
     "name": "Coco Rallado 50g x10",
     "priceUnidad": 1790.0,
     "priceCantidad": 0,
@@ -1067,7 +1089,7 @@
     "stock": 10
   },
   {
-    "id": 98,
+    "id": 100,
     "name": "Condimento para pizza 25gr",
     "priceUnidad": 790.0,
     "priceCantidad": 0,
@@ -1078,7 +1100,7 @@
     "stock": 10
   },
   {
-    "id": 99,
+    "id": 101,
     "name": "Especias Surtidas 25g x10",
     "priceUnidad": 790.0,
     "priceCantidad": 0,
@@ -1089,7 +1111,7 @@
     "stock": 10
   },
   {
-    "id": 100,
+    "id": 102,
     "name": "Te Nory x10",
     "priceUnidad": 649.0,
     "priceCantidad": 6490.0,
@@ -1100,7 +1122,7 @@
     "stock": 10
   },
   {
-    "id": 101,
+    "id": 103,
     "name": "Mate Cocido Nory X12",
     "priceUnidad": 890.0,
     "priceCantidad": 10680.0,
@@ -1111,7 +1133,7 @@
     "stock": 10
   },
   {
-    "id": 102,
+    "id": 104,
     "name": "Granas de colores",
     "priceUnidad": 890.0,
     "priceCantidad": 0,
@@ -1122,7 +1144,7 @@
     "stock": 10
   },
   {
-    "id": 103,
+    "id": 105,
     "name": "Chantilly saborizados dauby",
     "priceUnidad": 2690.0,
     "priceCantidad": 0,
@@ -1133,7 +1155,7 @@
     "stock": 10
   },
   {
-    "id": 104,
+    "id": 106,
     "name": "Helado x100g",
     "priceUnidad": 1990.0,
     "priceCantidad": 0,
@@ -1144,7 +1166,7 @@
     "stock": 10
   },
   {
-    "id": 105,
+    "id": 107,
     "name": "Cúrcuma 25g x10",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -1155,7 +1177,7 @@
     "stock": 10
   },
   {
-    "id": 106,
+    "id": 108,
     "name": "Pimienta negra Molida x25g",
     "priceUnidad": 1150.0,
     "priceCantidad": 0,
@@ -1166,7 +1188,7 @@
     "stock": 10
   },
   {
-    "id": 107,
+    "id": 109,
     "name": "Pimenton dulce x25g",
     "priceUnidad": 790.0,
     "priceCantidad": 0,
@@ -1177,7 +1199,7 @@
     "stock": 10
   },
   {
-    "id": 108,
+    "id": 110,
     "name": "Fideitos instantaneos",
     "priceUnidad": 590.0,
     "priceCantidad": 0,
@@ -1188,7 +1210,7 @@
     "stock": 10
   },
   {
-    "id": 109,
+    "id": 111,
     "name": "Fideo Tallarín Tio Nico 5kg",
     "priceUnidad": 8239.0,
     "priceCantidad": 0,
@@ -1199,7 +1221,7 @@
     "stock": 10
   },
   {
-    "id": 110,
+    "id": 112,
     "name": "Fideo Tio Nico x5kg spaghetti",
     "priceUnidad": 8569.0,
     "priceCantidad": 0,
@@ -1210,7 +1232,7 @@
     "stock": 10
   },
   {
-    "id": 111,
+    "id": 113,
     "name": "Fideo Tio Nico Nido Cinta 5kg",
     "priceUnidad": 8569.0,
     "priceCantidad": 0,
@@ -1221,7 +1243,7 @@
     "stock": 10
   },
   {
-    "id": 112,
+    "id": 114,
     "name": "Fideos Guiseros Surtidos Tio Nico x500g",
     "priceUnidad": 729.0,
     "priceCantidad": 0,
@@ -1232,7 +1254,7 @@
     "stock": 10
   },
   {
-    "id": 113,
+    "id": 115,
     "name": "Fideo Codito Rayado 500g",
     "priceUnidad": 801.0,
     "priceCantidad": 0,
@@ -1243,7 +1265,7 @@
     "stock": 10
   },
   {
-    "id": 114,
+    "id": 116,
     "name": "Fideo Dedal 500g",
     "priceUnidad": 801.0,
     "priceCantidad": 0,
@@ -1254,7 +1276,7 @@
     "stock": 10
   },
   {
-    "id": 115,
+    "id": 117,
     "name": "Fideo Mostachol Rayado 500g",
     "priceUnidad": 801.0,
     "priceCantidad": 0,
@@ -1265,7 +1287,7 @@
     "stock": 10
   },
   {
-    "id": 116,
+    "id": 118,
     "name": "Fideo Pampero 500g",
     "priceUnidad": 801.0,
     "priceCantidad": 0,
@@ -1276,7 +1298,7 @@
     "stock": 10
   },
   {
-    "id": 117,
+    "id": 119,
     "name": "Fideo Fusilli 500g",
     "priceUnidad": 801.0,
     "priceCantidad": 0,
@@ -1287,7 +1309,7 @@
     "stock": 10
   },
   {
-    "id": 118,
+    "id": 120,
     "name": "Fideo Tirabuzon 500g",
     "priceUnidad": 801.0,
     "priceCantidad": 0,
@@ -1298,7 +1320,7 @@
     "stock": 10
   },
   {
-    "id": 119,
+    "id": 121,
     "name": "Fideo Guisero Pamperito Tio Nico 5Kg",
     "priceUnidad": 7689.0,
     "priceCantidad": 0,
@@ -1309,7 +1331,7 @@
     "stock": 10
   },
   {
-    "id": 120,
+    "id": 122,
     "name": "Fideo Guisero Mostachol Tio Nico 5Kg",
     "priceUnidad": 7689.0,
     "priceCantidad": 0,
@@ -1320,7 +1342,7 @@
     "stock": 10
   },
   {
-    "id": 121,
+    "id": 123,
     "name": "Fideo Rigatti 500g",
     "priceUnidad": 801.0,
     "priceCantidad": 0,
@@ -1331,7 +1353,7 @@
     "stock": 10
   },
   {
-    "id": 122,
+    "id": 124,
     "name": "Fideo Tio Nico spaghetti con espinaca x12",
     "priceUnidad": 1190.0,
     "priceCantidad": 0,
@@ -1342,7 +1364,7 @@
     "stock": 10
   },
   {
-    "id": 123,
+    "id": 125,
     "name": "Fideo Tico Nico Spaghetti con Morron x12",
     "priceUnidad": 1190.0,
     "priceCantidad": 0,
@@ -1353,7 +1375,7 @@
     "stock": 10
   },
   {
-    "id": 124,
+    "id": 126,
     "name": "Fideo Tio Nico Spaghetti/Tallarines",
     "priceUnidad": 801.0,
     "priceCantidad": 0,
@@ -1364,7 +1386,7 @@
     "stock": 10
   },
   {
-    "id": 125,
+    "id": 127,
     "name": "Fideo Tallarín Canale 500g",
     "priceUnidad": 649.0,
     "priceCantidad": 0,
@@ -1375,7 +1397,7 @@
     "stock": 10
   },
   {
-    "id": 126,
+    "id": 128,
     "name": "Fideo Tirabuzon Canale 500g",
     "priceUnidad": 649.0,
     "priceCantidad": 0,
@@ -1386,7 +1408,7 @@
     "stock": 10
   },
   {
-    "id": 127,
+    "id": 129,
     "name": "Harina Leudante Tassara 10x1Kg",
     "priceUnidad": 0,
     "priceCantidad": 13900.0,
@@ -1397,7 +1419,7 @@
     "stock": 10
   },
   {
-    "id": 128,
+    "id": 130,
     "name": "Harina De Maiz Exclusivo",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -1408,7 +1430,7 @@
     "stock": 10
   },
   {
-    "id": 129,
+    "id": 131,
     "name": "Harina Tassara 000 x10",
     "priceUnidad": 0,
     "priceCantidad": 7890.0,
@@ -1419,7 +1441,18 @@
     "stock": 10
   },
   {
-    "id": 130,
+    "id": 132,
+    "name": "Harina Tassara 0000 x10",
+    "priceUnidad": 0,
+    "priceCantidad": 9900.0,
+    "priceOferta": null,
+    "description": "Secos",
+    "image": "img/Alimentos/secos/harinaTassara.jpg",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 133,
     "name": "Harina Ramirez 3/0 5kg",
     "priceUnidad": 4990.0,
     "priceCantidad": 0,
@@ -1430,7 +1463,7 @@
     "stock": 10
   },
   {
-    "id": 131,
+    "id": 134,
     "name": "Harina Ramirez 4/0 5kg",
     "priceUnidad": 6690.0,
     "priceCantidad": 0,
@@ -1441,7 +1474,7 @@
     "stock": 10
   },
   {
-    "id": 132,
+    "id": 135,
     "name": "Jengibre 25g x10",
     "priceUnidad": 1190.0,
     "priceCantidad": 0,
@@ -1452,7 +1485,7 @@
     "stock": 10
   },
   {
-    "id": 133,
+    "id": 136,
     "name": "Lenteja 20x400g Lonquimay",
     "priceUnidad": 1490.0,
     "priceCantidad": 29800.0,
@@ -1463,7 +1496,7 @@
     "stock": 10
   },
   {
-    "id": 134,
+    "id": 137,
     "name": "Lenteja Criolla 400g",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -1474,7 +1507,7 @@
     "stock": 10
   },
   {
-    "id": 135,
+    "id": 138,
     "name": "Levadura sobre x10g 25x2",
     "priceUnidad": 958.0,
     "priceCantidad": 0,
@@ -1485,7 +1518,7 @@
     "stock": 10
   },
   {
-    "id": 136,
+    "id": 139,
     "name": "Levadura x125g good instant",
     "priceUnidad": 3190.0,
     "priceCantidad": 0,
@@ -1496,7 +1529,7 @@
     "stock": 10
   },
   {
-    "id": 137,
+    "id": 140,
     "name": "Levadura x500g",
     "priceUnidad": 8990.0,
     "priceCantidad": 0,
@@ -1507,7 +1540,7 @@
     "stock": 10
   },
   {
-    "id": 138,
+    "id": 141,
     "name": "Levadura Mi Pan c/sobre",
     "priceUnidad": 490.0,
     "priceCantidad": 0,
@@ -1518,7 +1551,7 @@
     "stock": 10
   },
   {
-    "id": 139,
+    "id": 142,
     "name": "Maiz Pisado Colorado 400g",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -1529,7 +1562,7 @@
     "stock": 10
   },
   {
-    "id": 140,
+    "id": 143,
     "name": "Poroto Suelto 1kg",
     "priceUnidad": 2090.0,
     "priceCantidad": 0,
@@ -1540,7 +1573,7 @@
     "stock": 10
   },
   {
-    "id": 141,
+    "id": 144,
     "name": "Poroto Suelto 5Kg",
     "priceUnidad": 9450.0,
     "priceCantidad": 0,
@@ -1551,7 +1584,7 @@
     "stock": 10
   },
   {
-    "id": 142,
+    "id": 145,
     "name": "Poroto Negro Khunpay 1Kg",
     "priceUnidad": 2090.0,
     "priceCantidad": 0,
@@ -1562,7 +1595,7 @@
     "stock": 10
   },
   {
-    "id": 143,
+    "id": 146,
     "name": "Poroto P&P 500g",
     "priceUnidad": 899.0,
     "priceCantidad": 0,
@@ -1573,7 +1606,7 @@
     "stock": 10
   },
   {
-    "id": 144,
+    "id": 147,
     "name": "Sal Isabela fina x20",
     "priceUnidad": 425.0,
     "priceCantidad": 0,
@@ -1584,7 +1617,7 @@
     "stock": 10
   },
   {
-    "id": 145,
+    "id": 148,
     "name": "Sal Fina Tresal x20",
     "priceUnidad": 0,
     "priceCantidad": 9190.0,
@@ -1595,7 +1628,7 @@
     "stock": 10
   },
   {
-    "id": 146,
+    "id": 149,
     "name": "Sal Entrefina Tresal x10",
     "priceUnidad": 0,
     "priceCantidad": 8490.0,
@@ -1606,7 +1639,7 @@
     "stock": 10
   },
   {
-    "id": 147,
+    "id": 150,
     "name": "Yerba Bosco 10x500g",
     "priceUnidad": 1390.0,
     "priceCantidad": 0,
@@ -1617,7 +1650,7 @@
     "stock": 10
   },
   {
-    "id": 148,
+    "id": 151,
     "name": "Yerba Bosco 10x1kg",
     "priceUnidad": 2690.0,
     "priceCantidad": 0,
@@ -1628,7 +1661,7 @@
     "stock": 10
   },
   {
-    "id": 149,
+    "id": 152,
     "name": "Yerba Mate Rojo 10x500g",
     "priceUnidad": 1249.0,
     "priceCantidad": 0,
@@ -1639,7 +1672,7 @@
     "stock": 10
   },
   {
-    "id": 150,
+    "id": 153,
     "name": "Yerba Mate Rojo x5un. 1kg",
     "priceUnidad": 2390.0,
     "priceCantidad": 0,
@@ -1650,7 +1683,7 @@
     "stock": 10
   },
   {
-    "id": 151,
+    "id": 154,
     "name": "Yerba Mate Rojo x4un 2kg",
     "priceUnidad": 4890.0,
     "priceCantidad": 0,
@@ -1661,7 +1694,7 @@
     "stock": 10
   },
   {
-    "id": 152,
+    "id": 155,
     "name": "Yerba Ñacanguazú/Yerupe 500g",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -1672,7 +1705,7 @@
     "stock": 10
   },
   {
-    "id": 153,
+    "id": 156,
     "name": "Yerba Ñacanguazú/Yerupe 1kg",
     "priceUnidad": 1790.0,
     "priceCantidad": 0,
@@ -1683,7 +1716,7 @@
     "stock": 10
   },
   {
-    "id": 154,
+    "id": 157,
     "name": "Yerba Playadito 1Kg",
     "priceUnidad": 3590.0,
     "priceCantidad": 0,
@@ -1694,7 +1727,7 @@
     "stock": 10
   },
   {
-    "id": 155,
+    "id": 158,
     "name": "Yerba Primicia 10x500g",
     "priceUnidad": 1449.0,
     "priceCantidad": 14490.0,
@@ -1705,7 +1738,7 @@
     "stock": 10
   },
   {
-    "id": 156,
+    "id": 159,
     "name": "Yerba Primicia 8x1kg",
     "priceUnidad": 2894.0,
     "priceCantidad": 0,
@@ -1716,7 +1749,7 @@
     "stock": 10
   },
   {
-    "id": 157,
+    "id": 160,
     "name": "Yerba Romance 10x1kg tradicional",
     "priceUnidad": 3290.0,
     "priceCantidad": 32900.0,
@@ -1727,7 +1760,7 @@
     "stock": 10
   },
   {
-    "id": 158,
+    "id": 161,
     "name": "Yerba Romance suave 10x500g",
     "priceUnidad": 1939.0,
     "priceCantidad": 19390.0,
@@ -1738,7 +1771,7 @@
     "stock": 10
   },
   {
-    "id": 159,
+    "id": 162,
     "name": "Yerba Romance suave 10x1kg",
     "priceUnidad": 3649.0,
     "priceCantidad": 36490.0,
@@ -1749,7 +1782,7 @@
     "stock": 10
   },
   {
-    "id": 160,
+    "id": 163,
     "name": "Alfajor Suschen 3 blanco/negro x24",
     "priceUnidad": 8490.0,
     "priceCantidad": 0,
@@ -1760,7 +1793,7 @@
     "stock": 10
   },
   {
-    "id": 161,
+    "id": 164,
     "name": "Alfajor Fulbito",
     "priceUnidad": 0,
     "priceCantidad": 7990.0,
@@ -1771,7 +1804,18 @@
     "stock": 10
   },
   {
-    "id": 162,
+    "id": 165,
+    "name": "Bombon Hamlet",
+    "priceUnidad": 0,
+    "priceCantidad": 6790.0,
+    "priceOferta": null,
+    "description": "Golosinas",
+    "image": "img/Alimentos/Golosinas/bombonHamlet.jpg",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 166,
     "name": "Caramelos Duros",
     "priceUnidad": 0,
     "priceCantidad": 4190.0,
@@ -1782,7 +1826,7 @@
     "stock": 10
   },
   {
-    "id": 163,
+    "id": 167,
     "name": "Caramelo Duro Marengo",
     "priceUnidad": 0,
     "priceCantidad": 3590.0,
@@ -1793,7 +1837,7 @@
     "stock": 10
   },
   {
-    "id": 164,
+    "id": 168,
     "name": "Chocolate Blockazo 1Kg",
     "priceUnidad": 29690.0,
     "priceCantidad": 0,
@@ -1804,7 +1848,7 @@
     "stock": 10
   },
   {
-    "id": 165,
+    "id": 169,
     "name": "Chocolate Bel Yogurt",
     "priceUnidad": 0,
     "priceCantidad": 6290.0,
@@ -1815,7 +1859,7 @@
     "stock": 10
   },
   {
-    "id": 166,
+    "id": 170,
     "name": "Caramelo misky toffees x118un",
     "priceUnidad": 0,
     "priceCantidad": 6290.0,
@@ -1826,7 +1870,7 @@
     "stock": 10
   },
   {
-    "id": 167,
+    "id": 171,
     "name": "Caramelo masticable Taponazo",
     "priceUnidad": 1790.0,
     "priceCantidad": 0,
@@ -1837,7 +1881,7 @@
     "stock": 10
   },
   {
-    "id": 168,
+    "id": 172,
     "name": "Caramelo masticable Misky",
     "priceUnidad": 1990.0,
     "priceCantidad": 0,
@@ -1848,7 +1892,7 @@
     "stock": 10
   },
   {
-    "id": 169,
+    "id": 173,
     "name": "Caramelos Surtidos",
     "priceUnidad": 3290.0,
     "priceCantidad": 0,
@@ -1859,7 +1903,7 @@
     "stock": 10
   },
   {
-    "id": 170,
+    "id": 174,
     "name": "Chupetin Pico Dulce",
     "priceUnidad": 2990.0,
     "priceCantidad": 0,
@@ -1870,7 +1914,7 @@
     "stock": 10
   },
   {
-    "id": 171,
+    "id": 175,
     "name": "Chicle Fierita",
     "priceUnidad": 3590.0,
     "priceCantidad": 0,
@@ -1881,18 +1925,84 @@
     "stock": 10
   },
   {
-    "id": 172,
-    "name": "Mini Gumball chicle x12",
-    "priceUnidad": 3590.0,
+    "id": 176,
+    "name": "Chupetin Bolon Azucarado 30u",
+    "priceUnidad": 4149.0,
     "priceCantidad": 0,
     "priceOferta": null,
     "description": "Golosinas",
-    "image": "img/Alimentos/Golosinas/miniGum.jpg",
+    "image": "img/Alimentos/Golosinas/chupetinBolon.jpg",
     "category": "Comestibles",
     "stock": 10
   },
   {
-    "id": 173,
+    "id": 177,
+    "name": "Chupetin Balon Deportivo 20u",
+    "priceUnidad": 3790.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Golosinas",
+    "image": "img/Alimentos/Golosinas/chupetinBalon.jpg",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 178,
+    "name": "Chupetin Plin Plan Plun 20u",
+    "priceUnidad": 3950.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Golosinas",
+    "image": "img/Alimentos/Golosinas/chupetinPlin.jpg",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 179,
+    "name": "Chupete Con Aro 20u",
+    "priceUnidad": 2190.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Golosinas",
+    "image": "img/Alimentos/Golosinas/chupete.jpg",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 180,
+    "name": "Chupete con Palo 30u",
+    "priceUnidad": 2190.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Golosinas",
+    "image": "img/Alimentos/Golosinas/chupetePalo.jpg",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 181,
+    "name": "Juguito Plin 60ml",
+    "priceUnidad": 219.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Golosinas",
+    "image": "img/Alimentos/Golosinas/juguitoPlin.jpg",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 182,
+    "name": "Gallinitas 25u",
+    "priceUnidad": 4900.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Golosinas",
+    "image": "img/Alimentos/Golosinas/gallinitas.jpg",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 183,
     "name": "Heladito Seco Gordito",
     "priceUnidad": 2990.0,
     "priceCantidad": 0,
@@ -1903,7 +2013,7 @@
     "stock": 10
   },
   {
-    "id": 174,
+    "id": 184,
     "name": "Mielcitas",
     "priceUnidad": 0,
     "priceCantidad": 3490.0,
@@ -1914,7 +2024,7 @@
     "stock": 10
   },
   {
-    "id": 175,
+    "id": 185,
     "name": "Chupetin Wamis",
     "priceUnidad": 3190.0,
     "priceCantidad": 0,
@@ -1925,7 +2035,7 @@
     "stock": 10
   },
   {
-    "id": 176,
+    "id": 186,
     "name": "Cubanitos Oblita Chocolate",
     "priceUnidad": 3990.0,
     "priceCantidad": 0,
@@ -1936,7 +2046,40 @@
     "stock": 10
   },
   {
-    "id": 177,
+    "id": 187,
+    "name": "Cubanitos Chocostar 40u",
+    "priceUnidad": 5190.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Golosinas",
+    "image": "img/Alimentos/Golosinas/chocostar.jpg",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 188,
+    "name": "Gomitas Tubo Fierita 30u",
+    "priceUnidad": 7290.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Golosinas",
+    "image": "img/Alimentos/Golosinas/gomitasFierita.jpg",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 189,
+    "name": "Gomitas frutales 600g",
+    "priceUnidad": 6900.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Golosinas",
+    "image": "img/Alimentos/Golosinas/gomitaFrutal.jpg",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 190,
     "name": "Mantecol Lheritier 100g x40",
     "priceUnidad": 1189.0,
     "priceCantidad": 0,
@@ -1947,7 +2090,18 @@
     "stock": 10
   },
   {
-    "id": 178,
+    "id": 191,
+    "name": "Mentitas frutal y menta",
+    "priceUnidad": 4890.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Golosinas",
+    "image": "img/Alimentos/Golosinas/mentitasLacasa.jpg",
+    "category": "Comestibles",
+    "stock": 10
+  },
+  {
+    "id": 192,
     "name": "Chizitos Salados 1kg",
     "priceUnidad": 4990.0,
     "priceCantidad": 0,
@@ -1958,7 +2112,7 @@
     "stock": 10
   },
   {
-    "id": 179,
+    "id": 193,
     "name": "Chizitos Queso 1kg",
     "priceUnidad": 4990.0,
     "priceCantidad": 0,
@@ -1969,7 +2123,7 @@
     "stock": 10
   },
   {
-    "id": 180,
+    "id": 194,
     "name": "Chizitos Jamon 1kg",
     "priceUnidad": 4990.0,
     "priceCantidad": 0,
@@ -1980,7 +2134,7 @@
     "stock": 10
   },
   {
-    "id": 181,
+    "id": 195,
     "name": "Chizitos Pizza 1kg",
     "priceUnidad": 4990.0,
     "priceCantidad": 0,
@@ -1991,7 +2145,7 @@
     "stock": 10
   },
   {
-    "id": 182,
+    "id": 196,
     "name": "Puflito 1Kg",
     "priceUnidad": 4990.0,
     "priceCantidad": 0,
@@ -2002,7 +2156,7 @@
     "stock": 10
   },
   {
-    "id": 183,
+    "id": 197,
     "name": "Puflitos Rusitos 45g",
     "priceUnidad": 499.0,
     "priceCantidad": 0,
@@ -2013,7 +2167,7 @@
     "stock": 10
   },
   {
-    "id": 184,
+    "id": 198,
     "name": "Palitos Salados Rusitos",
     "priceUnidad": 890.0,
     "priceCantidad": 0,
@@ -2024,7 +2178,7 @@
     "stock": 10
   },
   {
-    "id": 185,
+    "id": 199,
     "name": "Palitos Maiz Rusitos 70g",
     "priceUnidad": 700.0,
     "priceCantidad": 0,
@@ -2035,7 +2189,7 @@
     "stock": 10
   },
   {
-    "id": 186,
+    "id": 200,
     "name": "Papas Fritas Potato's",
     "priceUnidad": 1190.0,
     "priceCantidad": 0,
@@ -2046,7 +2200,7 @@
     "stock": 10
   },
   {
-    "id": 187,
+    "id": 201,
     "name": "Papas Fritas Potato's",
     "priceUnidad": 1190.0,
     "priceCantidad": 0,
@@ -2057,7 +2211,7 @@
     "stock": 10
   },
   {
-    "id": 188,
+    "id": 202,
     "name": "Papas Fritas 70g x12",
     "priceUnidad": 1290.0,
     "priceCantidad": 0,
@@ -2068,7 +2222,7 @@
     "stock": 10
   },
   {
-    "id": 189,
+    "id": 203,
     "name": "Papas Acanaladas 70g",
     "priceUnidad": 1290.0,
     "priceCantidad": 0,
@@ -2079,7 +2233,7 @@
     "stock": 10
   },
   {
-    "id": 190,
+    "id": 204,
     "name": "Papas Clasicas 70g",
     "priceUnidad": 1290.0,
     "priceCantidad": 0,
@@ -2090,7 +2244,7 @@
     "stock": 10
   },
   {
-    "id": 191,
+    "id": 205,
     "name": "Papas Fritas Saborizadas",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -2101,7 +2255,7 @@
     "stock": 10
   },
   {
-    "id": 192,
+    "id": 206,
     "name": "Pizzas Rusitos 45g",
     "priceUnidad": 499.0,
     "priceCantidad": 0,
@@ -2112,7 +2266,7 @@
     "stock": 10
   },
   {
-    "id": 193,
+    "id": 207,
     "name": "Rocklets Extreme x24",
     "priceUnidad": 0,
     "priceCantidad": 10900.0,
@@ -2123,7 +2277,7 @@
     "stock": 10
   },
   {
-    "id": 194,
+    "id": 208,
     "name": "Rocklets Picantes",
     "priceUnidad": 0,
     "priceCantidad": 10900.0,
@@ -2134,7 +2288,7 @@
     "stock": 10
   },
   {
-    "id": 195,
+    "id": 209,
     "name": "Tic Tac Naranja",
     "priceUnidad": 0,
     "priceCantidad": 7590.0,
@@ -2145,7 +2299,7 @@
     "stock": 10
   },
   {
-    "id": 196,
+    "id": 210,
     "name": "Tic Tac Citrus",
     "priceUnidad": 0,
     "priceCantidad": 7590.0,
@@ -2156,7 +2310,7 @@
     "stock": 10
   },
   {
-    "id": 197,
+    "id": 211,
     "name": "Turron Arcor x50",
     "priceUnidad": 12890.0,
     "priceCantidad": 0,
@@ -2167,7 +2321,7 @@
     "stock": 10
   },
   {
-    "id": 198,
+    "id": 212,
     "name": "Mortadela 254",
     "priceUnidad": 0,
     "priceCantidad": 17670.0,
@@ -2178,7 +2332,7 @@
     "stock": 10
   },
   {
-    "id": 199,
+    "id": 213,
     "name": "Mortadela Minu brasilera x3kg",
     "priceUnidad": 3900.0,
     "priceCantidad": 11700.0,
@@ -2189,7 +2343,7 @@
     "stock": 10
   },
   {
-    "id": 200,
+    "id": 214,
     "name": "Queso cremoso Ricrem",
     "priceUnidad": 8990.0,
     "priceCantidad": 0,
@@ -2200,7 +2354,7 @@
     "stock": 10
   },
   {
-    "id": 201,
+    "id": 215,
     "name": "Queso Cremoso Ilolay",
     "priceUnidad": 10490.0,
     "priceCantidad": 0,
@@ -2211,7 +2365,7 @@
     "stock": 10
   },
   {
-    "id": 202,
+    "id": 216,
     "name": "Queso Cremoso Crespense",
     "priceUnidad": 8590.0,
     "priceCantidad": 0,
@@ -2222,7 +2376,7 @@
     "stock": 10
   },
   {
-    "id": 203,
+    "id": 217,
     "name": "Queso Barra Lecherita xKg",
     "priceUnidad": 10990.0,
     "priceCantidad": 0,
@@ -2233,7 +2387,7 @@
     "stock": 10
   },
   {
-    "id": 204,
+    "id": 218,
     "name": "Queso Rallado La Paulina 40g",
     "priceUnidad": 1450.0,
     "priceCantidad": 0,
@@ -2244,7 +2398,7 @@
     "stock": 10
   },
   {
-    "id": 205,
+    "id": 219,
     "name": "Salame Milan 3kg",
     "priceUnidad": 0,
     "priceCantidad": 23700.0,
@@ -2255,7 +2409,7 @@
     "stock": 10
   },
   {
-    "id": 206,
+    "id": 220,
     "name": "Salchichas 66",
     "priceUnidad": 1249.0,
     "priceCantidad": 0,
@@ -2266,7 +2420,7 @@
     "stock": 10
   },
   {
-    "id": 207,
+    "id": 221,
     "name": "Salchichon Primavera dj 3kg",
     "priceUnidad": 0,
     "priceCantidad": 17409.0,
@@ -2277,7 +2431,7 @@
     "stock": 10
   },
   {
-    "id": 208,
+    "id": 222,
     "name": "Salchichon Ale Jamon 4kg",
     "priceUnidad": 0,
     "priceCantidad": 20718.0,
@@ -2288,7 +2442,7 @@
     "stock": 10
   },
   {
-    "id": 209,
+    "id": 223,
     "name": "Agua Gourmet con gas/sin gas x12",
     "priceUnidad": 0,
     "priceCantidad": 14400.0,
@@ -2299,7 +2453,7 @@
     "stock": 10
   },
   {
-    "id": 210,
+    "id": 224,
     "name": "Caña 12x200ml",
     "priceUnidad": 0,
     "priceCantidad": 12350.0,
@@ -2310,7 +2464,7 @@
     "stock": 10
   },
   {
-    "id": 211,
+    "id": 225,
     "name": "Caña 500ml x10",
     "priceUnidad": 1625.0,
     "priceCantidad": 16250.0,
@@ -2321,7 +2475,7 @@
     "stock": 10
   },
   {
-    "id": 212,
+    "id": 226,
     "name": "Cazalis Aperitivo 950",
     "priceUnidad": 0,
     "priceCantidad": 5290.0,
@@ -2332,7 +2486,7 @@
     "stock": 10
   },
   {
-    "id": 213,
+    "id": 227,
     "name": "Batido 490ml",
     "priceUnidad": 2390.0,
     "priceCantidad": 0,
@@ -2343,7 +2497,7 @@
     "stock": 10
   },
   {
-    "id": 214,
+    "id": 228,
     "name": "Trago Trip",
     "priceUnidad": 2499.0,
     "priceCantidad": 0,
@@ -2354,7 +2508,7 @@
     "stock": 10
   },
   {
-    "id": 215,
+    "id": 229,
     "name": "Cerveza Kilsen x12",
     "priceUnidad": 0,
     "priceCantidad": 14988.0,
@@ -2365,7 +2519,7 @@
     "stock": 10
   },
   {
-    "id": 216,
+    "id": 230,
     "name": "Cerveza Malta Sin Alcohol 12u",
     "priceUnidad": 0,
     "priceCantidad": 15790.0,
@@ -2376,7 +2530,7 @@
     "stock": 10
   },
   {
-    "id": 217,
+    "id": 231,
     "name": "Fernet Branca Menta 450ml x12",
     "priceUnidad": 13900.0,
     "priceCantidad": 0,
@@ -2387,7 +2541,7 @@
     "stock": 10
   },
   {
-    "id": 218,
+    "id": 232,
     "name": "Fernet Branca Menta 750ml x6",
     "priceUnidad": 15900.0,
     "priceCantidad": 0,
@@ -2398,7 +2552,7 @@
     "stock": 10
   },
   {
-    "id": 219,
+    "id": 233,
     "name": "Fernet Capri x12",
     "priceUnidad": 4590.0,
     "priceCantidad": 0,
@@ -2409,7 +2563,7 @@
     "stock": 10
   },
   {
-    "id": 220,
+    "id": 234,
     "name": "Fernet Cola Mass",
     "priceUnidad": 5990.0,
     "priceCantidad": 0,
@@ -2420,7 +2574,7 @@
     "stock": 10
   },
   {
-    "id": 221,
+    "id": 235,
     "name": "Frizze Blue x6",
     "priceUnidad": 0,
     "priceCantidad": 17390.0,
@@ -2431,7 +2585,7 @@
     "stock": 10
   },
   {
-    "id": 222,
+    "id": 236,
     "name": "Frizze Limon/Pomelo 1L x6",
     "priceUnidad": 0,
     "priceCantidad": 17490.0,
@@ -2442,7 +2596,7 @@
     "stock": 10
   },
   {
-    "id": 223,
+    "id": 237,
     "name": "Frizze Bubble Mood x6",
     "priceUnidad": 0,
     "priceCantidad": 17900.0,
@@ -2453,18 +2607,18 @@
     "stock": 10
   },
   {
-    "id": 224,
-    "name": "Mirinda 2.25L",
+    "id": 238,
+    "name": "Mirinda 3L",
     "priceUnidad": 0,
     "priceCantidad": 17109.0,
     "priceOferta": null,
     "description": "Bebidas",
-    "image": "img/Bebidas/mirinda.jpg",
+    "image": "img/Bebidas/mirinda3.jpg",
     "category": "Bebidas",
     "stock": 10
   },
   {
-    "id": 225,
+    "id": 239,
     "name": "Jugo Ades 8x1L",
     "priceUnidad": 2279.0,
     "priceCantidad": 18232.0,
@@ -2475,7 +2629,7 @@
     "stock": 10
   },
   {
-    "id": 226,
+    "id": 240,
     "name": "Jugo Baggio 200ml x18",
     "priceUnidad": 469.0,
     "priceCantidad": 8442.0,
@@ -2486,7 +2640,7 @@
     "stock": 10
   },
   {
-    "id": 227,
+    "id": 241,
     "name": "Agua saborizada fresh x6",
     "priceUnidad": 0,
     "priceCantidad": 7390.0,
@@ -2497,7 +2651,7 @@
     "stock": 10
   },
   {
-    "id": 228,
+    "id": 242,
     "name": "Jugo Naranjin",
     "priceUnidad": 548.0,
     "priceCantidad": 0,
@@ -2508,7 +2662,7 @@
     "stock": 10
   },
   {
-    "id": 229,
+    "id": 243,
     "name": "Gatorade Zero 400ml",
     "priceUnidad": 1090.0,
     "priceCantidad": 0,
@@ -2519,7 +2673,7 @@
     "stock": 10
   },
   {
-    "id": 230,
+    "id": 244,
     "name": "Jugo Tutti sports 750cc x6",
     "priceUnidad": 1390.0,
     "priceCantidad": 8340.0,
@@ -2530,7 +2684,7 @@
     "stock": 10
   },
   {
-    "id": 231,
+    "id": 245,
     "name": "Jugo Arcor 18u",
     "priceUnidad": 0,
     "priceCantidad": 5390.0,
@@ -2541,7 +2695,7 @@
     "stock": 10
   },
   {
-    "id": 232,
+    "id": 246,
     "name": "Leche Cayetano 1L",
     "priceUnidad": 0,
     "priceCantidad": 12950.0,
@@ -2552,7 +2706,7 @@
     "stock": 10
   },
   {
-    "id": 233,
+    "id": 247,
     "name": "Leche Sancor Sachet",
     "priceUnidad": 0,
     "priceCantidad": 20900.0,
@@ -2563,7 +2717,7 @@
     "stock": 10
   },
   {
-    "id": 234,
+    "id": 248,
     "name": "Leche liquida x12 Cotapa",
     "priceUnidad": 0,
     "priceCantidad": 19900.0,
@@ -2574,7 +2728,7 @@
     "stock": 10
   },
   {
-    "id": 235,
+    "id": 249,
     "name": "Licor Borsa",
     "priceUnidad": 4690.0,
     "priceCantidad": 0,
@@ -2585,7 +2739,7 @@
     "stock": 10
   },
   {
-    "id": 236,
+    "id": 250,
     "name": "Petaca W x24",
     "priceUnidad": 1749.0,
     "priceCantidad": 41976.0,
@@ -2596,7 +2750,7 @@
     "stock": 10
   },
   {
-    "id": 237,
+    "id": 251,
     "name": "Petacas Varias",
     "priceUnidad": 1090.0,
     "priceCantidad": 0,
@@ -2607,7 +2761,7 @@
     "stock": 10
   },
   {
-    "id": 238,
+    "id": 252,
     "name": "Speed chico x24",
     "priceUnidad": 1490.0,
     "priceCantidad": 35760.0,
@@ -2618,7 +2772,7 @@
     "stock": 10
   },
   {
-    "id": 239,
+    "id": 253,
     "name": "Speed Grande x12",
     "priceUnidad": 2419.0,
     "priceCantidad": 0,
@@ -2629,7 +2783,7 @@
     "stock": 10
   },
   {
-    "id": 240,
+    "id": 254,
     "name": "Vino 4 monos locos caja 4u",
     "priceUnidad": 0,
     "priceCantidad": 13490.0,
@@ -2640,7 +2794,7 @@
     "stock": 10
   },
   {
-    "id": 241,
+    "id": 255,
     "name": "Vino Balbo 6u",
     "priceUnidad": 0,
     "priceCantidad": 16900.0,
@@ -2651,7 +2805,7 @@
     "stock": 10
   },
   {
-    "id": 242,
+    "id": 256,
     "name": "Vino Cabarceno 6u",
     "priceUnidad": 0,
     "priceCantidad": 15900.0,
@@ -2662,7 +2816,7 @@
     "stock": 10
   },
   {
-    "id": 243,
+    "id": 257,
     "name": "Vino Chacabuco",
     "priceUnidad": 2990.0,
     "priceCantidad": 0,
@@ -2673,7 +2827,7 @@
     "stock": 10
   },
   {
-    "id": 244,
+    "id": 258,
     "name": "Vino Cordero con piel de lobo x6 malbec",
     "priceUnidad": 0,
     "priceCantidad": 27490.0,
@@ -2684,7 +2838,7 @@
     "stock": 10
   },
   {
-    "id": 245,
+    "id": 259,
     "name": "Vino Encepado 6u",
     "priceUnidad": 0,
     "priceCantidad": 13900.0,
@@ -2695,7 +2849,7 @@
     "stock": 10
   },
   {
-    "id": 246,
+    "id": 260,
     "name": "Vino Encepado Blanco Dulce 6u",
     "priceUnidad": 0,
     "priceCantidad": 13900.0,
@@ -2706,7 +2860,7 @@
     "stock": 10
   },
   {
-    "id": 247,
+    "id": 261,
     "name": "Vino Elegido Cabernet",
     "priceUnidad": 0,
     "priceCantidad": 22900.0,
@@ -2717,7 +2871,7 @@
     "stock": 10
   },
   {
-    "id": 248,
+    "id": 262,
     "name": "Vino Finjamos Demencia",
     "priceUnidad": 0,
     "priceCantidad": 25900.0,
@@ -2728,7 +2882,7 @@
     "stock": 10
   },
   {
-    "id": 249,
+    "id": 263,
     "name": "Vino Flor de Copa Rosado Dulce",
     "priceUnidad": 0,
     "priceCantidad": 13490.0,
@@ -2739,7 +2893,7 @@
     "stock": 10
   },
   {
-    "id": 250,
+    "id": 264,
     "name": "Vino Flor de Copa Blanco Dulce",
     "priceUnidad": 0,
     "priceCantidad": 13490.0,
@@ -2750,7 +2904,7 @@
     "stock": 10
   },
   {
-    "id": 251,
+    "id": 265,
     "name": "Vino Flor de Copa Tinto Dulce",
     "priceUnidad": 0,
     "priceCantidad": 13490.0,
@@ -2761,7 +2915,7 @@
     "stock": 10
   },
   {
-    "id": 252,
+    "id": 266,
     "name": "Vino Lobo Negro Blanco Dulce",
     "priceUnidad": 0,
     "priceCantidad": 20169.0,
@@ -2772,7 +2926,7 @@
     "stock": 10
   },
   {
-    "id": 253,
+    "id": 267,
     "name": "Vino Lobo Negro Cabernet y Malbec",
     "priceUnidad": 0,
     "priceCantidad": 18490.0,
@@ -2783,7 +2937,7 @@
     "stock": 10
   },
   {
-    "id": 254,
+    "id": 268,
     "name": "Vino Martin Fierro",
     "priceUnidad": 0,
     "priceCantidad": 17900.0,
@@ -2794,7 +2948,7 @@
     "stock": 10
   },
   {
-    "id": 255,
+    "id": 269,
     "name": "Vino muñeco rebelde malbec",
     "priceUnidad": 0,
     "priceCantidad": 20169.0,
@@ -2805,7 +2959,7 @@
     "stock": 10
   },
   {
-    "id": 256,
+    "id": 270,
     "name": "Vino Otro Loco Malbec",
     "priceUnidad": 0,
     "priceCantidad": 25490.0,
@@ -2816,7 +2970,7 @@
     "stock": 10
   },
   {
-    "id": 257,
+    "id": 271,
     "name": "Vino Otro Loco Blanco",
     "priceUnidad": 0,
     "priceCantidad": 25490.0,
@@ -2827,7 +2981,7 @@
     "stock": 10
   },
   {
-    "id": 258,
+    "id": 272,
     "name": "Vino Perro Callejero",
     "priceUnidad": 0,
     "priceCantidad": 38900.0,
@@ -2838,7 +2992,7 @@
     "stock": 10
   },
   {
-    "id": 259,
+    "id": 273,
     "name": "Vino Pinherense x6",
     "priceUnidad": 0,
     "priceCantidad": 21900.0,
@@ -2849,7 +3003,7 @@
     "stock": 10
   },
   {
-    "id": 260,
+    "id": 274,
     "name": "Vino Promocion Dulce 6u",
     "priceUnidad": 0,
     "priceCantidad": 12490.0,
@@ -2860,7 +3014,7 @@
     "stock": 10
   },
   {
-    "id": 261,
+    "id": 275,
     "name": "Vino Ruta 36",
     "priceUnidad": 0,
     "priceCantidad": 32500.0,
@@ -2871,7 +3025,7 @@
     "stock": 10
   },
   {
-    "id": 262,
+    "id": 276,
     "name": "Vino Sexy Fish Malbec",
     "priceUnidad": 0,
     "priceCantidad": 22900.0,
@@ -2882,7 +3036,7 @@
     "stock": 10
   },
   {
-    "id": 263,
+    "id": 277,
     "name": "Vino Sin Palabras Chenin Dulce",
     "priceUnidad": 0,
     "priceCantidad": 19900.0,
@@ -2893,7 +3047,7 @@
     "stock": 10
   },
   {
-    "id": 264,
+    "id": 278,
     "name": "Vino San Lucas",
     "priceUnidad": 0,
     "priceCantidad": 12500.0,
@@ -2904,7 +3058,7 @@
     "stock": 10
   },
   {
-    "id": 265,
+    "id": 279,
     "name": "Vino Uvita Tinto x12",
     "priceUnidad": 0,
     "priceCantidad": 17490.0,
@@ -2915,7 +3069,7 @@
     "stock": 10
   },
   {
-    "id": 266,
+    "id": 280,
     "name": "Vino Uvita Rosado x12",
     "priceUnidad": 0,
     "priceCantidad": 17490.0,
@@ -2926,7 +3080,7 @@
     "stock": 10
   },
   {
-    "id": 267,
+    "id": 281,
     "name": "Vino Vinas de Caroya",
     "priceUnidad": 0,
     "priceCantidad": 39900.0,
@@ -2937,7 +3091,7 @@
     "stock": 10
   },
   {
-    "id": 268,
+    "id": 282,
     "name": "Vodka Alaskasha x6",
     "priceUnidad": 3890.0,
     "priceCantidad": 23340.0,
@@ -2948,7 +3102,7 @@
     "stock": 10
   },
   {
-    "id": 269,
+    "id": 283,
     "name": "Whisky W x1L",
     "priceUnidad": 6090.0,
     "priceCantidad": 0,
@@ -2959,7 +3113,7 @@
     "stock": 10
   },
   {
-    "id": 270,
+    "id": 284,
     "name": "Whisky John Q",
     "priceUnidad": 4290.0,
     "priceCantidad": 0,
@@ -2970,7 +3124,7 @@
     "stock": 10
   },
   {
-    "id": 271,
+    "id": 285,
     "name": "Alcoho San Ignacio 500cc",
     "priceUnidad": 1990.0,
     "priceCantidad": 0,
@@ -2981,7 +3135,7 @@
     "stock": 10
   },
   {
-    "id": 272,
+    "id": 286,
     "name": "Oxidante Capilar 100cc",
     "priceUnidad": 890.0,
     "priceCantidad": 0,
@@ -2992,7 +3146,7 @@
     "stock": 10
   },
   {
-    "id": 273,
+    "id": 287,
     "name": "Algodón 140g",
     "priceUnidad": 1690.0,
     "priceCantidad": 0,
@@ -3003,7 +3157,7 @@
     "stock": 10
   },
   {
-    "id": 274,
+    "id": 288,
     "name": "Algodón Mar 70g",
     "priceUnidad": 819.0,
     "priceCantidad": 0,
@@ -3014,7 +3168,7 @@
     "stock": 10
   },
   {
-    "id": 275,
+    "id": 289,
     "name": "Bic Comfort x12",
     "priceUnidad": 0,
     "priceCantidad": 15480.0,
@@ -3025,7 +3179,7 @@
     "stock": 10
   },
   {
-    "id": 276,
+    "id": 290,
     "name": "Gillette prestobarba 2 hojas x24",
     "priceUnidad": 949.0,
     "priceCantidad": 0,
@@ -3036,7 +3190,7 @@
     "stock": 10
   },
   {
-    "id": 277,
+    "id": 291,
     "name": "Tintura para el pelo",
     "priceUnidad": 2599.0,
     "priceCantidad": 0,
@@ -3047,7 +3201,7 @@
     "stock": 10
   },
   {
-    "id": 278,
+    "id": 292,
     "name": "Crema Nivea 60ml lata",
     "priceUnidad": 3890.0,
     "priceCantidad": 0,
@@ -3058,7 +3212,7 @@
     "stock": 10
   },
   {
-    "id": 279,
+    "id": 293,
     "name": "Curitas x8u",
     "priceUnidad": 690.0,
     "priceCantidad": 0,
@@ -3069,7 +3223,7 @@
     "stock": 10
   },
   {
-    "id": 280,
+    "id": 294,
     "name": "Esmalte Uñas",
     "priceUnidad": 1500.0,
     "priceCantidad": 0,
@@ -3080,7 +3234,7 @@
     "stock": 10
   },
   {
-    "id": 281,
+    "id": 295,
     "name": "Gel para el cabello x150ml",
     "priceUnidad": 2259.0,
     "priceCantidad": 0,
@@ -3091,7 +3245,7 @@
     "stock": 10
   },
   {
-    "id": 282,
+    "id": 296,
     "name": "Gomitas para el pelo",
     "priceUnidad": 0,
     "priceCantidad": 1990.0,
@@ -3102,7 +3256,7 @@
     "stock": 10
   },
   {
-    "id": 283,
+    "id": 297,
     "name": "Jabon Argentino x3",
     "priceUnidad": 1384.0,
     "priceCantidad": 0,
@@ -3113,7 +3267,7 @@
     "stock": 10
   },
   {
-    "id": 284,
+    "id": 298,
     "name": "Jabon Io x125g caja",
     "priceUnidad": 790.0,
     "priceCantidad": 0,
@@ -3124,7 +3278,7 @@
     "stock": 10
   },
   {
-    "id": 285,
+    "id": 299,
     "name": "Jabon St tropez",
     "priceUnidad": 810.0,
     "priceCantidad": 0,
@@ -3135,7 +3289,7 @@
     "stock": 10
   },
   {
-    "id": 286,
+    "id": 300,
     "name": "Jabon St Tropez Glicerina",
     "priceUnidad": 735.0,
     "priceCantidad": 0,
@@ -3146,7 +3300,7 @@
     "stock": 10
   },
   {
-    "id": 287,
+    "id": 301,
     "name": "Dentrifico Colgate 90g x12",
     "priceUnidad": 2790.0,
     "priceCantidad": 0,
@@ -3157,7 +3311,7 @@
     "stock": 10
   },
   {
-    "id": 288,
+    "id": 302,
     "name": "Dentrifico Colgate Triple Acción 90g x12",
     "priceUnidad": 2790.0,
     "priceCantidad": 0,
@@ -3168,7 +3322,7 @@
     "stock": 10
   },
   {
-    "id": 289,
+    "id": 303,
     "name": "Dentrifico Close Up x12",
     "priceUnidad": 1590.0,
     "priceCantidad": 0,
@@ -3179,7 +3333,7 @@
     "stock": 10
   },
   {
-    "id": 290,
+    "id": 304,
     "name": "Manteca cacao x6",
     "priceUnidad": 0,
     "priceCantidad": 7140.0,
@@ -3190,7 +3344,7 @@
     "stock": 10
   },
   {
-    "id": 291,
+    "id": 305,
     "name": "Oleo Calcareo",
     "priceUnidad": 4490.0,
     "priceCantidad": 0,
@@ -3201,7 +3355,7 @@
     "stock": 10
   },
   {
-    "id": 292,
+    "id": 306,
     "name": "Pañal Bebé M 68u",
     "priceUnidad": 7900.0,
     "priceCantidad": 0,
@@ -3212,7 +3366,7 @@
     "stock": 0
   },
   {
-    "id": 293,
+    "id": 307,
     "name": "Papel Bob x8 blanco",
     "priceUnidad": 2390.0,
     "priceCantidad": 0,
@@ -3223,7 +3377,7 @@
     "stock": 10
   },
   {
-    "id": 294,
+    "id": 308,
     "name": "Papel Bob x4",
     "priceUnidad": 0,
     "priceCantidad": 1259.0,
@@ -3234,7 +3388,7 @@
     "stock": 10
   },
   {
-    "id": 295,
+    "id": 309,
     "name": "Papel Big Suan 90m",
     "priceUnidad": 0,
     "priceCantidad": 17970.0,
@@ -3245,7 +3399,7 @@
     "stock": 10
   },
   {
-    "id": 296,
+    "id": 310,
     "name": "Papel Suiza x4",
     "priceUnidad": 1290.0,
     "priceCantidad": 0,
@@ -3256,7 +3410,7 @@
     "stock": 10
   },
   {
-    "id": 297,
+    "id": 311,
     "name": "Hisopos Batalla 100u",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -3267,7 +3421,7 @@
     "stock": 10
   },
   {
-    "id": 298,
+    "id": 312,
     "name": "Desodorante Axe hombre",
     "priceUnidad": 3690.0,
     "priceCantidad": 0,
@@ -3278,7 +3432,7 @@
     "stock": 10
   },
   {
-    "id": 299,
+    "id": 313,
     "name": "Polyana aerosol Hombre x12",
     "priceUnidad": 2690.0,
     "priceCantidad": 0,
@@ -3289,7 +3443,7 @@
     "stock": 0
   },
   {
-    "id": 300,
+    "id": 314,
     "name": "Polyana aerosol Mujer x12",
     "priceUnidad": 2690.0,
     "priceCantidad": 0,
@@ -3300,7 +3454,7 @@
     "stock": 10
   },
   {
-    "id": 301,
+    "id": 315,
     "name": "Rexona crema",
     "priceUnidad": 2490.0,
     "priceCantidad": 0,
@@ -3311,7 +3465,7 @@
     "stock": 10
   },
   {
-    "id": 302,
+    "id": 316,
     "name": "Preservativo M",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -3322,7 +3476,7 @@
     "stock": 10
   },
   {
-    "id": 303,
+    "id": 317,
     "name": "Preservativo Maxx",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -3333,7 +3487,7 @@
     "stock": 10
   },
   {
-    "id": 304,
+    "id": 318,
     "name": "Quitaesmalte Chico",
     "priceUnidad": 1359.0,
     "priceCantidad": 0,
@@ -3344,7 +3498,7 @@
     "stock": 10
   },
   {
-    "id": 305,
+    "id": 319,
     "name": "Quitaesmalte 50ml",
     "priceUnidad": 1990.0,
     "priceCantidad": 0,
@@ -3355,7 +3509,7 @@
     "stock": 0
   },
   {
-    "id": 306,
+    "id": 320,
     "name": "Repelente Above 150ml",
     "priceUnidad": 4900.0,
     "priceCantidad": 0,
@@ -3366,7 +3520,7 @@
     "stock": 10
   },
   {
-    "id": 307,
+    "id": 321,
     "name": "Repelente Off Aerosol",
     "priceUnidad": 5490.0,
     "priceCantidad": 0,
@@ -3377,7 +3531,7 @@
     "stock": 10
   },
   {
-    "id": 308,
+    "id": 322,
     "name": "Shampoo Acondicionador Hadibell x12",
     "priceUnidad": 2690.0,
     "priceCantidad": 0,
@@ -3388,7 +3542,7 @@
     "stock": 10
   },
   {
-    "id": 309,
+    "id": 323,
     "name": "Shampoo Acondicionador Hadibell x24",
     "priceUnidad": 4056.0,
     "priceCantidad": 0,
@@ -3399,7 +3553,7 @@
     "stock": 10
   },
   {
-    "id": 310,
+    "id": 324,
     "name": "Shampoo Acondicionador Radiant",
     "priceUnidad": 2690.0,
     "priceCantidad": 0,
@@ -3410,7 +3564,7 @@
     "stock": 10
   },
   {
-    "id": 311,
+    "id": 325,
     "name": "Acondicionador Real Dove",
     "priceUnidad": 2000.0,
     "priceCantidad": 0,
@@ -3421,7 +3575,7 @@
     "stock": 10
   },
   {
-    "id": 312,
+    "id": 326,
     "name": "Shampoo/Acondicionador Pantene 200ml",
     "priceUnidad": 3290.0,
     "priceCantidad": 0,
@@ -3432,7 +3586,7 @@
     "stock": 10
   },
   {
-    "id": 313,
+    "id": 327,
     "name": "Shampoo/Acondicionador Pantene 200ml",
     "priceUnidad": 3290.0,
     "priceCantidad": 0,
@@ -3443,7 +3597,7 @@
     "stock": 10
   },
   {
-    "id": 314,
+    "id": 328,
     "name": "Pañuelos Descart. x6",
     "priceUnidad": 1390.0,
     "priceCantidad": 0,
@@ -3454,7 +3608,7 @@
     "stock": 10
   },
   {
-    "id": 315,
+    "id": 329,
     "name": "Protector Carefree 60u  x30",
     "priceUnidad": 2690.0,
     "priceCantidad": 80700.0,
@@ -3465,7 +3619,7 @@
     "stock": 10
   },
   {
-    "id": 316,
+    "id": 330,
     "name": "Protector Calipso 20u",
     "priceUnidad": 890.0,
     "priceCantidad": 0,
@@ -3476,7 +3630,7 @@
     "stock": 10
   },
   {
-    "id": 317,
+    "id": 331,
     "name": "Toallitas Always 8u  x16",
     "priceUnidad": 890.0,
     "priceCantidad": 0,
@@ -3487,7 +3641,7 @@
     "stock": 10
   },
   {
-    "id": 318,
+    "id": 332,
     "name": "Toallitas  Always Xtra 8u  x16",
     "priceUnidad": 890.0,
     "priceCantidad": 0,
@@ -3498,7 +3652,7 @@
     "stock": 10
   },
   {
-    "id": 319,
+    "id": 333,
     "name": "Toallitas Calipso 8u  x50",
     "priceUnidad": 825.0,
     "priceCantidad": 0,
@@ -3509,7 +3663,7 @@
     "stock": 10
   },
   {
-    "id": 320,
+    "id": 334,
     "name": "Toallitas Siempre Libre Adapt 8u x48",
     "priceUnidad": 849.0,
     "priceCantidad": 40752.0,
@@ -3520,7 +3674,7 @@
     "stock": 10
   },
   {
-    "id": 321,
+    "id": 335,
     "name": "Toallitas Nocturnas Ladysan x8",
     "priceUnidad": 1290.0,
     "priceCantidad": 0,
@@ -3531,7 +3685,7 @@
     "stock": 10
   },
   {
-    "id": 322,
+    "id": 336,
     "name": "Tratamiento Capilar Hadibell",
     "priceUnidad": 3690.0,
     "priceCantidad": 0,
@@ -3542,7 +3696,7 @@
     "stock": 10
   },
   {
-    "id": 323,
+    "id": 337,
     "name": "Cepillo Infantil",
     "priceUnidad": 890.0,
     "priceCantidad": 0,
@@ -3553,7 +3707,7 @@
     "stock": 10
   },
   {
-    "id": 324,
+    "id": 338,
     "name": "Cepillo dental adulto x12",
     "priceUnidad": 890.0,
     "priceCantidad": 10680.0,
@@ -3564,7 +3718,7 @@
     "stock": 10
   },
   {
-    "id": 325,
+    "id": 339,
     "name": "Adhesivo Pato",
     "priceUnidad": 2790.0,
     "priceCantidad": 0,
@@ -3575,7 +3729,7 @@
     "stock": 10
   },
   {
-    "id": 326,
+    "id": 340,
     "name": "Antipolillas",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -3586,7 +3740,7 @@
     "stock": 10
   },
   {
-    "id": 327,
+    "id": 341,
     "name": "Lavandina Xtra x12u",
     "priceUnidad": 849.0,
     "priceCantidad": 0,
@@ -3597,7 +3751,7 @@
     "stock": 10
   },
   {
-    "id": 328,
+    "id": 342,
     "name": "Ayudin Comun x15",
     "priceUnidad": 1249.0,
     "priceCantidad": 0,
@@ -3608,7 +3762,7 @@
     "stock": 10
   },
   {
-    "id": 329,
+    "id": 343,
     "name": "Ayudin ropa blanca x15",
     "priceUnidad": 2250.0,
     "priceCantidad": 33750.0,
@@ -3619,7 +3773,18 @@
     "stock": 10
   },
   {
-    "id": 330,
+    "id": 344,
+    "name": "Cabo de madera",
+    "priceUnidad": 690.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Limpieza",
+    "image": "img/Limpieza/palo.jpg",
+    "category": "Limpieza",
+    "stock": 10
+  },
+  {
+    "id": 345,
     "name": "Cera Suiza Incolora 385g",
     "priceUnidad": 10990.0,
     "priceCantidad": 0,
@@ -3630,7 +3795,7 @@
     "stock": 10
   },
   {
-    "id": 331,
+    "id": 346,
     "name": "Cif crema chico x12",
     "priceUnidad": 2190.0,
     "priceCantidad": 0,
@@ -3641,7 +3806,7 @@
     "stock": 10
   },
   {
-    "id": 332,
+    "id": 347,
     "name": "Detergente Val x15",
     "priceUnidad": 1049.0,
     "priceCantidad": 0,
@@ -3652,7 +3817,7 @@
     "stock": 10
   },
   {
-    "id": 333,
+    "id": 348,
     "name": "Detergente Duft 500ml",
     "priceUnidad": 1590.0,
     "priceCantidad": 0,
@@ -3663,7 +3828,7 @@
     "stock": 10
   },
   {
-    "id": 334,
+    "id": 349,
     "name": "Detergente Duft 750ml",
     "priceUnidad": 2090.0,
     "priceCantidad": 0,
@@ -3674,7 +3839,7 @@
     "stock": 10
   },
   {
-    "id": 335,
+    "id": 350,
     "name": "Escobillon Paqui",
     "priceUnidad": 2090.0,
     "priceCantidad": 0,
@@ -3685,7 +3850,7 @@
     "stock": 10
   },
   {
-    "id": 336,
+    "id": 351,
     "name": "Escobillon Super Gondola",
     "priceUnidad": 2749.0,
     "priceCantidad": 0,
@@ -3696,7 +3861,40 @@
     "stock": 10
   },
   {
-    "id": 337,
+    "id": 352,
+    "name": "Escurridor doble goma",
+    "priceUnidad": 2400.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Limpieza",
+    "image": "img/Limpieza/escurridor.jpg",
+    "category": "Limpieza",
+    "stock": 10
+  },
+  {
+    "id": 353,
+    "name": "Espiral Matiris 12u",
+    "priceUnidad": 1349.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Limpieza",
+    "image": "img/Limpieza/espiralMatiris12.jpg",
+    "category": "Limpieza",
+    "stock": 10
+  },
+  {
+    "id": 354,
+    "name": "Espiral Matiris 4u x50",
+    "priceUnidad": 619.0,
+    "priceCantidad": 30950.0,
+    "priceOferta": null,
+    "description": "Limpieza",
+    "image": "img/Limpieza/espiralMatiris4.jpg",
+    "category": "Limpieza",
+    "stock": 10
+  },
+  {
+    "id": 355,
     "name": "Espiral Raid 12x4",
     "priceUnidad": 11390.0,
     "priceCantidad": 0,
@@ -3707,7 +3905,40 @@
     "stock": 10
   },
   {
-    "id": 338,
+    "id": 356,
+    "name": "Esponja Acero chica help",
+    "priceUnidad": 399.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Limpieza",
+    "image": "img/Limpieza/esponHelp.jpg",
+    "category": "Limpieza",
+    "stock": 10
+  },
+  {
+    "id": 357,
+    "name": "Esponja Help",
+    "priceUnidad": 490.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Limpieza",
+    "image": "img/Limpieza/esponjaHelp.jpg",
+    "category": "Limpieza",
+    "stock": 10
+  },
+  {
+    "id": 358,
+    "name": "Fluido Manchester",
+    "priceUnidad": 4790.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Limpieza",
+    "image": "img/Limpieza/fluidoMan.jpg",
+    "category": "Limpieza",
+    "stock": 10
+  },
+  {
+    "id": 359,
     "name": "Fluido Triunfo",
     "priceUnidad": 3590.0,
     "priceCantidad": 0,
@@ -3718,7 +3949,7 @@
     "stock": 10
   },
   {
-    "id": 339,
+    "id": 360,
     "name": "Guante Latex Plumita",
     "priceUnidad": 2450.0,
     "priceCantidad": 0,
@@ -3729,7 +3960,7 @@
     "stock": 10
   },
   {
-    "id": 340,
+    "id": 361,
     "name": "Raid vape x24",
     "priceUnidad": 4900.0,
     "priceCantidad": 0,
@@ -3740,7 +3971,7 @@
     "stock": 10
   },
   {
-    "id": 341,
+    "id": 362,
     "name": "Insecticida Liquido Mapex",
     "priceUnidad": 3590.0,
     "priceCantidad": 0,
@@ -3751,7 +3982,7 @@
     "stock": 10
   },
   {
-    "id": 342,
+    "id": 363,
     "name": "Insecticida Escudo",
     "priceUnidad": 3749.0,
     "priceCantidad": 0,
@@ -3762,7 +3993,7 @@
     "stock": 10
   },
   {
-    "id": 343,
+    "id": 364,
     "name": "Jabon en polvo ala Duo 400g",
     "priceUnidad": 1349.0,
     "priceCantidad": 0,
@@ -3773,7 +4004,7 @@
     "stock": 10
   },
   {
-    "id": 344,
+    "id": 365,
     "name": "Jabon En Polvo Ala Duo 800g",
     "priceUnidad": 2690.0,
     "priceCantidad": 0,
@@ -3784,7 +4015,7 @@
     "stock": 10
   },
   {
-    "id": 345,
+    "id": 366,
     "name": "Jabon en polvo Zorro 400g Reg/matic x36",
     "priceUnidad": 1219.0,
     "priceCantidad": 0,
@@ -3795,7 +4026,7 @@
     "stock": 10
   },
   {
-    "id": 346,
+    "id": 367,
     "name": "Jabon Liq Duft x900ml",
     "priceUnidad": 2190.0,
     "priceCantidad": 0,
@@ -3806,7 +4037,29 @@
     "stock": 10
   },
   {
-    "id": 347,
+    "id": 368,
+    "name": "Jabon Blanco Astro150g",
+    "priceUnidad": 529.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Limpieza",
+    "image": "img/Limpieza/astroBlanco.jpg",
+    "category": "Limpieza",
+    "stock": 10
+  },
+  {
+    "id": 369,
+    "name": "Jabon Blanco Astro 200g",
+    "priceUnidad": 679.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Limpieza",
+    "image": "img/Limpieza/astroBlanco.jpg",
+    "category": "Limpieza",
+    "stock": 10
+  },
+  {
+    "id": 370,
     "name": "Jabon verde Astro 150g",
     "priceUnidad": 379.0,
     "priceCantidad": 0,
@@ -3817,7 +4070,29 @@
     "stock": 10
   },
   {
-    "id": 348,
+    "id": 371,
+    "name": "Jabon Guaira 230g",
+    "priceUnidad": 1445.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Limpieza",
+    "image": "img/Limpieza/jabonGuaira.jpg",
+    "category": "Limpieza",
+    "stock": 10
+  },
+  {
+    "id": 372,
+    "name": "Jabon Guaira Verde 250g",
+    "priceUnidad": 1569.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Limpieza",
+    "image": "img/Limpieza/guairaVerde.jpg",
+    "category": "Limpieza",
+    "stock": 10
+  },
+  {
+    "id": 373,
     "name": "Liquido Desinf. Val x12",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -3828,7 +4103,7 @@
     "stock": 10
   },
   {
-    "id": 349,
+    "id": 374,
     "name": "Liquido Desinf. Matatodo 1L",
     "priceUnidad": 3490.0,
     "priceCantidad": 0,
@@ -3839,7 +4114,7 @@
     "stock": 10
   },
   {
-    "id": 350,
+    "id": 375,
     "name": "Liquido Piso Sedile x15",
     "priceUnidad": 1090.0,
     "priceCantidad": 0,
@@ -3850,7 +4125,7 @@
     "stock": 10
   },
   {
-    "id": 351,
+    "id": 376,
     "name": "Liquido Multiuso Suiza",
     "priceUnidad": 1049.0,
     "priceCantidad": 0,
@@ -3861,7 +4136,7 @@
     "stock": 10
   },
   {
-    "id": 352,
+    "id": 377,
     "name": "Limpia Vidrio Zorro 450ml",
     "priceUnidad": 1090.0,
     "priceCantidad": 0,
@@ -3872,7 +4147,7 @@
     "stock": 10
   },
   {
-    "id": 353,
+    "id": 378,
     "name": "Limpiador Cremoso Duft 1L",
     "priceUnidad": 2490.0,
     "priceCantidad": 0,
@@ -3883,7 +4158,7 @@
     "stock": 10
   },
   {
-    "id": 354,
+    "id": 379,
     "name": "Palita Residuos",
     "priceUnidad": 890.0,
     "priceCantidad": 0,
@@ -3894,7 +4169,7 @@
     "stock": 10
   },
   {
-    "id": 355,
+    "id": 380,
     "name": "Pastilla Baño Netz",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -3905,7 +4180,7 @@
     "stock": 10
   },
   {
-    "id": 356,
+    "id": 381,
     "name": "Puloil Polvo",
     "priceUnidad": 2290.0,
     "priceCantidad": 0,
@@ -3916,7 +4191,18 @@
     "stock": 10
   },
   {
-    "id": 357,
+    "id": 382,
+    "name": "Rastrillo",
+    "priceUnidad": 1690.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Limpieza",
+    "image": "img/Limpieza/rastrillo.jpg",
+    "category": "Limpieza",
+    "stock": 10
+  },
+  {
+    "id": 383,
     "name": "Rollo cocina Gamuza x8",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -3927,7 +4213,7 @@
     "stock": 10
   },
   {
-    "id": 358,
+    "id": 384,
     "name": "Suavizante Armel 900ml",
     "priceUnidad": 1549.0,
     "priceCantidad": 0,
@@ -3938,7 +4224,7 @@
     "stock": 10
   },
   {
-    "id": 359,
+    "id": 385,
     "name": "Suavizante Gota Limpa 2L x6",
     "priceUnidad": 4090.0,
     "priceCantidad": 0,
@@ -3949,7 +4235,7 @@
     "stock": 10
   },
   {
-    "id": 360,
+    "id": 386,
     "name": "Suavizante Suavitel 900ml",
     "priceUnidad": 1790.0,
     "priceCantidad": 0,
@@ -3960,7 +4246,7 @@
     "stock": 10
   },
   {
-    "id": 361,
+    "id": 387,
     "name": "Suavizante Suavitel 3L",
     "priceUnidad": 6490.0,
     "priceCantidad": 0,
@@ -3971,7 +4257,7 @@
     "stock": 10
   },
   {
-    "id": 362,
+    "id": 388,
     "name": "Trapo De Piso Fibra N",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -3982,7 +4268,7 @@
     "stock": 10
   },
   {
-    "id": 363,
+    "id": 389,
     "name": "Virulana Batuque x24",
     "priceUnidad": 690.0,
     "priceCantidad": 17250.0,
@@ -3993,7 +4279,7 @@
     "stock": 10
   },
   {
-    "id": 364,
+    "id": 390,
     "name": "Actron 400 20u",
     "priceUnidad": 6919.0,
     "priceCantidad": 0,
@@ -4004,7 +4290,7 @@
     "stock": 10
   },
   {
-    "id": 365,
+    "id": 391,
     "name": "Actron 600 x10u",
     "priceUnidad": 8650.0,
     "priceCantidad": 0,
@@ -4015,7 +4301,7 @@
     "stock": 10
   },
   {
-    "id": 366,
+    "id": 392,
     "name": "Al Maximo x2",
     "priceUnidad": 1500.0,
     "priceCantidad": 0,
@@ -4026,7 +4312,7 @@
     "stock": 10
   },
   {
-    "id": 367,
+    "id": 393,
     "name": "Alikal x30 tradicional",
     "priceUnidad": 950.0,
     "priceCantidad": 0,
@@ -4037,7 +4323,7 @@
     "stock": 10
   },
   {
-    "id": 368,
+    "id": 394,
     "name": "Amoxicilina",
     "priceUnidad": 2300.0,
     "priceCantidad": 0,
@@ -4048,7 +4334,7 @@
     "stock": 10
   },
   {
-    "id": 369,
+    "id": 395,
     "name": "Aspirina prevent",
     "priceUnidad": 1650.0,
     "priceCantidad": 0,
@@ -4059,7 +4345,7 @@
     "stock": 10
   },
   {
-    "id": 370,
+    "id": 396,
     "name": "Aspirinetas Tableta",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -4070,7 +4356,7 @@
     "stock": 10
   },
   {
-    "id": 371,
+    "id": 397,
     "name": "Azitromicina",
     "priceUnidad": 2200.0,
     "priceCantidad": 0,
@@ -4081,7 +4367,7 @@
     "stock": 10
   },
   {
-    "id": 372,
+    "id": 398,
     "name": "Bayaspirina Tableta",
     "priceUnidad": 2090.0,
     "priceCantidad": 0,
@@ -4092,7 +4378,7 @@
     "stock": 10
   },
   {
-    "id": 373,
+    "id": 399,
     "name": "Bromhexina niños y adultos",
     "priceUnidad": 1590.0,
     "priceCantidad": 0,
@@ -4103,7 +4389,7 @@
     "stock": 10
   },
   {
-    "id": 374,
+    "id": 400,
     "name": "Cefalexina",
     "priceUnidad": 1950.0,
     "priceCantidad": 0,
@@ -4114,7 +4400,7 @@
     "stock": 10
   },
   {
-    "id": 375,
+    "id": 401,
     "name": "Buscapina perla Tableta",
     "priceUnidad": 5914.0,
     "priceCantidad": 0,
@@ -4125,7 +4411,7 @@
     "stock": 10
   },
   {
-    "id": 376,
+    "id": 402,
     "name": "Buscapina Compositum Tableta",
     "priceUnidad": 8790.0,
     "priceCantidad": 0,
@@ -4136,7 +4422,7 @@
     "stock": 0
   },
   {
-    "id": 377,
+    "id": 403,
     "name": "Diclofenac Crema",
     "priceUnidad": 2690.0,
     "priceCantidad": 0,
@@ -4147,7 +4433,7 @@
     "stock": 10
   },
   {
-    "id": 378,
+    "id": 404,
     "name": "Diclofenac 100ml",
     "priceUnidad": 1990.0,
     "priceCantidad": 0,
@@ -4158,7 +4444,7 @@
     "stock": 10
   },
   {
-    "id": 379,
+    "id": 405,
     "name": "Diclofenac relajante",
     "priceUnidad": 1200.0,
     "priceCantidad": 0,
@@ -4169,7 +4455,7 @@
     "stock": 10
   },
   {
-    "id": 380,
+    "id": 406,
     "name": "Z-cal",
     "priceUnidad": 1890.0,
     "priceCantidad": 0,
@@ -4180,7 +4466,7 @@
     "stock": 10
   },
   {
-    "id": 381,
+    "id": 407,
     "name": "Enalapril",
     "priceUnidad": 1000.0,
     "priceCantidad": 0,
@@ -4191,7 +4477,7 @@
     "stock": 10
   },
   {
-    "id": 382,
+    "id": 408,
     "name": "Gripaben Te Descongestivo c/u",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -4202,7 +4488,7 @@
     "stock": 10
   },
   {
-    "id": 383,
+    "id": 409,
     "name": "Ibu Jarabe 2%",
     "priceUnidad": 1800.0,
     "priceCantidad": 0,
@@ -4213,7 +4499,7 @@
     "stock": 10
   },
   {
-    "id": 384,
+    "id": 410,
     "name": "Ibu Jarabe 4%",
     "priceUnidad": 2000.0,
     "priceCantidad": 0,
@@ -4224,7 +4510,7 @@
     "stock": 10
   },
   {
-    "id": 385,
+    "id": 411,
     "name": "Ibuevanol forte x20",
     "priceUnidad": 6290.0,
     "priceCantidad": 0,
@@ -4235,7 +4521,7 @@
     "stock": 10
   },
   {
-    "id": 386,
+    "id": 412,
     "name": "Ibuevanol Rápida Acción 20u",
     "priceUnidad": 5590.0,
     "priceCantidad": 0,
@@ -4246,7 +4532,7 @@
     "stock": 10
   },
   {
-    "id": 387,
+    "id": 413,
     "name": "Ibuprofeno 400",
     "priceUnidad": 1000.0,
     "priceCantidad": 0,
@@ -4257,7 +4543,7 @@
     "stock": 10
   },
   {
-    "id": 388,
+    "id": 414,
     "name": "Ibuprofeno 600",
     "priceUnidad": 1300.0,
     "priceCantidad": 0,
@@ -4268,7 +4554,7 @@
     "stock": 10
   },
   {
-    "id": 389,
+    "id": 415,
     "name": "Fabogesic 600",
     "priceUnidad": 5990.0,
     "priceCantidad": 0,
@@ -4279,7 +4565,7 @@
     "stock": 10
   },
   {
-    "id": 390,
+    "id": 416,
     "name": "Keterolac",
     "priceUnidad": 1200.0,
     "priceCantidad": 0,
@@ -4290,7 +4576,7 @@
     "stock": 10
   },
   {
-    "id": 391,
+    "id": 417,
     "name": "Loratadina",
     "priceUnidad": 890.0,
     "priceCantidad": 0,
@@ -4301,7 +4587,7 @@
     "stock": 10
   },
   {
-    "id": 392,
+    "id": 418,
     "name": "Mentolina",
     "priceUnidad": 1090.0,
     "priceCantidad": 0,
@@ -4312,7 +4598,7 @@
     "stock": 10
   },
   {
-    "id": 393,
+    "id": 419,
     "name": "Mieligtus chico",
     "priceUnidad": 749.0,
     "priceCantidad": 0,
@@ -4323,7 +4609,7 @@
     "stock": 10
   },
   {
-    "id": 394,
+    "id": 420,
     "name": "Mieligtus Grande",
     "priceUnidad": 1890.0,
     "priceCantidad": 0,
@@ -4334,7 +4620,7 @@
     "stock": 10
   },
   {
-    "id": 395,
+    "id": 421,
     "name": "Mieliplus Chico",
     "priceUnidad": 749.0,
     "priceCantidad": 0,
@@ -4345,7 +4631,7 @@
     "stock": 10
   },
   {
-    "id": 396,
+    "id": 422,
     "name": "Migral",
     "priceUnidad": 5390.0,
     "priceCantidad": 0,
@@ -4356,7 +4642,7 @@
     "stock": 10
   },
   {
-    "id": 397,
+    "id": 423,
     "name": "Norgestrel Emergencia",
     "priceUnidad": 4190.0,
     "priceCantidad": 0,
@@ -4367,7 +4653,7 @@
     "stock": 10
   },
   {
-    "id": 398,
+    "id": 424,
     "name": "Norgestrel Plus 21u",
     "priceUnidad": 6900.0,
     "priceCantidad": 0,
@@ -4378,7 +4664,7 @@
     "stock": 10
   },
   {
-    "id": 399,
+    "id": 425,
     "name": "Novalgina",
     "priceUnidad": 3990.0,
     "priceCantidad": 0,
@@ -4389,7 +4675,7 @@
     "stock": 10
   },
   {
-    "id": 400,
+    "id": 426,
     "name": "Pastilla Carbon",
     "priceUnidad": 1890.0,
     "priceCantidad": 0,
@@ -4400,7 +4686,7 @@
     "stock": 10
   },
   {
-    "id": 401,
+    "id": 427,
     "name": "Pomada Medicinal",
     "priceUnidad": 1790.0,
     "priceCantidad": 0,
@@ -4411,7 +4697,7 @@
     "stock": 10
   },
   {
-    "id": 402,
+    "id": 428,
     "name": "Pulmonix x20",
     "priceUnidad": 6809.0,
     "priceCantidad": 0,
@@ -4422,7 +4708,7 @@
     "stock": 10
   },
   {
-    "id": 403,
+    "id": 429,
     "name": "Sertal Perlas",
     "priceUnidad": 5400.0,
     "priceCantidad": 0,
@@ -4433,7 +4719,7 @@
     "stock": 10
   },
   {
-    "id": 404,
+    "id": 430,
     "name": "Tafirol comun Tableta",
     "priceUnidad": 2100.0,
     "priceCantidad": 0,
@@ -4444,7 +4730,7 @@
     "stock": 10
   },
   {
-    "id": 405,
+    "id": 431,
     "name": "Tafirol Plus x8",
     "priceUnidad": 4000.0,
     "priceCantidad": 0,
@@ -4455,7 +4741,7 @@
     "stock": 10
   },
   {
-    "id": 406,
+    "id": 432,
     "name": "Tafirolito 10u",
     "priceUnidad": 3290.0,
     "priceCantidad": 0,
@@ -4466,7 +4752,7 @@
     "stock": 10
   },
   {
-    "id": 407,
+    "id": 433,
     "name": "Te Vick",
     "priceUnidad": 2690.0,
     "priceCantidad": 0,
@@ -4477,7 +4763,7 @@
     "stock": 10
   },
   {
-    "id": 408,
+    "id": 434,
     "name": "Te Paracetamol T-Plus",
     "priceUnidad": 1290.0,
     "priceCantidad": 0,
@@ -4488,7 +4774,7 @@
     "stock": 10
   },
   {
-    "id": 409,
+    "id": 435,
     "name": "Test Embarazo",
     "priceUnidad": 1300.0,
     "priceCantidad": 0,
@@ -4499,7 +4785,7 @@
     "stock": 10
   },
   {
-    "id": 410,
+    "id": 436,
     "name": "Aceite Multiuso 100cm",
     "priceUnidad": 1990.0,
     "priceCantidad": 0,
@@ -4510,7 +4796,7 @@
     "stock": 10
   },
   {
-    "id": 411,
+    "id": 437,
     "name": "Adaptadores x2",
     "priceUnidad": 1790.0,
     "priceCantidad": 0,
@@ -4521,7 +4807,7 @@
     "stock": 10
   },
   {
-    "id": 412,
+    "id": 438,
     "name": "Agujas",
     "priceUnidad": 700.0,
     "priceCantidad": 0,
@@ -4532,7 +4818,7 @@
     "stock": 10
   },
   {
-    "id": 413,
+    "id": 439,
     "name": "Alpargatas",
     "priceUnidad": 4790.0,
     "priceCantidad": 0,
@@ -4543,7 +4829,7 @@
     "stock": 10
   },
   {
-    "id": 414,
+    "id": 440,
     "name": "Azufre x50",
     "priceUnidad": 9900.0,
     "priceCantidad": 0,
@@ -4554,7 +4840,7 @@
     "stock": 10
   },
   {
-    "id": 415,
+    "id": 441,
     "name": "Bengala x4",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -4565,7 +4851,7 @@
     "stock": 10
   },
   {
-    "id": 416,
+    "id": 442,
     "name": "Bengala de Humo Blanca/Celeste",
     "priceUnidad": 2029.0,
     "priceCantidad": 0,
@@ -4576,7 +4862,7 @@
     "stock": 10
   },
   {
-    "id": 417,
+    "id": 443,
     "name": "Birome Azul y Negra",
     "priceUnidad": 250.0,
     "priceCantidad": 0,
@@ -4587,7 +4873,7 @@
     "stock": 10
   },
   {
-    "id": 418,
+    "id": 444,
     "name": "Bolsa Camiseta Chica",
     "priceUnidad": 3890.0,
     "priceCantidad": 0,
@@ -4598,7 +4884,7 @@
     "stock": 10
   },
   {
-    "id": 419,
+    "id": 445,
     "name": "Bolsa Camiseta Mediana",
     "priceUnidad": 5090.0,
     "priceCantidad": 0,
@@ -4609,7 +4895,7 @@
     "stock": 10
   },
   {
-    "id": 420,
+    "id": 446,
     "name": "Bolsa Camiseta Grande",
     "priceUnidad": 7990.0,
     "priceCantidad": 0,
@@ -4620,7 +4906,7 @@
     "stock": 10
   },
   {
-    "id": 421,
+    "id": 447,
     "name": "Bolsa Transparente 1Kg",
     "priceUnidad": 1590.0,
     "priceCantidad": 0,
@@ -4631,7 +4917,7 @@
     "stock": 10
   },
   {
-    "id": 422,
+    "id": 448,
     "name": "Bolsa Transparente 2Kg",
     "priceUnidad": 2390.0,
     "priceCantidad": 0,
@@ -4642,7 +4928,7 @@
     "stock": 10
   },
   {
-    "id": 423,
+    "id": 449,
     "name": "Bolsa Transparente 3Kg",
     "priceUnidad": 2790.0,
     "priceCantidad": 0,
@@ -4653,7 +4939,7 @@
     "stock": 10
   },
   {
-    "id": 424,
+    "id": 450,
     "name": "Bombilla Alpaca",
     "priceUnidad": 2890.0,
     "priceCantidad": 0,
@@ -4664,7 +4950,7 @@
     "stock": 10
   },
   {
-    "id": 425,
+    "id": 451,
     "name": "Botellón 1500cc",
     "priceUnidad": 1949.0,
     "priceCantidad": 0,
@@ -4675,7 +4961,18 @@
     "stock": 10
   },
   {
-    "id": 426,
+    "id": 452,
+    "name": "Broches ropa",
+    "priceUnidad": 1090.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Otros",
+    "image": "img/Otros/brocheRayi.jpg",
+    "category": "Otros",
+    "stock": 10
+  },
+  {
+    "id": 453,
     "name": "Chupete x6",
     "priceUnidad": 0,
     "priceCantidad": 6990.0,
@@ -4686,7 +4983,7 @@
     "stock": 10
   },
   {
-    "id": 427,
+    "id": 454,
     "name": "Cinta Teflon 10mts",
     "priceUnidad": 749.0,
     "priceCantidad": 0,
@@ -4697,7 +4994,7 @@
     "stock": 10
   },
   {
-    "id": 428,
+    "id": 455,
     "name": "Cinta ancha x100m",
     "priceUnidad": 2690.0,
     "priceCantidad": 0,
@@ -4708,7 +5005,7 @@
     "stock": 10
   },
   {
-    "id": 429,
+    "id": 456,
     "name": "Cinta ancha x42m",
     "priceUnidad": 1490.0,
     "priceCantidad": 0,
@@ -4719,7 +5016,7 @@
     "stock": 10
   },
   {
-    "id": 430,
+    "id": 457,
     "name": "Combo 1 300ml",
     "priceUnidad": 2100.0,
     "priceCantidad": 0,
@@ -4730,7 +5027,7 @@
     "stock": 10
   },
   {
-    "id": 431,
+    "id": 458,
     "name": "Combo 2 600ml",
     "priceUnidad": 2790.0,
     "priceCantidad": 0,
@@ -4741,7 +5038,7 @@
     "stock": 10
   },
   {
-    "id": 432,
+    "id": 459,
     "name": "Combo 3 Salero/Yerbero",
     "priceUnidad": 2890.0,
     "priceCantidad": 0,
@@ -4752,7 +5049,7 @@
     "stock": 10
   },
   {
-    "id": 433,
+    "id": 460,
     "name": "Cordón Blanco x12",
     "priceUnidad": 9900.0,
     "priceCantidad": 0,
@@ -4763,7 +5060,7 @@
     "stock": 10
   },
   {
-    "id": 434,
+    "id": 461,
     "name": "Cocina a Leña Nro 0",
     "priceUnidad": 369000.0,
     "priceCantidad": 0,
@@ -4774,7 +5071,7 @@
     "stock": 10
   },
   {
-    "id": 435,
+    "id": 462,
     "name": "Cubiertos x12 cuchillo y tenedor",
     "priceUnidad": 0,
     "priceCantidad": 15900.0,
@@ -4785,7 +5082,7 @@
     "stock": 10
   },
   {
-    "id": 436,
+    "id": 463,
     "name": "Eccole 3g",
     "priceUnidad": 2690.0,
     "priceCantidad": 0,
@@ -4796,7 +5093,7 @@
     "stock": 10
   },
   {
-    "id": 437,
+    "id": 464,
     "name": "Encendedor Bic Maxi x12",
     "priceUnidad": 1249.0,
     "priceCantidad": 0,
@@ -4807,7 +5104,7 @@
     "stock": 10
   },
   {
-    "id": 438,
+    "id": 465,
     "name": "Encendedor Max 150F",
     "priceUnidad": 1149.0,
     "priceCantidad": 0,
@@ -4818,7 +5115,7 @@
     "stock": 10
   },
   {
-    "id": 439,
+    "id": 466,
     "name": "Encendedor Bic Mini x12",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -4829,7 +5126,7 @@
     "stock": 10
   },
   {
-    "id": 440,
+    "id": 467,
     "name": "Encendedor comun x25",
     "priceUnidad": 290.0,
     "priceCantidad": 0,
@@ -4840,7 +5137,7 @@
     "stock": 10
   },
   {
-    "id": 441,
+    "id": 468,
     "name": "Escarbadientes x24",
     "priceUnidad": 549.0,
     "priceCantidad": 13176.0,
@@ -4851,7 +5148,7 @@
     "stock": 10
   },
   {
-    "id": 442,
+    "id": 469,
     "name": "Foco 10W cálida 14W fría",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -4862,7 +5159,7 @@
     "stock": 10
   },
   {
-    "id": 443,
+    "id": 470,
     "name": "Foco 9w",
     "priceUnidad": 949.0,
     "priceCantidad": 0,
@@ -4873,7 +5170,7 @@
     "stock": 10
   },
   {
-    "id": 444,
+    "id": 471,
     "name": "Foco Led 12w",
     "priceUnidad": 1190.0,
     "priceCantidad": 0,
@@ -4884,10 +5181,10 @@
     "stock": 10
   },
   {
-    "id": 445,
+    "id": 472,
     "name": "Gotita x6",
     "priceUnidad": 0,
-    "priceCantidad": 11490.0,
+    "priceCantidad": 12590.0,
     "priceOferta": null,
     "description": "Otros",
     "image": "img/Otros/gotita.jpg",
@@ -4895,7 +5192,7 @@
     "stock": 10
   },
   {
-    "id": 446,
+    "id": 473,
     "name": "Hilo Negro x12",
     "priceUnidad": 0,
     "priceCantidad": 3900.0,
@@ -4906,7 +5203,7 @@
     "stock": 10
   },
   {
-    "id": 447,
+    "id": 474,
     "name": "Guantes latex talle M",
     "priceUnidad": 1990.0,
     "priceCantidad": 0,
@@ -4917,7 +5214,7 @@
     "stock": 10
   },
   {
-    "id": 448,
+    "id": 475,
     "name": "Guantes Reforzados amarillos",
     "priceUnidad": 1890.0,
     "priceCantidad": 0,
@@ -4928,7 +5225,7 @@
     "stock": 10
   },
   {
-    "id": 449,
+    "id": 476,
     "name": "Lanza Nieves Rey Momo x12",
     "priceUnidad": 2190.0,
     "priceCantidad": 0,
@@ -4939,7 +5236,7 @@
     "stock": 10
   },
   {
-    "id": 450,
+    "id": 477,
     "name": "Linterna Chica",
     "priceUnidad": 7190.0,
     "priceCantidad": 0,
@@ -4950,7 +5247,7 @@
     "stock": 10
   },
   {
-    "id": 451,
+    "id": 478,
     "name": "Linterna Mediana",
     "priceUnidad": 8490.0,
     "priceCantidad": 0,
@@ -4961,7 +5258,7 @@
     "stock": 10
   },
   {
-    "id": 452,
+    "id": 479,
     "name": "Linterna Grande",
     "priceUnidad": 11050.0,
     "priceCantidad": 0,
@@ -4972,7 +5269,7 @@
     "stock": 10
   },
   {
-    "id": 453,
+    "id": 480,
     "name": "Mamaderas Decoradas",
     "priceUnidad": 2290.0,
     "priceCantidad": 0,
@@ -4983,7 +5280,7 @@
     "stock": 10
   },
   {
-    "id": 454,
+    "id": 481,
     "name": "Medias x3 pares",
     "priceUnidad": 0,
     "priceCantidad": 3490.0,
@@ -4994,7 +5291,7 @@
     "stock": 10
   },
   {
-    "id": 455,
+    "id": 482,
     "name": "Papelillo Ocb x25",
     "priceUnidad": 0,
     "priceCantidad": 27900.0,
@@ -5005,7 +5302,7 @@
     "stock": 10
   },
   {
-    "id": 456,
+    "id": 483,
     "name": "Papelillo smoking",
     "priceUnidad": 14900.0,
     "priceCantidad": 0,
@@ -5016,7 +5313,7 @@
     "stock": 10
   },
   {
-    "id": 457,
+    "id": 484,
     "name": "Pegamento candela en gel",
     "priceUnidad": 819.0,
     "priceCantidad": 0,
@@ -5027,7 +5324,18 @@
     "stock": 10
   },
   {
-    "id": 458,
+    "id": 485,
+    "name": "Perchas x4",
+    "priceUnidad": 1790.0,
+    "priceCantidad": 0,
+    "priceOferta": null,
+    "description": "Otros",
+    "image": "img/Otros/perchas.jpg",
+    "category": "Otros",
+    "stock": 10
+  },
+  {
+    "id": 486,
     "name": "Pilas AAA x4",
     "priceUnidad": 2396.0,
     "priceCantidad": 0,
@@ -5038,7 +5346,7 @@
     "stock": 10
   },
   {
-    "id": 459,
+    "id": 487,
     "name": "Pilas AA X4",
     "priceUnidad": 2396.0,
     "priceCantidad": 0,
@@ -5049,7 +5357,7 @@
     "stock": 10
   },
   {
-    "id": 460,
+    "id": 488,
     "name": "Pilas AAA Cada Una",
     "priceUnidad": 599.0,
     "priceCantidad": 0,
@@ -5060,7 +5368,7 @@
     "stock": 10
   },
   {
-    "id": 461,
+    "id": 489,
     "name": "Poxiran transparente",
     "priceUnidad": 3590.0,
     "priceCantidad": 0,
@@ -5071,7 +5379,7 @@
     "stock": 10
   },
   {
-    "id": 462,
+    "id": 490,
     "name": "Termo Lumilagro",
     "priceUnidad": 6890.0,
     "priceCantidad": 0,
@@ -5082,7 +5390,7 @@
     "stock": 10
   },
   {
-    "id": 463,
+    "id": 491,
     "name": "Termo Mate Rojo",
     "priceUnidad": 12900.0,
     "priceCantidad": 0,
@@ -5093,7 +5401,7 @@
     "stock": 10
   },
   {
-    "id": 464,
+    "id": 492,
     "name": "Termo Canarias",
     "priceUnidad": 12900.0,
     "priceCantidad": 0,
@@ -5104,7 +5412,7 @@
     "stock": 10
   },
   {
-    "id": 465,
+    "id": 493,
     "name": "Termo Bomba",
     "priceUnidad": 18900.0,
     "priceCantidad": 0,
@@ -5115,7 +5423,7 @@
     "stock": 10
   },
   {
-    "id": 466,
+    "id": 494,
     "name": "Vasos de Vidrio 270ml",
     "priceUnidad": 479.0,
     "priceCantidad": 0,
@@ -5126,7 +5434,7 @@
     "stock": 10
   },
   {
-    "id": 467,
+    "id": 495,
     "name": "Vela chica",
     "priceUnidad": 590.0,
     "priceCantidad": 0,
@@ -5137,7 +5445,7 @@
     "stock": 10
   },
   {
-    "id": 468,
+    "id": 496,
     "name": "Vela Larga",
     "priceUnidad": 990.0,
     "priceCantidad": 0,
@@ -5148,7 +5456,7 @@
     "stock": 10
   },
   {
-    "id": 469,
+    "id": 497,
     "name": "Vela larga blanca x25",
     "priceUnidad": 949.0,
     "priceCantidad": 0,
@@ -5159,7 +5467,7 @@
     "stock": 10
   },
   {
-    "id": 470,
+    "id": 498,
     "name": "Vela larga roja x25",
     "priceUnidad": 1190.0,
     "priceCantidad": 0,
@@ -5170,7 +5478,7 @@
     "stock": 10
   },
   {
-    "id": 471,
+    "id": 499,
     "name": "Termolar 2L",
     "priceUnidad": 5900.0,
     "priceCantidad": 0,
