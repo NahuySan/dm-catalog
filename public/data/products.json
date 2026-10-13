@@ -455,7 +455,7 @@
     "name": "Pepas Membrillo 1Kg",
     "priceUnidad": 2949.0,
     "priceCantidad": 0,
-    "priceOferta": 3349.0,
+    "priceOferta": null,
     "description": "Galletitas",
     "image": "img/Alimentos/galletitas/pepasMemb.jpg",
     "category": "Comestibles",
