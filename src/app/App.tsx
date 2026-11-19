@@ -189,7 +189,7 @@ export default function App() {
         </footer>
         
         <PWAHandler />
-        <FloatingCart />
+        {/*<FloatingCart />*/}
       </div>
     </CartProvider>
   );

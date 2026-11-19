@@ -35,7 +35,7 @@ export function ProductCard({ product }: { product: Product }) {
     const currentStyle = isOffer ? categoryStyles.Ofertas : baseStyle;
     return (
       <div className={`flex items-center gap-1 sm:gap-1.5 rounded-lg p-0.5 sm:p-1 border shadow-sm transition-all shrink-0 ${disabled ? 'bg-gray-100 border-gray-200 opacity-50 cursor-not-allowed' : 'bg-white/80 backdrop-blur-sm border-black/5'}`}>
-        <button 
+            {/* <button 
           onClick={() => removeFromCart(product.id, type)}
           disabled={disabled || qty === 0}
           className={`w-6 h-6 sm:w-7 sm:h-7 flex items-center justify-center rounded-md transition-all ${!disabled && qty > 0 ? 'text-red-500 hover:bg-red-50 active:scale-90' : 'text-gray-300'}`}
@@ -46,7 +46,7 @@ export function ProductCard({ product }: { product: Product }) {
         <span className={`text-[10px] sm:text-[11px] font-black min-w-[14px] sm:min-w-[18px] text-center ${!disabled && qty > 0 ? 'text-secondary' : 'text-gray-400'}`}>
           {qty}
         </span>
-
+     
         <button 
           onClick={() => addToCart(product, type)}
           disabled={disabled || !hasStock}
@@ -54,7 +54,7 @@ export function ProductCard({ product }: { product: Product }) {
             ${disabled || !hasStock ? 'bg-gray-300' : `${currentStyle.badge} hover:brightness-110`}`}
         >
           <Plus size={12} className="sm:w-[14px]" strokeWidth={3} />
-        </button>
+        </button> */}
       </div>
     );
   }
