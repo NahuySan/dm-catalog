@@ -10,6 +10,7 @@ import { Category, Product } from '@/app/types';
 import { FloatingCart } from '@/app/components/FloatingCart'; 
 import { CartProvider } from '@/context/CartContext'; 
 import { PWAHandler } from '@/app/components/PWAHandler';
+import { PromoBanners } from "./components/PromoBanners";
 
 const categories: Category[] = ['Todas', 'Ofertas', 'Comestibles', 'Bebidas', 'Higiene', 'Limpieza', 'Medicamentos', 'Otros'];
 
@@ -128,6 +129,7 @@ export default function App() {
                 selectedCategory={selectedCategory}
                 onSelectCategory={setSelectedCategory}
               />
+              <PromoBanners />
             </div>
 
             {/* Carrusel de Ofertas */}
