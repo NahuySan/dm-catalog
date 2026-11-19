@@ -30,7 +30,7 @@ export default function App() {
     const loadData = async () => {
       try {
         // Fetch al archivo generado por tu script en public/data/products.json
-        const response = await fetch('/data/products.json');
+        const response = await fetch(`/data/products.json?v=${Date.now()}`);
         if (!response.ok) throw new Error('No se pudo cargar el catálogo');
         const data = await response.json();
         setProducts(data);
@@ -129,7 +129,9 @@ export default function App() {
                 selectedCategory={selectedCategory}
                 onSelectCategory={setSelectedCategory}
               />
-              <PromoBanners />
+              {selectedCategory === 'Todas' && searchTerm.trim() === '' && (
+                <PromoBanners />
+              )}
             </div>
 
             {/* Carrusel de Ofertas */}

@@ -4,7 +4,7 @@ export function PromoBanners() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="overflow-hidden rounded-2xl shadow-md bg-white">
           <img
-            src="/img/promo-tionico.png"
+            src="/img/promo-tionico.webp"
             alt="Representación Tío Nico - Variedad de fideos"
             className="w-full h-auto object-cover block"
             loading="lazy"
@@ -13,7 +13,7 @@ export function PromoBanners() {
 
         <div className="overflow-hidden rounded-2xl shadow-md bg-white">
           <img
-            src="/img/promo-borso.png"
+            src="/img/promo-borso.webp"
             alt="Sabores disponibles Borso - Menta y Piña Colada"
             className="w-full h-auto object-cover block"
             loading="lazy"
