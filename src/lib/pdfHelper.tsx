@@ -18,9 +18,9 @@ export const handleDownloadFullCatalog = async (products: Product[], selectedCat
     // 2. Definimos las rutas de los archivos estáticos
     const staticPdfUrls = [
       '/assets/Portada.pdf',
-      '/assets/cafe.pdf',
+      //'/assets/cafe.pdf',
       '/assets/fideos.pdf',   
-      '/assets/licores.pdf'   
+      //'/assets/licores.pdf'   
     ];
     
     const mergedPdf = await PDFDocument.create();
