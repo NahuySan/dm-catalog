@@ -11,14 +11,14 @@ export function PromoBanners() {
           />
         </div>
 
-        <div className="overflow-hidden rounded-2xl shadow-md bg-white">
+        {/* <div className="overflow-hidden rounded-2xl shadow-md bg-white">
           <img
             src="/img/promo-borso.webp"
             alt="Sabores disponibles Borso - Menta y Piña Colada"
             className="w-full h-auto object-cover block"
             loading="lazy"
           />
-        </div>
+        </div> */}
       </div>
     </section>
   );
